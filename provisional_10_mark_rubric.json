@@ -1,0 +1,51 @@
+{
+  "label": "prototype / provisional rubric / not mentor-approved",
+  "assignment": "U1A1 Linear Regression",
+  "total_marks": 10,
+  "criteria": [
+    {
+      "id": "section_a",
+      "criterion": "Section A: dataset questions",
+      "max_marks": 1,
+      "basis": "The assignment allocates 1 mark for answering all Section A dataset questions."
+    },
+    {
+      "id": "scatter_analysis",
+      "criterion": "Scatter-plot analysis",
+      "max_marks": 4,
+      "basis": "The assignment allocates 4 marks for analysing scatter plots and identifying a better predictor."
+    },
+    {
+      "id": "sample_count",
+      "criterion": "Sample count",
+      "max_marks": 1,
+      "basis": "The assignment allocates 1 mark for finding the total sample count."
+    },
+    {
+      "id": "train_test_split",
+      "criterion": "Train/test split",
+      "max_marks": 1,
+      "basis": "The assignment allocates 1 mark for stating the chosen train/test split ratio."
+    },
+    {
+      "id": "metrics",
+      "criterion": "MAE, MSE, and MAPE evaluation",
+      "max_marks": 3,
+      "basis": "The assignment allocates 3 marks for computing and reporting MAE, MSE, and MAPE."
+    }
+  ],
+  "unscored_items": [
+    {
+      "id": "reflection",
+      "criterion": "Reflection: three new things learned",
+      "max_marks": null,
+      "basis": "The assignment asks for this reflection but does not state a mark allocation."
+    }
+  ],
+  "safeguards": [
+    "This rubric is provisional and not mentor-approved.",
+    "Missing captured text is not evidence that a student omitted an answer; screenshots or images may not be captured.",
+    "OCR-derived evidence requires visual verification before it is treated as reliable.",
+    "No score is assigned automatically when the evidence is unconfirmed or unclear."
+  ]
+}

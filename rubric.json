@@ -1,0 +1,74 @@
+{
+  "rubric_version": "1.0-assignment-criteria",
+  "assignment": "U1A1 Linear Regression",
+  "total_marks": 10,
+  "criteria": [
+    {
+      "id": "Q1",
+      "name": "Dataset understanding",
+      "max_marks": 1,
+      "expected_evidence": [
+        "Number of samples",
+        "Number of input variables",
+        "Target/output variable",
+        "Meaning of input variables"
+      ],
+      "scoring_rule": "Award 1 mark only when all four dataset questions are answered correctly: sample count, number of input variables, target variable, and the meaning of each input variable. Otherwise award 0. Do not count text copied from the assignment prompt as the student's answer."
+    },
+    {
+      "id": "Q2",
+      "name": "Scatter-plot analysis and predictor selection",
+      "max_marks": 4,
+      "expected_evidence": [
+        "Scatter plots for X1, X2, X3 and X4 against Y",
+        "Selected predictor",
+        "Explanation based on plot evidence"
+      ],
+      "scoring_rule": "Award up to 4 marks for evidence of scatter plots comparing X1, X2, X3, and X4 with Y; an identified predictor; and a sound explanation grounded in the plots. Check the actual plot evidence where visible. Do not award full marks from the selected predictor alone."
+    },
+    {
+      "id": "Q3",
+      "name": "Number of samples",
+      "max_marks": 1,
+      "expected_answer": "414",
+      "expected_evidence": [
+        "Code or calculation identifying the number of samples",
+        "Output showing 414"
+      ],
+      "scoring_rule": "Award 1 mark when the student's code or calculation counts 414 samples and the corresponding output is shown. Do not award marks for the assignment prompt's expected answer without the student's own code or output."
+    },
+    {
+      "id": "Q4",
+      "name": "Train/test split",
+      "max_marks": 1,
+      "expected_evidence": [
+        "Train/test split code or equivalent evidence",
+        "Reported split ratio"
+      ],
+      "scoring_rule": "Award 1 mark when the student's chosen train/test ratio is clearly stated and supported by code or output. The assignment does not prescribe one required ratio; do not mark 70:30 wrong solely because it differs from 80:20."
+    },
+    {
+      "id": "Q5",
+      "name": "Regression model evaluation",
+      "max_marks": 3,
+      "expected_evidence": [
+        "MAE",
+        "MSE",
+        "MAPE",
+        "Code or output supporting the reported metrics"
+      ],
+      "scoring_rule": "Award up to 3 marks for correctly computing and reporting MAE, MSE, and MAPE with supporting code or output (up to 1 mark for each metric). Check that the values correspond to model predictions and are not merely copied from the assignment prompt."
+    }
+  ],
+  "reference_assignment": {
+    "description": "Staff-marked 10/10 assignment used as a golden/reference submission for research evaluation.",
+    "file": "Asha_ML_Assignment1_ Coding Assignment U1A1_Linear Regression 1.docx (1).pdf"
+  },
+  "notes": [
+    "Marks follow the assignment instructions: Section A 1, predictor analysis 4, sample count 1, train/test split 1, and model metrics 3.",
+    "The assignment asks students to state their chosen split ratio; it does not prescribe 80:20.",
+    "The reference assignment is used as a golden/reference submission.",
+    "Evaluation must be based on evidence contained in the submitted PDF.",
+    "Do not infer evidence that is not present in the submission."
+  ]
+}
