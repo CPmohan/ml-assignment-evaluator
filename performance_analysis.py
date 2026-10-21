@@ -14,6 +14,31 @@ STATUS_OUTPUT = ROOT / "outputs" / "performance_analysis_status.json"
 REQUIRED = {"assignment", "criterion_id", "human_score", "ai_score"}
 
 
+def cohens_kappa(human_scores: list[float], ai_scores: list[float]) -> float | None:
+    categories = sorted(set(human_scores) | set(ai_scores))
+    if len(categories) < 2:
+        return None
+    category_index = {value: index for index, value in enumerate(categories)}
+    human_counts = [0] * len(categories)
+    ai_counts = [0] * len(categories)
+    agreements = 0
+    for human, ai in zip(human_scores, ai_scores):
+        human_index = category_index[human]
+        ai_index = category_index[ai]
+        human_counts[human_index] += 1
+        ai_counts[ai_index] += 1
+        agreements += human_index == ai_index
+    sample_count = len(human_scores)
+    observed = agreements / sample_count
+    expected = sum(
+        human_count * ai_count
+        for human_count, ai_count in zip(human_counts, ai_counts)
+    ) / (sample_count * sample_count)
+    if expected == 1:
+        return None
+    return (observed - expected) / (1 - expected)
+
+
 def main() -> None:
     if not INPUT.exists() or INPUT.stat().st_size == 0:
         OUTPUT.parent.mkdir(parents=True, exist_ok=True)
@@ -101,6 +126,7 @@ def main() -> None:
         "mean_signed_error_ai_minus_human": sum(errors) / len(errors),
         "variance_difference_ai_minus_human": (sample_variance(ai_scores) - sample_variance(human_scores)) if len(pairs) > 1 else None,
         "pearson_correlation": pearson(ai_scores, human_scores),
+        "cohens_kappa": cohens_kappa(human_scores, ai_scores),
         "quadratic_weighted_kappa": quadratic_weighted_kappa(human_scores, ai_scores),
         "source": "data/human_marks.csv",
         "interpretation": "Computed from complete paired rows only; this is not a count of assignments processed.",

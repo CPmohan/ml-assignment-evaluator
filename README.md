@@ -72,6 +72,18 @@ Use reviewer-confirmed human scores and the corresponding AI suggestion. Then ru
 
 The script reports MAE, exact agreement, signed error, variance difference, Pearson correlation, and quadratic weighted kappa when enough paired rows exist. With no paired data, it reports that metrics cannot be calculated.
 
+## Agent-count experiment
+
+To compare one through four independent reviews for all PDFs in `data/assignments`, run:
+
+```powershell
+\.venv\Scripts\python.exe run_agent_count_experiment.py --max-agents 4
+```
+
+The batch runs sequentially, saving each reviewer's checkpoint and per-assignment results under a timestamped folder in `outputs/ai_evaluation/agent_count_experiment/`; `batch_summary.csv` records all assignments and failures. Use `--limit 1` for a smoke test or pass a PDF path to run only that assignment. `--max-agents` accepts 1 through 20; `--seed` and `--temperature` can be set for reproducibility. Each count uses the first N seeded requests (nested groups); per-criterion mode is the consensus, with tied scores resolved downward. Criterion feedback explains why the score is justified, what is correct or missing, and a rubric-linked next step.
+
+Here, an "agent" means an independent request to the same Ollama model, not a separate model process or a different specialist. Agreement measures model consistency only. All scores are provisional, and visual evidence must be checked by a human against the original PDF.
+
 ## Project files
 
 - `app.py`: upload interface and optional local Ollama suggestions.
@@ -82,5 +94,7 @@ The script reports MAE, exact agreement, signed error, variance difference, Pear
 - `process_dataset.py`: batch extraction/evidence preparation for the included PDFs.
 - `performance_analysis.py`: agreement metrics from paired human/AI marks.
 - `outputs/`: generated review and analysis artifacts.
+
+`performance_analysis.py` computes MAE, Pearson correlation, AI-minus-human variance difference, Cohen's kappa, and quadratic weighted kappa from complete paired rows in `data/human_marks.csv`. That CSV must contain reviewer-verified human scores as well as AI scores; the metrics remain unavailable while it is empty.
 
 The system is an evaluation aid, not an autonomous final grader. Scores should not be reported as human grades or as validated AI–human agreement unless those reviews and paired score records actually exist.

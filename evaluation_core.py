@@ -18,7 +18,13 @@ def evaluator_provider() -> str:
     return os.getenv("EVALUATOR_PROVIDER", "ollama").strip().lower()
 
 
-def ollama_response(prompt: str, response_format: dict | None = None) -> str:
+def ollama_response(
+    prompt: str,
+    response_format: dict | None = None,
+    *,
+    seed: int | None = None,
+    temperature: float = 0.0,
+) -> str:
     """Run one local structured-evaluation request through Ollama's HTTP API."""
     model = os.getenv("OLLAMA_MODEL", "qwen3:4b-instruct").strip()
     payload = {
@@ -37,11 +43,13 @@ def ollama_response(prompt: str, response_format: dict | None = None) -> str:
         ],
         # 8K covers these short submissions while fitting far better on a 4 GB GPU.
         "options": {
-            "temperature": 0.0,
+            "temperature": temperature,
             "num_ctx": 8192,
             "num_predict": int(os.getenv("OLLAMA_NUM_PREDICT", "1600")),
         },
     }
+    if seed is not None:
+        payload["options"]["seed"] = seed
     if response_format:
         payload["format"] = response_format
     request = Request(
@@ -122,9 +130,17 @@ def batch_response_schema(criteria_ids: list[str]) -> dict:
     }
 
 
-def evaluate_ml_assignment(extracted: dict, rubric: dict) -> list[dict]:
+def evaluate_ml_assignment(
+    extracted: dict,
+    rubric: dict,
+    *,
+    seed: int | None = None,
+    temperature: float = 0.0,
+) -> list[dict]:
     """Evaluate a single submission locally through Ollama."""
-    return evaluate_ml_assignment_batch(extracted, rubric)
+    return evaluate_ml_assignment_batch(
+        extracted, rubric, seed=seed, temperature=temperature
+    )
     api_key = os.getenv("GEMINI_API_KEY", "").strip()
     if not api_key:
         raise RuntimeError("Add GEMINI_API_KEY to .env to run the ML assignment evaluator.")
@@ -217,7 +233,13 @@ def evaluate_ml_assignment(extracted: dict, rubric: dict) -> list[dict]:
     return results
 
 
-def evaluate_ml_assignment_batch(extracted: dict, rubric: dict) -> list[dict]:
+def evaluate_ml_assignment_batch(
+    extracted: dict,
+    rubric: dict,
+    *,
+    seed: int | None = None,
+    temperature: float = 0.0,
+) -> list[dict]:
     """Evaluate every criterion in one model request for batch processing.
 
     The output contract and validation match ``evaluate_ml_assignment`` but
@@ -253,6 +275,12 @@ def evaluate_ml_assignment_batch(extracted: dict, rubric: dict) -> list[dict]:
             "omitted results. Do not treat an explicit unfilled placeholder as "
             "evidence. Scores must be whole numbers. Keep each evidence excerpt under "
             "180 characters, feedback under 240 characters, and limitations under 160 characters. "
+            "For every criterion, feedback must explain why the awarded score is justified: "
+            "name what the student got correct, identify what is incorrect, missing, or "
+            "not verifiable, and connect those points to the rubric and score. If full marks "
+            "are awarded, state what required work is correct; if zero or partial marks are "
+            "awarded, state the specific reason and one useful correction or next step. "
+            "Base this explanation only on the cited student evidence and rubric. "
             "Return exactly one item for every rubric criterion.\n\n"
             f"RUBRIC:\n{json.dumps(compact_rubric, ensure_ascii=False)}\n\n"
             f"SUBMISSION TEXT WITH PAGE NUMBERS:\n{page_text}\n\n"
@@ -260,13 +288,15 @@ def evaluate_ml_assignment_batch(extracted: dict, rubric: dict) -> list[dict]:
             "{\"criteria\":[{\"criterion_id\":\"Q1\",\"score\":0,"
             "\"decision\":\"Satisfied / Partially Satisfied / Not Satisfied / Cannot Verify\","
             "\"evidence\":[{\"page\":1,\"text\":\"exact short student-work excerpt\"}],"
-            "\"feedback\":\"criterion-specific explanation and next step\","
+            "\"feedback\":\"why this score: correct work, missing or incorrect work, and rubric-linked next step\","
             "\"limitations\":\"visual or extraction limits, or none\"}]}"
     )
     if evaluator_provider() != "ollama":
         raise RuntimeError("This evaluator only supports Ollama. Set EVALUATOR_PROVIDER=ollama.")
     response_schema = batch_response_schema([item["id"] for item in rubric["criteria"]])
-    raw = ollama_response(prompt, response_schema)
+    raw = ollama_response(
+        prompt, response_schema, seed=seed, temperature=temperature
+    )
     if False:  # Legacy cloud implementation retained below temporarily; it is unreachable.
         api_key = os.getenv("GEMINI_API_KEY", "").strip()
         if not api_key:
@@ -304,7 +334,9 @@ def evaluate_ml_assignment_batch(extracted: dict, rubric: dict) -> list[dict]:
             "Your previous response was incomplete. Return the complete compact JSON "
             "object required below. Do not explain your work outside the JSON.\n\n" + prompt
         )
-        retry_raw = ollama_response(retry_prompt, response_schema)
+        retry_raw = ollama_response(
+            retry_prompt, response_schema, seed=seed, temperature=temperature
+        )
         try:
             parsed = parse_json_response(retry_raw)
             returned = parsed.get("criteria")
