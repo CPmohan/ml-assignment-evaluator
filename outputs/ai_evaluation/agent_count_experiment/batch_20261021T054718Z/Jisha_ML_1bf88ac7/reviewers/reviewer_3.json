@@ -1,0 +1,87 @@
+{
+  "reviewer": 3,
+  "seed": 20261019,
+  "elapsed_seconds": 137.923,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "414 samples, 6 input variables, target variable is y house price of unit area, input columns mean: transaction date, house age, distance to the nearest MRT station, number of方便商店, "
+        }
+      ],
+      "feedback": "All four dataset questions are correctly answered: sample count (414), input variables (6), target variable (y), and meaning of each input variable. No copied text; evidence is student-generated.",
+      "limitations": "None. Text extraction fully captures all required elements from page 1, and answers are clearly stated in student language without prompt copying. 1 mark earned",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "scatter plots for X1, X2, X3, X4 vs Y; selected predictor: distance to nearest MRT station; explanation based on plot trends"
+        }
+      ],
+      "feedback": "Scatter plots for X1-X4 vs Y are present and visually shown. Explanation for predictor selection is grounded in plot trends. However, no explicit reference to X1-X4 being compared in the same plot or code. Missing evidence of all four plots",
+      "limitations": "Scatter plots are shown but not labeled or verified as X1-X4 vs Y in the code. Visual confirmation needed for plot labels and axes to confirm X1-X4 mapping.",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 4,
+          "text": "Write code to find out how many samples are there in total in this dataset? "
+        }
+      ],
+      "feedback": "Student states 414 samples, but no actual code or output showing the count is provided. The prompt asks for code or calculation with output; only text is present without execution result.",
+      "limitations": "No visible code or output showing the sample count computation. Cannot verify 414 is derived from student code.",
+      "score": 0,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 5,
+          "text": "The train test split ratio selected is 70:30"
+        }
+      ],
+      "feedback": "Train/test split ratio is clearly stated as 70:30 and is supported by text. No code is required as per rubric; ratio is valid and explicitly reported.",
+      "limitations": "No code shown, but rubric does not require code—only stated ratio. 70:30 is acceptable per assignment guidelines.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Not Satisfied",
+      "evidence": [
+        {
+          "page": 5,
+          "text": "Evaluate the linear regression model by computing the MAE, MSE and MAPE"
+        }
+      ],
+      "feedback": "No code or output showing computed MAE, MSE, or MAPE. Student only references the formula without actual values or results. No evidence of model evaluation output.",
+      "limitations": "No visual output or code snippet for MAE, MSE, or MAPE. Cannot verify any metric values were computed or reported.",
+      "score": 0,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "experiment_id": "20261021T055730Z",
+  "assignment": "Abhilash_AM.EN.P2GEO23001_LinearRegressionU1A1.pdf",
+  "assignment_sha256": "160e5c5ed18416c346c75c6f754a677912645196e24bb247045fef9d5438ab4d",
+  "rubric_path": "C:\\Users\\kisho\\ml_assignment_evaluator\\rubric.json",
+  "rubric_version": "1.0-assignment-criteria",
+  "model": "qwen3:4b-instruct",
+  "temperature": 0.2,
+  "first_seed": 20261017,
+  "max_agents": 4,
+  "status": "completed",
+  "visual_review_required_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "started_at": "2026-10-21T05:57:30.346962+00:00",
+  "reviewers_completed": 4,
+  "finished_at": "2026-10-21T06:27:35.914739+00:00",
+  "total_elapsed_seconds": 1811.57,
+  "comparison_csv": "agent_count_comparison.csv",
+  "comparison_markdown": "agent_count_comparison.md"
+}

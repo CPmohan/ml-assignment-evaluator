@@ -1,0 +1,17 @@
+```json
+{
+  "criterion_id": "Q5",
+  "criterion_name": "Regression model evaluation",
+  "score": 0,
+  "max_score": 2,
+  "decision": "Not Satisfied",
+  "evidence": [
+    {
+      "page": 4,
+      "text": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean Absolute Percentage Error (MAPE) ."
+    }
+  ],
+  "reason": "The student did not report computed values for MAE, MSE, or MAPE, nor is there any text showing code or output evaluating the model.",
+  "limitations": "Visual screenshots of code and output under Question 4 on pages 4 and 5 are absent in the extracted text and cannot be inspected."
+}
+```

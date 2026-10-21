@@ -1,0 +1,23 @@
+{
+  "experiment_id": "20261021T064755Z",
+  "assignment": "Asha_ML_Assignment1_ Coding Assignment U1A1_Linear Regression 1.docx (1).pdf",
+  "assignment_sha256": "74f225345b737f44f8e3350af1d446390629fc9335829a1fab56b1c7e40be00a",
+  "rubric_path": "C:\\Users\\kisho\\ml_assignment_evaluator\\rubric.json",
+  "rubric_version": "1.0-assignment-criteria",
+  "model": "qwen3:4b-instruct",
+  "temperature": 0.2,
+  "first_seed": 20261017,
+  "max_agents": 4,
+  "status": "completed",
+  "visual_review_required_pages": [
+    2,
+    3,
+    4
+  ],
+  "started_at": "2026-10-21T06:47:55.840512+00:00",
+  "reviewers_completed": 4,
+  "finished_at": "2026-10-21T06:54:15.751215+00:00",
+  "total_elapsed_seconds": 379.888,
+  "comparison_csv": "agent_count_comparison.csv",
+  "comparison_markdown": "agent_count_comparison.md"
+}

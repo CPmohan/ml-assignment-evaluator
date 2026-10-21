@@ -1,0 +1,292 @@
+{
+  "filename": "Jisha ML.pdf",
+  "section_a": [
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "v file, and open it in your computer and analyze the data. \nTry to understand what the data is about. Read through the data description \ngiven \nin \nthe \nUCI \nwebsite \nas \nwell. \n \nSection A \nAnswer the following questions [1 mark if you answer all the below questions] \n: \n1. How many samples are there? \n<<   414      >> \n2. How \nmany \ninput \nvariables \nare \nthere? \n<<   6   >> \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \n<<   y house price of unit area   >> \n4. What does each of the input columns mean ? \n<<   transaction date, house age, distance  to the nearest MRT station, \nnumber of convenience stores, latitude, longitude  >> \n \nSection B",
+      "matched_pattern": "\\bsection\\s*a\\b"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "bout. Read through the data description \ngiven \nin \nthe \nUCI \nwebsite \nas \nwell. \n \nSection A \nAnswer the following questions [1 mark if you answer all the below questions] \n: \n1. How many samples are there? \n<<   414      >> \n2. How \nmany \ninput \nvariables \nare \nthere? \n<<   6   >> \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \n<<   y house price of unit area   >> \n4. What does each of the input columns mean ? \n<<   transaction date, house age, distance  to the nearest MRT station, \nnumber of convenience stores, latitude, longitude  >> \n \nSection B",
+      "matched_pattern": "how\\s+many\\s+samples"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "\nwebsite \nas \nwell. \n \nSection A \nAnswer the following questions [1 mark if you answer all the below questions] \n: \n1. How many samples are there? \n<<   414      >> \n2. How \nmany \ninput \nvariables \nare \nthere? \n<<   6   >> \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \n<<   y house price of unit area   >> \n4. What does each of the input columns mean ? \n<<   transaction date, house age, distance  to the nearest MRT station, \nnumber of convenience stores, latitude, longitude  >> \n \nSection B",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " the below questions] \n: \n1. How many samples are there? \n<<   414      >> \n2. How \nmany \ninput \nvariables \nare \nthere? \n<<   6   >> \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \n<<   y house price of unit area   >> \n4. What does each of the input columns mean ? \n<<   transaction date, house age, distance  to the nearest MRT station, \nnumber of convenience stores, latitude, longitude  >> \n \nSection B",
+      "matched_pattern": "target\\s+outcome"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " \nmany \ninput \nvariables \nare \nthere? \n<<   6   >> \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \n<<   y house price of unit area   >> \n4. What does each of the input columns mean ? \n<<   transaction date, house age, distance  to the nearest MRT station, \nnumber of convenience stores, latitude, longitude  >> \n \nSection B",
+      "matched_pattern": "input\\s+columns?\\s+mean"
+    },
+    {
+      "label": "section_a",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "creenshot of the code \nand its output. You could use the sample google colab file that is provided with \nthis assignment. \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable ? \n \nplt.scatter(x1,y,color='red') \nplt.title('House Price vs Transaction Date') \nplt.xlabel('Transaction Date') \nplt.ylabel('House Price') \nplt.show() \n \n \n \n \nplt.scatter(x2,y,color='green') \nplt.title('House Price vs House Age') \np",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "he sample google colab file that is provided with \nthis assignment. \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable ? \n \nplt.scatter(x1,y,color='red') \nplt.title('House Price vs Transaction Date') \nplt.xlabel('Transaction Date') \nplt.ylabel('House Price') \nplt.show() \n \n \n \n \nplt.scatter(x2,y,color='green') \nplt.title('House Price vs House Age') \nplt.xlabel('House Age') \nplt.ylabel('House Price') \nplt.",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 4,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " are not that much clustered , somewhat spreaded. \n \nNumber of convenient stores: During most part of the plot, a slight upward  \ntrend is showing. >> \n \n2. Write code to find out how many samples are there in total in this dataset? [1 \nmark] \n \n  \n \n3. What is the train test split ratio that you have chosen ? [1 Mark]",
+      "matched_pattern": "how\\s+many\\s+samples"
+    }
+  ],
+  "scatter_analysis": [
+    {
+      "label": "scatter_analysis",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "ignment. \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable ? \n \nplt.scatter(x1,y,color='red') \nplt.title('House Price vs Transaction Date') \nplt.xlabel('Transaction Date') \nplt.ylabel('House Price') \nplt.show() \n \n \n \n \nplt.scatter(x2,y,color='green') \nplt.title('House Price vs House Age') \nplt.xlabel('House Age') \nplt.ylabel('House Price') \nplt.show()",
+      "matched_pattern": "scatter\\s*plot"
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable ? \n \nplt.scatter(x1,y,color='red') \nplt.title('House Price vs Transaction Date') \nplt.xlabel('Transaction Date') \nplt.ylabel('House Price') \nplt.show() \n \n \n \n \nplt.scatter(x2,y,color='green') \nplt.title('House Price vs House Age') \nplt.xlabel('House Age') \nplt.ylabel('House Price') \nplt.show()",
+      "matched_pattern": "better\\s+(?:in\\s+)?predicting"
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 6,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 6/6 \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \n• Learned to find out the trend, followed by the data points, from  \na scatter plot \n• Learned to train the model using more than one input variable \n• Learned to compare and evaluate different models \n \nGrading Scheme (Total 10 Marks) \nTime - 4 hours max. \nSubmission \non \nTeams \nby \n11.30 \nPM, \n20 \nFeb \n2024. \nLate \nsubmissions \nare \nNOT \nallowed. \n \nPlagiarism Policy \nYou are NOT allowed to discuss. You cannot copy paste text/image from the internet or other \nsources. All assignments are put through TurnitIn, and any similarity score of more than 40% \nwill be flagged as plag",
+      "matched_pattern": "scatter\\s*plot"
+    }
+  ],
+  "sample_count": [],
+  "train_test_split": [
+    {
+      "label": "train_test_split",
+      "page": 5,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 5/6 \n \n \n<<   The train test split ratio selected is 70:30   >> \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+      "value": "5/6",
+      "uncertain": true
+    },
+    {
+      "label": "train_test_split",
+      "page": 5,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 5/6 \n \n \n<<   The train test split ratio selected is 70:30   >> \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+      "value": "70:30",
+      "uncertain": true
+    }
+  ],
+  "reflection": [
+    {
+      "label": "reflection",
+      "page": 6,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 6/6 \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \n• Learned to find out the trend, followed by the data points, from  \na scatter plot \n• Learned to train the model using more than one input variable \n• Learned to compare and evaluate different models \n \nGrading Scheme (Total 10 Marks) \nTime - 4 hours max. \nSubmission \non \nTeams \nby \n11.30 \nPM, \n20 \nFeb \n2024. \nLate \nsubmissions \nare \nNOT \nallowed. \n \nPlagiarism Policy \nYou are NOT allowed to discuss. You cannot copy paste text/image from the internet or ",
+      "matched_pattern": "what.*learned"
+    },
+    {
+      "label": "reflection",
+      "page": 6,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 6/6 \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \n• Learned to find out the trend, followed by the data points, from  \na scatter plot \n• Learned to train the model using more than one input variable \n• Learned to compare and evaluate different models \n \nGrading Scheme (Total 10 Marks) \nTime - 4 hours max. \nSubmission \non \nTeams \nby \n11.30 \nPM, \n20 \nFeb \n2024. \nLate \nsubmissions \nare \nNOT \nallowed. \n \nPlagiarism Policy \nYou are NOT allowed to discuss. You cannot copy paste text/image from the internet or ",
+      "matched_pattern": "\\blearned\\b"
+    },
+    {
+      "label": "reflection",
+      "page": 6,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 6/6 \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \n• Learned to find out the trend, followed by the data points, from  \na scatter plot \n• Learned to train the model using more than one input variable \n• Learned to compare and evaluate different models \n \nGrading Scheme (Total 10 Marks) \nTime - 4 hours max. \nSubmission \non \nTeams \nby \n11.30 \nPM, \n20 \nFeb \n2024. \nLate \nsubmissions \nare \nNOT \nallowed. \n \nPlagiarism Policy \nYou are NOT allowed to discuss. You cannot copy paste text/image from the internet or other \nsources. All assignments are put through Tu",
+      "matched_pattern": "\\blearned\\b"
+    },
+    {
+      "label": "reflection",
+      "page": 6,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "\n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \n• Learned to find out the trend, followed by the data points, from  \na scatter plot \n• Learned to train the model using more than one input variable \n• Learned to compare and evaluate different models \n \nGrading Scheme (Total 10 Marks) \nTime - 4 hours max. \nSubmission \non \nTeams \nby \n11.30 \nPM, \n20 \nFeb \n2024. \nLate \nsubmissions \nare \nNOT \nallowed. \n \nPlagiarism Policy \nYou are NOT allowed to discuss. You cannot copy paste text/image from the internet or other \nsources. All assignments are put through TurnitIn, and any similarity score of more than 40% \nwill be flagged as plagiarism. The",
+      "matched_pattern": "\\blearned\\b"
+    },
+    {
+      "label": "reflection",
+      "page": 6,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "mpleted this \nassignment ? \n• Learned to find out the trend, followed by the data points, from  \na scatter plot \n• Learned to train the model using more than one input variable \n• Learned to compare and evaluate different models \n \nGrading Scheme (Total 10 Marks) \nTime - 4 hours max. \nSubmission \non \nTeams \nby \n11.30 \nPM, \n20 \nFeb \n2024. \nLate \nsubmissions \nare \nNOT \nallowed. \n \nPlagiarism Policy \nYou are NOT allowed to discuss. You cannot copy paste text/image from the internet or other \nsources. All assignments are put through TurnitIn, and any similarity score of more than 40% \nwill be flagged as plagiarism. The penalties are as follows. \n● 1st instance of plagiarism - 0 mark",
+      "matched_pattern": "\\blearned\\b"
+    }
+  ],
+  "metrics": {
+    "MAE": [
+      {
+        "label": "MAE",
+        "page": 5,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "test split ratio selected is 70:30   >> \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean ",
+        "value": null,
+        "needs_review": true
+      }
+    ],
+    "MSE": [
+      {
+        "label": "MSE",
+        "page": 5,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "split ratio selected is 70:30   >> \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean ",
+        "value": null,
+        "needs_review": true
+      }
+    ],
+    "MAPE": [
+      {
+        "label": "MAPE",
+        "page": 5,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "tio selected is 70:30   >> \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 5,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+        "line_or_table_context": "Absolute Percentage Error (MAPE) . ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 5,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "student_response_or_context",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "inear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+        "line_or_table_context": "(for MAPE - pls refer to the sample here - https://scikit-",
+        "value": null,
+        "needs_review": true
+      }
+    ]
+  },
+  "evidence_gaps": [
+    "No captured text matched sample_count. This does not show that the student omitted it; it may be in an image or screenshot.",
+    "No explicit MAE value was confidently linked to captured text. It may be in an image or require visual OCR review.",
+    "No explicit MSE value was confidently linked to captured text. It may be in an image or require visual OCR review.",
+    "No explicit MAPE value was confidently linked to captured text. It may be in an image or require visual OCR review."
+  ],
+  "uncertain_ocr_evidence": []
+}

@@ -1,0 +1,87 @@
+{
+  "reviewer": 4,
+  "seed": 20261020,
+  "elapsed_seconds": 97.015,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "1. How many samples are there? 414 2. How many input variables are there? 6 3. Which column is the output variable (target outcome)? Column 8 (Y house price of unit area) 4. What d"
+        }
+      ],
+      "feedback": "All four dataset questions are answered correctly: sample count (414), input variables (6), target variable (Column 8), and meaning of each input variable. Full rubric coverage with no copied text.",
+      "limitations": "None, all text is present and verifiable in the submission.",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "The input variable \"X3 - Distance to the nearest MRT Station\" is better in predicting the target variable. As X3 - Distance to the nearest MRT Station increases , the Y-house price"
+        }
+      ],
+      "feedback": "Student identifies X3 as predictor and provides a plot-based explanation, but no scatter plots are present. Plot evidence is missing, so analysis cannot be verified. Next step: include scatter plots for X1-X4 vs Y.",
+      "limitations": "No scatter plots visible; text extraction omits visual evidence. Cannot verify plot-based reasoning.",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "Write code to find out how many samples are there in total in this dataset?"
+        }
+      ],
+      "feedback": "Student states 414 samples, but no code or output showing the count is provided. The rubric requires code or calculation with output. Missing code output; cannot verify. Score 0.",
+      "limitations": "No code or output shown for sample count. Text only states result without evidence of computation.",
+      "score": 0,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "Here the train-test ratio is 80:20. 80% of the data is used for training and remaining 20% is used for testing"
+        }
+      ],
+      "feedback": "Train/test split ratio (80:20) is clearly stated and matches expected format. No code is provided, but the ratio is explicitly reported. Rubric does not require code, only stated ratio. Score 1.",
+      "limitations": "No code shown, but stated ratio is sufficient per rubric. Visual confirmation not needed.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 5,
+          "text": "Model 3 gives the lowest errors MAE 5.31 MSE 53.5 MAPE 0.17"
+        }
+      ],
+      "feedback": "Student reports MAE, MSE, MAPE values and includes a comparison table. However, no code or output supporting these metrics is shown. Values are not tied to model predictions or computation. Score 2 (MAE and MSE) for computed values, 0 forMA",
+      "limitations": "No code or output showing computation of metrics. Values are listed but not derived from model predictions.",
+      "score": 2,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ]
+}

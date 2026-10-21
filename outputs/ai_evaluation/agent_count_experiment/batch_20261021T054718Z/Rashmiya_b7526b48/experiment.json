@@ -1,0 +1,24 @@
+{
+  "experiment_id": "20261021T082530Z",
+  "assignment": "Rashmiya.pdf",
+  "assignment_sha256": "b7526b48e0a77b4e590149428a4ae4477e39da87a937c71abeb72ef5b9b0e9e1",
+  "rubric_path": "C:\\Users\\kisho\\ml_assignment_evaluator\\rubric.json",
+  "rubric_version": "1.0-assignment-criteria",
+  "model": "qwen3:4b-instruct",
+  "temperature": 0.2,
+  "first_seed": 20261017,
+  "max_agents": 4,
+  "status": "completed",
+  "visual_review_required_pages": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "started_at": "2026-10-21T08:25:30.295726+00:00",
+  "reviewers_completed": 4,
+  "finished_at": "2026-10-21T08:35:00.961833+00:00",
+  "total_elapsed_seconds": 570.633,
+  "comparison_csv": "agent_count_comparison.csv",
+  "comparison_markdown": "agent_count_comparison.md"
+}

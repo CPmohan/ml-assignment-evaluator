@@ -1,0 +1,246 @@
+{
+  "filename": "Panikar_AM.EN.P2WNA23003_AssignmentU1A1.pdf",
+  "section_a": [
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Code Assignment U1A1  \n \n     Name : Abhilash Panicker \nRoll No: AM.EN.P2WNA23003 \n \nSection A \n \n1. How many samples are there? \nIn the given dataset there are 414 samples. \n \n2. How many input variables are there? \n In the given dataset there are 6 input variables \n \n3. Which column is the output variable (target outcome)? \nThe 8 th column the  house price of the unit area is the output \nvariable. \n \n4. What does each of the input columns mean ? \nThe inputs are as follows: \nX1=the transaction date (for example, 2013.250=2013 March, \n2013.500=2013 June, etc.) \nX2=the house age (unit: ye",
+      "matched_pattern": "\\bsection\\s*a\\b"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Code Assignment U1A1  \n \n     Name : Abhilash Panicker \nRoll No: AM.EN.P2WNA23003 \n \nSection A \n \n1. How many samples are there? \nIn the given dataset there are 414 samples. \n \n2. How many input variables are there? \n In the given dataset there are 6 input variables \n \n3. Which column is the output variable (target outcome)? \nThe 8 th column the  house price of the unit area is the output \nvariable. \n \n4. What does each of the input columns mean ? \nThe inputs are as follows: \nX1=the transaction date (for example, 2013.250=2013 March, \n2013.500=2013 June, etc.) \nX2=the house age (unit: year) \nX3=the distance to",
+      "matched_pattern": "how\\s+many\\s+samples"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "gnment U1A1  \n \n     Name : Abhilash Panicker \nRoll No: AM.EN.P2WNA23003 \n \nSection A \n \n1. How many samples are there? \nIn the given dataset there are 414 samples. \n \n2. How many input variables are there? \n In the given dataset there are 6 input variables \n \n3. Which column is the output variable (target outcome)? \nThe 8 th column the  house price of the unit area is the output \nvariable. \n \n4. What does each of the input columns mean ? \nThe inputs are as follows: \nX1=the transaction date (for example, 2013.250=2013 March, \n2013.500=2013 June, etc.) \nX2=the house age (unit: year) \nX3=the distance to the nearest MRT station (unit: metre) \nX4=the number of convenience stores in the livi",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "P2WNA23003 \n \nSection A \n \n1. How many samples are there? \nIn the given dataset there are 414 samples. \n \n2. How many input variables are there? \n In the given dataset there are 6 input variables \n \n3. Which column is the output variable (target outcome)? \nThe 8 th column the  house price of the unit area is the output \nvariable. \n \n4. What does each of the input columns mean ? \nThe inputs are as follows: \nX1=the transaction date (for example, 2013.250=2013 March, \n2013.500=2013 June, etc.) \nX2=the house age (unit: year) \nX3=the distance to the nearest MRT station (unit: metre) \nX4=the number of convenience stores in the living circle on foot \n(integer) \nX5=the geographic coordinate, la",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "In the given dataset there are 414 samples. \n \n2. How many input variables are there? \n In the given dataset there are 6 input variables \n \n3. Which column is the output variable (target outcome)? \nThe 8 th column the  house price of the unit area is the output \nvariable. \n \n4. What does each of the input columns mean ? \nThe inputs are as follows: \nX1=the transaction date (for example, 2013.250=2013 March, \n2013.500=2013 June, etc.) \nX2=the house age (unit: year) \nX3=the distance to the nearest MRT station (unit: metre) \nX4=the number of convenience stores in the living circle on foot \n(integer) \nX5=the geographic coordinate, latitude. (unit: degree) \nX6=the geographic coordinate, long",
+      "matched_pattern": "target\\s+outcome"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "input variables \n \n3. Which column is the output variable (target outcome)? \nThe 8 th column the  house price of the unit area is the output \nvariable. \n \n4. What does each of the input columns mean ? \nThe inputs are as follows: \nX1=the transaction date (for example, 2013.250=2013 March, \n2013.500=2013 June, etc.) \nX2=the house age (unit: year) \nX3=the distance to the nearest MRT station (unit: metre) \nX4=the number of convenience stores in the living circle on foot \n(integer) \nX5=the geographic coordinate, latitude. (unit: degree) \nX6=the geographic coordinate, longitude. (unit: degree) \nThe output is as follow: \nY= house price of unit area (1 Ping = 3.3 metre squared) \n \nSection B",
+      "matched_pattern": "input\\s+columns?\\s+mean"
+    },
+    {
+      "label": "section_a",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to \nX4 as input variables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-\nX4) and the output (Y), which input variable, do you think, is \nbetter in predicting the output / target variable ?",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to \nX4 as input variables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-\nX4) and the output (Y), which input variable, do you think, is \nbetter in predicting the output / target variable ?",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 4,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "The input variable ‘X2 house age’ can be used for predicting \nthe output / target variable. \n \n2. Write code to find out how many samples are there in total in \nthis dataset? \n \n \n3. What is the train test split ratio that you have chosen ? \n \nThe train test split ratio that has been chosen as 1/3  of total \nsample size.",
+      "matched_pattern": "how\\s+many\\s+samples"
+    }
+  ],
+  "scatter_analysis": [
+    {
+      "label": "scatter_analysis",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to \nX4 as input variables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-\nX4) and the output (Y), which input variable, do you think, is \nbetter in predicting the output / target variable ?",
+      "matched_pattern": "scatter\\s*plot"
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " as input variables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-\nX4) and the output (Y), which input variable, do you think, is \nbetter in predicting the output / target variable ?",
+      "matched_pattern": "better\\s+(?:in\\s+)?predicting"
+    }
+  ],
+  "sample_count": [
+    {
+      "label": "sample_count",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Code Assignment U1A1  \n \n     Name : Abhilash Panicker \nRoll No: AM.EN.P2WNA23003 \n \nSection A \n \n1. How many samples are there? \nIn the given dataset there are 414 samples. \n \n2. How many input variables are there? \n In the given dataset there are 6 input variables \n \n3. Which column is the output variable (target outcome)? \nThe 8 th column the  house price of the unit area is the output \nvariable. \n \n4. What does each of the input columns mean ? \nThe inputs are as follows: \nX1=the transaction date (for example, 2013.250=2013 March, \n2013.500=2013 June, etc.) \nX2=the house age (unit: year) \nX3=the distance to the nearest MRT station (unit: metre) \nX4=the number o",
+      "value": "414",
+      "uncertain": true
+    }
+  ],
+  "train_test_split": [
+    {
+      "label": "train_test_split",
+      "page": 4,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "d out how many samples are there in total in \nthis dataset? \n \n \n3. What is the train test split ratio that you have chosen ? \n \nThe train test split ratio that has been chosen as 1/3  of total \nsample size.",
+      "value": "1/3",
+      "uncertain": true
+    }
+  ],
+  "reflection": [
+    {
+      "label": "reflection",
+      "page": 5,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "4. Evaluate the linear regression model by computing the MAE, \nMSE and Mean Absolute Percentage Error (MAPE). \n \n \n5. What are the 3 new things that you learned after you \ncompleted this assignment ? \n \n1. Method to plot  the different input value with the output \ntarget value. \n2. Understanding the different plot of y test and y prediction. \n3. Method to create a test dataset for comparison with the \ngiven dataset.",
+      "matched_pattern": "what.*learned"
+    },
+    {
+      "label": "reflection",
+      "page": 5,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "4. Evaluate the linear regression model by computing the MAE, \nMSE and Mean Absolute Percentage Error (MAPE). \n \n \n5. What are the 3 new things that you learned after you \ncompleted this assignment ? \n \n1. Method to plot  the different input value with the output \ntarget value. \n2. Understanding the different plot of y test and y prediction. \n3. Method to create a test dataset for comparison with the \ngiven dataset.",
+      "matched_pattern": "\\blearned\\b"
+    }
+  ],
+  "metrics": {
+    "MAE": [
+      {
+        "label": "MAE",
+        "page": 5,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "4. Evaluate the linear regression model by computing the MAE, \nMSE and Mean Absolute Percentage Error (MAPE). \n \n \n5. What are the 3 new things that you learned after you \ncompleted this assignment ? \n \n1. Method to plot  the different input value with the output \ntarget value. \n2. Understanding the different plot of y test and y prediction. \n3. Method to create a test dataset for comparison with the \ngiven",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, ",
+        "value": null,
+        "needs_review": true
+      }
+    ],
+    "MSE": [
+      {
+        "label": "MSE",
+        "page": 5,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "4. Evaluate the linear regression model by computing the MAE, \nMSE and Mean Absolute Percentage Error (MAPE). \n \n \n5. What are the 3 new things that you learned after you \ncompleted this assignment ? \n \n1. Method to plot  the different input value with the output \ntarget value. \n2. Understanding the different plot of y test and y prediction. \n3. Method to create a test dataset for comparison with the \ngiven datas",
+        "line_or_table_context": "MSE and Mean Absolute Percentage Error (MAPE). ",
+        "value": null,
+        "needs_review": true
+      }
+    ],
+    "MAPE": [
+      {
+        "label": "MAPE",
+        "page": 5,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "4. Evaluate the linear regression model by computing the MAE, \nMSE and Mean Absolute Percentage Error (MAPE). \n \n \n5. What are the 3 new things that you learned after you \ncompleted this assignment ? \n \n1. Method to plot  the different input value with the output \ntarget value. \n2. Understanding the different plot of y test and y prediction. \n3. Method to create a test dataset for comparison with the \ngiven dataset.",
+        "line_or_table_context": "MSE and Mean Absolute Percentage Error (MAPE). ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 5,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "Evaluate the linear regression model by computing the MAE, \nMSE and Mean Absolute Percentage Error (MAPE). \n \n \n5. What are the 3 new things that you learned after you \ncompleted this assignment ? \n \n1. Method to plot  the different input value with the output \ntarget value. \n2. Understanding the different plot of y test and y prediction. \n3. Method to create a test dataset for comparison with the \ngiven dataset.",
+        "line_or_table_context": "MSE and Mean Absolute Percentage Error (MAPE). ",
+        "value": null,
+        "needs_review": true
+      }
+    ]
+  },
+  "evidence_gaps": [
+    "No explicit MAE value was confidently linked to captured text. It may be in an image or require visual OCR review.",
+    "No explicit MSE value was confidently linked to captured text. It may be in an image or require visual OCR review.",
+    "No explicit MAPE value was confidently linked to captured text. It may be in an image or require visual OCR review."
+  ],
+  "uncertain_ocr_evidence": []
+}

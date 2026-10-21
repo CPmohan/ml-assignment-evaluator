@@ -1,0 +1,24 @@
+{
+  "experiment_id": "20261021T092827Z",
+  "assignment": "Shanthipriya.pdf",
+  "assignment_sha256": "792bc8e8fe1e1df1044e7f9a4e6578a5645bc3456f6be121fe1a872ab4799e5b",
+  "rubric_path": "C:\\Users\\kisho\\ml_assignment_evaluator\\rubric.json",
+  "rubric_version": "1.0-assignment-criteria",
+  "model": "qwen3:4b-instruct",
+  "temperature": 0.2,
+  "first_seed": 20261017,
+  "max_agents": 4,
+  "status": "completed",
+  "visual_review_required_pages": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "started_at": "2026-10-21T09:28:27.133714+00:00",
+  "reviewers_completed": 4,
+  "finished_at": "2026-10-21T09:34:50.479353+00:00",
+  "total_elapsed_seconds": 383.32,
+  "comparison_csv": "agent_count_comparison.csv",
+  "comparison_markdown": "agent_count_comparison.md"
+}

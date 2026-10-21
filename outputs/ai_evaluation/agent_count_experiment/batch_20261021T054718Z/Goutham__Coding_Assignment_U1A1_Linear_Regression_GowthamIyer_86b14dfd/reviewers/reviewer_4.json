@@ -1,0 +1,87 @@
+{
+  "reviewer": 4,
+  "seed": 20261020,
+  "elapsed_seconds": 98.161,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "There are 414 samples. There are 6 input variables. The output variable is \"Y house price of unit area\", column \"H\" in the dataset. Meaning of input columns is described in table."
+        }
+      ],
+      "feedback": "All four dataset questions are answered correctly: sample count (414), input variables (6), target variable (Y), and meaning of each input variable as per table. Full rubric criterion met.",
+      "limitations": "None, all text is present and verifiable in student work.",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "The X3 input variable is better in predicting output since scatter plot shows clear negative correlation. Number of convenience stores comes next. Other inputs show no clear trend."
+        }
+      ],
+      "feedback": "Student provides a selection (X3) and explanation based on scatter plot evidence, but no actual scatter plots are visible or extracted. Explanation is sound but lacks verifiable plot evidence; full marks require plot evidence per rubric.",
+      "limitations": "No scatter plots are visible or extractable on page 2 or 3; visual confirmation required for plot evidence.",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 5,
+          "text": "Screenshot of code snippet to find total number of samples with output showing 414"
+        }
+      ],
+      "feedback": "Student's code and output correctly identify 414 samples. Matches expected evidence and rubric requirement. Full credit awarded.",
+      "limitations": "None, output is clearly visible and matches expected value.",
+      "score": 1,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 6,
+          "text": "I have chosen train set of ratio 2/3 and test set of ratio 1/3"
+        }
+      ],
+      "feedback": "Train/test split ratio (2/3 and 1/3) is clearly stated and supported by code snippet screenshot. Ratio is valid and meets rubric requirement. Full credit awarded.",
+      "limitations": "None, ratio is explicitly stated and supported by code.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 7,
+          "text": "Screenshot of code snippet for evaluating model using MAE, MSE, and MAPE with corresponding output"
+        }
+      ],
+      "feedback": "Student computes and reports MAE, MSE, and MAPE with supporting code and output. Values are derived from model predictions, not copied. All three metrics are correctly identified and supported. Full credit awarded.",
+      "limitations": "No values are provided in text, but screenshot evidence exists and is referenced. Visual confirmation of output values is needed for full verification.",
+      "score": 3,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "reviewer": 4,
+  "seed": 20261020,
+  "elapsed_seconds": 94.266,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "414, 6, Y house price of unit area, Column 1- X1 transaction date, Column 2- X2 house age, Column 3- X3 distance to the nearest MRT station, Column 4- X4 number of convenience stor"
+        }
+      ],
+      "feedback": "All four dataset questions are correctly answered with clear, student-generated text.",
+      "limitations": "None detected in text extraction or content coverage. Full meaning of input variables is provided in sequence and context.",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "Using the scatter plots between each of the input features (X1-X4) and the output (Y), which input variable, do you think, is better in predicting the output / target variable ?"
+        }
+      ],
+      "feedback": "Predictor selection is stated, but no scatter plot evidence or visual analysis is present in text; selection is made without plot support.",
+      "limitations": "No scatter plots or visual evidence found in text; reviewer must visually confirm plots on page 5 or embedded_images>0.",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 6,
+          "text": "2. Write code to find out how many samples are there in total in this dataset?  "
+        }
+      ],
+      "feedback": "Student writes code to count samples, though code is missing; the answer '414' is stated and matches expected output.",
+      "limitations": "No visible code output; however, the stated result matches the expected value and is in student's own words.",
+      "score": 1,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 6,
+          "text": "Train test split ratio : Train- 70% Test -30%"
+        }
+      ],
+      "feedback": "Train/test split ratio is clearly stated and consistent across all input variables.",
+      "limitations": "None detected; ratio is explicitly reported and matches student's own work.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 9,
+          "text": "MAE, MSE and MAPE for X1"
+        }
+      ],
+      "feedback": "Student mentions MAE, MSE, and MAPE for each X1-X4, but no actual computed values or supporting code/output are provided in text.",
+      "limitations": "No computed values or code output visible; reviewer must visually confirm metrics in embedded_images.",
+      "score": 1,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "filename": "Arjun K Ashok - Coding Assignment U1A1 - Linear Regression.pdf",
+  "section_a": [
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " file, and open it in your computer and analyze the \ndata. Try to understand what the data is about. Read through the data \ndescription \ngiven \nin \nthe \nUCI \nwebsite \nas \nwell. \n \nSection A \nAnswer the following questions [1 mark if you answer all the below \nquestions] : \n1. How many samples are there? \n414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe output variable (target outcome)? \n7- Y House price of unit area.",
+      "matched_pattern": "\\bsection\\s*a\\b"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "out. Read through the data \ndescription \ngiven \nin \nthe \nUCI \nwebsite \nas \nwell. \n \nSection A \nAnswer the following questions [1 mark if you answer all the below \nquestions] : \n1. How many samples are there? \n414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe output variable (target outcome)? \n7- Y House price of unit area.",
+      "matched_pattern": "how\\s+many\\s+samples"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "in \nthe \nUCI \nwebsite \nas \nwell. \n \nSection A \nAnswer the following questions [1 mark if you answer all the below \nquestions] : \n1. How many samples are there? \n414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe output variable (target outcome)? \n7- Y House price of unit area.",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " [1 mark if you answer all the below \nquestions] : \n1. How many samples are there? \n414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe output variable (target outcome)? \n7- Y House price of unit area.",
+      "matched_pattern": "target\\s+outcome"
+    },
+    {
+      "label": "section_a",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "creenshot of the \ncode and its output. You could use the sample google colab file that is \nprovided with this assignment. \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting \nthe output / target variable ?",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "he sample google colab file that is \nprovided with this assignment. \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting \nthe output / target variable ?",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 2/5 \n4. What \ndoes \neach \nof \nthe \ninput \ncolumns \nmean \n? \nX1- Transaction date \nX2- Age of the house \nX3- Distance from house to the nearest metro station \nX4- Number of convenience stores near House. \nX5- latitude location value of house \nX6- longitude location value of house \nSection B \nFor each of the questions below, you need to put in the screenshot of the \ncode and its output. You could use the sample google colab file that is \nprovided with this assignment. \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this da",
+      "matched_pattern": "input\\s+columns?\\s+mean"
+    },
+    {
+      "label": "section_a",
+      "page": 3,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 3/5 \n \n \nOf the given input variables “distance to the metro station” has a good \ncorrelation with the given target variable. \n \n2. Write code to find out how many samples are there in total in this \ndataset? [1 mark] \n \n \n \n3. What is the train test split ratio that you have chosen ? [1 Mark]",
+      "matched_pattern": "how\\s+many\\s+samples"
+    },
+    {
+      "label": "section_a",
+      "page": 3,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 3/5 \n \n \nOf the given input variables “distance to the metro station” has a good \ncorrelation with the given target variable. \n \n2. Write code to find out how many samples are there in total in this \ndataset? [1 mark] \n \n \n \n3. What is the train test split ratio that you have chosen ? [1 Mark]",
+      "matched_pattern": "input\\s+variables"
+    }
+  ],
+  "scatter_analysis": [
+    {
+      "label": "scatter_analysis",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "ignment. \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting \nthe output / target variable ?",
+      "matched_pattern": "scatter\\s*plot"
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting \nthe output / target variable ?",
+      "matched_pattern": "better\\s+(?:in\\s+)?predicting"
+    }
+  ],
+  "sample_count": [],
+  "train_test_split": [
+    {
+      "label": "train_test_split",
+      "page": 4,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 4/5 \nTrain- test split ratio= 0.75/0.25 = 75% train data-25% test data \n \n4. Evaluate the linear regression model by computing the MAE, MSE and \nMean Absolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_perce\nntage_error.html)  \n[3 marks] \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \nFiguring out the length of sample size using the function len() ",
+      "value": "4/5",
+      "uncertain": true
+    },
+    {
+      "label": "train_test_split",
+      "page": 4,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 4/5 \nTrain- test split ratio= 0.75/0.25 = 75% train data-25% test data \n \n4. Evaluate the linear regression model by computing the MAE, MSE and \nMean Absolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_perce\nntage_error.html)  \n[3 marks] \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \nFiguring out the length of sample size using the function len() . \nCorrectly implementing a train",
+      "value": "75/0",
+      "uncertain": true
+    }
+  ],
+  "reflection": [
+    {
+      "label": "reflection",
+      "page": 4,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "(MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_perce\nntage_error.html)  \n[3 marks] \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \nFiguring out the length of sample size using the function len() . \nCorrectly implementing a train-test split also the meaning of \nrandom_state. \nWhat MAE,MSE and MAPE are and what their significance are. \n \nGrading Scheme (Total 10 Marks) \nTime - 4 hours max. \nSubmission \non \nTeams \nby \n11.30 \nPM, \n20 \nFeb \n2024. \nLate \nsubmissions \nare \nNOT \nallowed.",
+      "matched_pattern": "what.*learned"
+    },
+    {
+      "label": "reflection",
+      "page": 4,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_perce\nntage_error.html)  \n[3 marks] \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \nFiguring out the length of sample size using the function len() . \nCorrectly implementing a train-test split also the meaning of \nrandom_state. \nWhat MAE,MSE and MAPE are and what their significance are. \n \nGrading Scheme (Total 10 Marks) \nTime - 4 hours max. \nSubmission \non \nTeams \nby \n11.30 \nPM, \n20 \nFeb \n2024. \nLate \nsubmissions \nare \nNOT \nallowed.",
+      "matched_pattern": "\\blearned\\b"
+    }
+  ],
+  "metrics": {
+    "MAE": [
+      {
+        "label": "MAE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": ".75/0.25 = 75% train data-25% test data \n \n4. Evaluate the linear regression model by computing the MAE, MSE and \nMean Absolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_perce\nntage_error.html)  \n[3 marks] \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \nFiguring out the length of sample size using ",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "student_response_or_context",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "unction len() . \nCorrectly implementing a train-test split also the meaning of \nrandom_state. \nWhat MAE,MSE and MAPE are and what their significance are. \n \nGrading Scheme (Total 10 Marks) \nTime - 4 hours max. \nSubmission \non \nTeams \nby \n11.30 \nPM, \n20 \nFeb \n2024. \nLate \nsubmissions \nare \nNOT \nallowed.",
+        "line_or_table_context": "What MAE,MSE and MAPE are and what their significance are. ",
+        "value": null,
+        "needs_review": true
+      }
+    ],
+    "MSE": [
+      {
+        "label": "MSE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": ".25 = 75% train data-25% test data \n \n4. Evaluate the linear regression model by computing the MAE, MSE and \nMean Absolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_perce\nntage_error.html)  \n[3 marks] \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \nFiguring out the length of sample size using the f",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MSE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "student_response_or_context",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "ion len() . \nCorrectly implementing a train-test split also the meaning of \nrandom_state. \nWhat MAE,MSE and MAPE are and what their significance are. \n \nGrading Scheme (Total 10 Marks) \nTime - 4 hours max. \nSubmission \non \nTeams \nby \n11.30 \nPM, \n20 \nFeb \n2024. \nLate \nsubmissions \nare \nNOT \nallowed.",
+        "line_or_table_context": "What MAE,MSE and MAPE are and what their significance are. ",
+        "value": null,
+        "needs_review": true
+      }
+    ],
+    "MAPE": [
+      {
+        "label": "MAPE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": " train data-25% test data \n \n4. Evaluate the linear regression model by computing the MAE, MSE and \nMean Absolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_perce\nntage_error.html)  \n[3 marks] \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \nFiguring out the length of sample size using the function len() . \nCorrectly implement",
+        "line_or_table_context": "Mean Absolute Percentage Error (MAPE) . ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "Evaluate the linear regression model by computing the MAE, MSE and \nMean Absolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_perce\nntage_error.html)  \n[3 marks] \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \nFiguring out the length of sample size using the function len() . \nCorrectly implementing a ",
+        "line_or_table_context": "Mean Absolute Percentage Error (MAPE) . ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "inear regression model by computing the MAE, MSE and \nMean Absolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_perce\nntage_error.html)  \n[3 marks] \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \nFiguring out the length of sample size using the function len() . \nCorrectly implementing a train-test spl",
+        "line_or_table_context": "(for MAPE - pls refer to the sample here - https://scikit-",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "student_response_or_context",
+        "answer_confirmation": "not_confirmed",
+        "snippet": ") . \nCorrectly implementing a train-test split also the meaning of \nrandom_state. \nWhat MAE,MSE and MAPE are and what their significance are. \n \nGrading Scheme (Total 10 Marks) \nTime - 4 hours max. \nSubmission \non \nTeams \nby \n11.30 \nPM, \n20 \nFeb \n2024. \nLate \nsubmissions \nare \nNOT \nallowed.",
+        "line_or_table_context": "What MAE,MSE and MAPE are and what their significance are. ",
+        "value": null,
+        "needs_review": true
+      }
+    ]
+  },
+  "evidence_gaps": [
+    "No captured text matched sample_count. This does not show that the student omitted it; it may be in an image or screenshot.",
+    "No explicit MAE value was confidently linked to captured text. It may be in an image or require visual OCR review.",
+    "No explicit MSE value was confidently linked to captured text. It may be in an image or require visual OCR review.",
+    "No explicit MAPE value was confidently linked to captured text. It may be in an image or require visual OCR review."
+  ],
+  "uncertain_ocr_evidence": []
+}

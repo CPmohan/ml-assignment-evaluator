@@ -1,0 +1,345 @@
+{
+  "filename": "Samhitha linear regression ass-2.pdf",
+  "section_a": [
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Machine Learning (BMI/GEO/WNA) \nCode Assignment U1A1 \nLinear Regression \n \nSection A \nAnswer the following questions [1 mark] \n \n1. How many samples are there? \nFrom csv file we get no. of samples = 414 \n \n2. How many input variables are there? \nFrom Csv file we observe the are 8 variables and input variables  = 6 \n X1 transaction date \n X2 house age \n X3 distance to the nearest MRT station \n X4 number of convenience stores \n X5 latitude \n X6 longitude",
+      "matched_pattern": "\\bsection\\s*a\\b"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Machine Learning (BMI/GEO/WNA) \nCode Assignment U1A1 \nLinear Regression \n \nSection A \nAnswer the following questions [1 mark] \n \n1. How many samples are there? \nFrom csv file we get no. of samples = 414 \n \n2. How many input variables are there? \nFrom Csv file we observe the are 8 variables and input variables  = 6 \n X1 transaction date \n X2 house age \n X3 distance to the nearest MRT station \n X4 number of convenience stores \n X5 latitude \n X6 longitude",
+      "matched_pattern": "how\\s+many\\s+samples"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "ssignment U1A1 \nLinear Regression \n \nSection A \nAnswer the following questions [1 mark] \n \n1. How many samples are there? \nFrom csv file we get no. of samples = 414 \n \n2. How many input variables are there? \nFrom Csv file we observe the are 8 variables and input variables  = 6 \n X1 transaction date \n X2 house age \n X3 distance to the nearest MRT station \n X4 number of convenience stores \n X5 latitude \n X6 longitude",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "s [1 mark] \n \n1. How many samples are there? \nFrom csv file we get no. of samples = 414 \n \n2. How many input variables are there? \nFrom Csv file we observe the are 8 variables and input variables  = 6 \n X1 transaction date \n X2 house age \n X3 distance to the nearest MRT station \n X4 number of convenience stores \n X5 latitude \n X6 longitude",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "3.Which column is the output variable (target outcome)? \n Y column is output variable  \n This is the name of output variable / target outcome: Y house price of unit \narea \n \n4.What does each of the input columns mean?",
+      "matched_pattern": "target\\s+outcome"
+    },
+    {
+      "label": "section_a",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "3.Which column is the output variable (target outcome)? \n Y column is output variable  \n This is the name of output variable / target outcome: Y house price of unit \narea \n \n4.What does each of the input columns mean?",
+      "matched_pattern": "target\\s+outcome"
+    },
+    {
+      "label": "section_a",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "e output variable (target outcome)? \n Y column is output variable  \n This is the name of output variable / target outcome: Y house price of unit \narea \n \n4.What does each of the input columns mean?",
+      "matched_pattern": "input\\s+columns?\\s+mean"
+    },
+    {
+      "label": "section_a",
+      "page": 3,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Section B \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable ?",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 3,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Section B \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable ?",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 7,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "2. Write code to find out how many samples are there in total in this dataset? \n \n \nThere are 414 samples and 8 variables in dataset \n3. What is the train test split ratio that you have chosen? \nTrain split ratio: 70   \nTest split ratio: 30",
+      "matched_pattern": "how\\s+many\\s+samples"
+    },
+    {
+      "label": "section_a",
+      "page": 8,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "er you completed this \nassignment? \n I have understood how to analyze a large data, its input and output variables  \n Scatter plotting for individual one variable (X - axis) and target outcome (Y -axis) \n Train and test splitting ratio for input and output as x_train, x_test, y_tain, y_test   \n Reg.fit(x,y) for prediction of y and to find  Mean Absolute Error (MAE), Mean Squared \nError (MSE), and Mean Absolute Percentage Error (MAPE)",
+      "matched_pattern": "target\\s+outcome"
+    }
+  ],
+  "scatter_analysis": [
+    {
+      "label": "scatter_analysis",
+      "page": 3,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Section B \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable ?",
+      "matched_pattern": "scatter\\s*plot"
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 3,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable ?",
+      "matched_pattern": "better\\s+(?:in\\s+)?predicting"
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 8,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "APE). \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment? \n I have understood how to analyze a large data, its input and output variables  \n Scatter plotting for individual one variable (X - axis) and target outcome (Y -axis) \n Train and test splitting ratio for input and output as x_train, x_test, y_tain, y_test   \n Reg.fit(x,y) for prediction of y and to find  Mean Absolute Error (MAE), Mean Squared \nError (MSE), and Mean Absolute Percentage Error (MAPE)",
+      "matched_pattern": "scatter\\s*plot"
+    }
+  ],
+  "sample_count": [
+    {
+      "label": "sample_count",
+      "page": 7,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "2. Write code to find out how many samples are there in total in this dataset? \n \n \nThere are 414 samples and 8 variables in dataset \n3. What is the train test split ratio that you have chosen? \nTrain split ratio: 70   \nTest split ratio: 30",
+      "value": "414",
+      "uncertain": true
+    }
+  ],
+  "train_test_split": [],
+  "reflection": [
+    {
+      "label": "reflection",
+      "page": 8,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE). \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment? \n I have understood how to analyze a large data, its input and output variables  \n Scatter plotting for individual one variable (X - axis) and target outcome (Y -axis) \n Train and test splitting ratio for input and output as x_train, x_test, y_tain, y_test   \n Reg.fit(x,y) for prediction of y and to find  Mean Absolute Error (MAE), Mean Squared \nError (MSE), and Mean Absolute Percentage Error (MAPE)",
+      "matched_pattern": "what.*learned"
+    },
+    {
+      "label": "reflection",
+      "page": 8,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE). \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment? \n I have understood how to analyze a large data, its input and output variables  \n Scatter plotting for individual one variable (X - axis) and target outcome (Y -axis) \n Train and test splitting ratio for input and output as x_train, x_test, y_tain, y_test   \n Reg.fit(x,y) for prediction of y and to find  Mean Absolute Error (MAE), Mean Squared \nError (MSE), and Mean Absolute Percentage Error (MAPE)",
+      "matched_pattern": "\\blearned\\b"
+    }
+  ],
+  "metrics": {
+    "MAE": [
+      {
+        "label": "MAE",
+        "page": 8,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE). \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment? \n I have understood how to analyze a large data, its input and output variables  \n Scatter plotting for individual one variable (X - axis) and target outcome (Y -axis) \n Train and test splitting ratio for inp",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAE",
+        "page": 8,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "student_response_or_context",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "ut and output as x_train, x_test, y_tain, y_test   \n Reg.fit(x,y) for prediction of y and to find  Mean Absolute Error (MAE), Mean Squared \nError (MSE), and Mean Absolute Percentage Error (MAPE)",
+        "line_or_table_context": " Reg.fit(x,y) for prediction of y and to find  Mean Absolute Error (MAE), Mean Squared ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAE",
+        "page": 8,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "student_response_or_context",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "ain, x_test, y_tain, y_test   \n Reg.fit(x,y) for prediction of y and to find  Mean Absolute Error (MAE), Mean Squared \nError (MSE), and Mean Absolute Percentage Error (MAPE)",
+        "line_or_table_context": " Reg.fit(x,y) for prediction of y and to find  Mean Absolute Error (MAE), Mean Squared ",
+        "value": null,
+        "needs_review": true
+      }
+    ],
+    "MSE": [
+      {
+        "label": "MSE",
+        "page": 8,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE). \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment? \n I have understood how to analyze a large data, its input and output variables  \n Scatter plotting for individual one variable (X - axis) and target outcome (Y -axis) \n Train and test splitting ratio for input an",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MSE",
+        "page": 8,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "student_response_or_context",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "_test, y_tain, y_test   \n Reg.fit(x,y) for prediction of y and to find  Mean Absolute Error (MAE), Mean Squared \nError (MSE), and Mean Absolute Percentage Error (MAPE)",
+        "line_or_table_context": " Reg.fit(x,y) for prediction of y and to find  Mean Absolute Error (MAE), Mean Squared \nError (MSE), and Mean Absolute Percentage Error (MAPE)",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MSE",
+        "page": 8,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "student_response_or_context",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "   \n Reg.fit(x,y) for prediction of y and to find  Mean Absolute Error (MAE), Mean Squared \nError (MSE), and Mean Absolute Percentage Error (MAPE)",
+        "line_or_table_context": "Error (MSE), and Mean Absolute Percentage Error (MAPE)",
+        "value": null,
+        "needs_review": true
+      }
+    ],
+    "MAPE": [
+      {
+        "label": "MAPE",
+        "page": 8,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE). \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment? \n I have understood how to analyze a large data, its input and output variables  \n Scatter plotting for individual one variable (X - axis) and target outcome (Y -axis) \n Train and test splitting ratio for input and output as x_train, x_test, y_tain,",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE). ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 8,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE). \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment? \n I have understood how to analyze a large data, its input and output variables  \n Scatter plotting for individual one variable (X - axis) and target outcome (Y -axis) \n Train and test splitting ratio for input and output as x_train, x_test, y_tain, y_tes",
+        "line_or_table_context": "Absolute Percentage Error (MAPE). ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 8,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "student_response_or_context",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "fit(x,y) for prediction of y and to find  Mean Absolute Error (MAE), Mean Squared \nError (MSE), and Mean Absolute Percentage Error (MAPE)",
+        "line_or_table_context": "Error (MSE), and Mean Absolute Percentage Error (MAPE)",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 8,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "student_response_or_context",
+        "answer_confirmation": "not_confirmed",
+        "snippet": " to find  Mean Absolute Error (MAE), Mean Squared \nError (MSE), and Mean Absolute Percentage Error (MAPE)",
+        "line_or_table_context": "Error (MSE), and Mean Absolute Percentage Error (MAPE)",
+        "value": null,
+        "needs_review": true
+      }
+    ]
+  },
+  "evidence_gaps": [
+    "No captured text matched train_test_split. This does not show that the student omitted it; it may be in an image or screenshot.",
+    "No explicit MAE value was confidently linked to captured text. It may be in an image or require visual OCR review.",
+    "No explicit MSE value was confidently linked to captured text. It may be in an image or require visual OCR review.",
+    "No explicit MAPE value was confidently linked to captured text. It may be in an image or require visual OCR review."
+  ],
+  "uncertain_ocr_evidence": []
+}

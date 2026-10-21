@@ -1,0 +1,22 @@
+{
+  "experiment_id": "20261021T090623Z",
+  "assignment": "S Devika - Coding Assignment U1A1 - Linear Regression A1.pdf",
+  "assignment_sha256": "1c58b37a200e460666ef9a9cb5d833bdb9cf5a375eb58e1d77ea206878c83df9",
+  "rubric_path": "C:\\Users\\kisho\\ml_assignment_evaluator\\rubric.json",
+  "rubric_version": "1.0-assignment-criteria",
+  "model": "qwen3:4b-instruct",
+  "temperature": 0.2,
+  "first_seed": 20261017,
+  "max_agents": 4,
+  "status": "completed",
+  "visual_review_required_pages": [
+    2,
+    3
+  ],
+  "started_at": "2026-10-21T09:06:23.681951+00:00",
+  "reviewers_completed": 4,
+  "finished_at": "2026-10-21T09:13:10.598074+00:00",
+  "total_elapsed_seconds": 406.891,
+  "comparison_csv": "agent_count_comparison.csv",
+  "comparison_markdown": "agent_count_comparison.md"
+}

@@ -1,0 +1,97 @@
+{
+  "status": "AI rubric suggestions generated — human review required",
+  "assignment": "Akhiya- Coding Assignment U1A1 - Linear Regression (3) (1).pdf",
+  "rubric_version": "1.0-assignment-criteria",
+  "evaluated_at": "2026-10-11T09:19:11.390927+00:00",
+  "total_possible": 10,
+  "score_coverage": 5,
+  "ai_provisional_total": 4,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "1. How many samples are there? 414 2. How many input variables are there? 6 3. Which column is the output variable (target outcome)? Y house price of unit area 4. What does each of"
+        }
+      ],
+      "feedback": "All four dataset questions are correctly answered with clear, student-generated responses.",
+      "limitations": "None.",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "X3 would be the best input variable for predicting Y house price of unit area as the output/target variable. Here, X3 distance to the nearest metro station has better fit compared"
+        }
+      ],
+      "feedback": "Selected predictor (X3) and explanation are provided, but no scatter plot evidence is present in text; visual confirmation required for plot-based justification.",
+      "limitations": "No scatter plot images or outputs visible in text; cannot verify plot evidence from text alone.",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "2. Write code to find out how many samples are there in total in this dataset?"
+        }
+      ],
+      "feedback": "The student states 414 samples, but no actual code or output is shown. However, the answer matches the expected value and is stated in student work. No code output is visible, so this is not fully supported.",
+      "limitations": "No code or output shown for sample count; cannot verify computation from text alone.",
+      "score": 0,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 4,
+          "text": "3. What is the train test split ratio that you have chosen ? 70:30"
+        }
+      ],
+      "feedback": "The 70:30 split is clearly stated and matches the requirement; no code is needed as ratio is reported directly.",
+      "limitations": "None.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Not Satisfied",
+      "evidence": [
+        {
+          "page": 4,
+          "text": "Evaluate the linear regression model by computing the MAE, MSE and Mean Absolute Percentage Error (MAPE)"
+        }
+      ],
+      "feedback": "No actual values or code output for MAE, MSE, or MAPE are provided; only reference to a sample is given. No computed metrics reported.",
+      "limitations": "No computed values or code output for metrics; cannot verify any of MAE, MSE, or MAPE.",
+      "score": 0,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ],
+  "visual_review_required_pages": [],
+  "safeguards": [
+    "These are AI suggestions, not final grades.",
+    "A reviewer must check cited evidence in the original PDF.",
+    "Plots, screenshots, and image-only pages require visual verification."
+  ]
+}

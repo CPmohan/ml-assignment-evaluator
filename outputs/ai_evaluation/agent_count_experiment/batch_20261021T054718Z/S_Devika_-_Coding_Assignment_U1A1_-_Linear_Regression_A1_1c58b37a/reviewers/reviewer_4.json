@@ -1,0 +1,87 @@
+{
+  "reviewer": 4,
+  "seed": 20261020,
+  "elapsed_seconds": 91.976,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "1. How many samples are there? 414 2. How many input variables are there? 6 3. Which column is the output variable? Y= house price of unit area 4. What does each input column mean?"
+        }
+      ],
+      "feedback": "All four dataset questions are correctly answered: sample count (414), input variables (6), target variable (Y), and meaning of each input variable. No prompt text copied; student work directly addresses all expected elements.",
+      "limitations": "None, as all required dataset details are clearly and correctly stated in text.",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "The input variable X3 (the distance to the Nearest MRT Station) is better in predicting the output / target variable"
+        }
+      ],
+      "feedback": "Student selects X3 as predictor and gives reason, but no scatter plots are present or referenced. Plot evidence is missing, so explanation lacks grounding in visual analysis. Cannot verify plot evidence from text alone.",
+      "limitations": "No scatter plots or visual evidence provided; text extraction omits image content. A reviewer must visually confirm if plots exist and support the selection ofX",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "Write code to find out how many samples are there in total in dataset?"
+        }
+      ],
+      "feedback": "Student states 414 samples, but no actual code or output is shown. The rubric requires code or calculation with output showing 414. This evidence is missing; thus, score is 0 despite correct answer.",
+      "limitations": "No code or output is provided to support the sample count. The student only states the number without showing computation.",
+      "score": 0,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "80:20 Split: approximately 80% of the data is assigned to the training set, while the remaining 20% forms the test set."
+        }
+      ],
+      "feedback": "Train/test split ratio is clearly stated and matches expected format. No code is provided, but the ratio is reported and contextually correct. The rubric does not require code, only stated ratio with evidence. Score awarded based on clear, ",
+      "limitations": "No code or output for split is shown, but the stated ratio is sufficient per rubric. Visual confirmation of split execution is not needed.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Not Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "Evaluate the linear regression model by computing the MAE, MSE and Mean Absolute Percentage Error (MAPE)."
+        }
+      ],
+      "feedback": "Student mentions computing MAE, MSE, and MAPE but provides no code, output, or values. No evidence of actual computation or reported metrics. Values are not present or verifiable from text. Score is 0.",
+      "limitations": "No computed values or supporting code/output for MAE, MSE, or MAPE. Text extraction omits any numerical results or model evaluation output.",
+      "score": 0,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ]
+}

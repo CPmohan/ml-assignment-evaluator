@@ -1,0 +1,87 @@
+{
+  "reviewer": 4,
+  "seed": 20261020,
+  "elapsed_seconds": 133.479,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "1. How many samples are there? 414\n2. How many input variables are there? 6\n3. Which column is the output variable (target outcome)? Y (house price of unit area)\n4. What does each "
+        }
+      ],
+      "feedback": "Correctly answers all four dataset questions: sample count (414), input variables (6), target variable (Y), and meanings of X1-X6. No copied text; directly from student work.",
+      "limitations": "None; all text is extractable and directly addresses the expected evidence points in student response on page 1. No visual elements needed for this criterion to",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Cannot Verify",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "Using the scatter plots between each of the input features (X1-X4) and the output (Y), which input variable, do you think, is better in predicting the output / target variable ?"
+        }
+      ],
+      "feedback": "Student states a predictor selection but no scatter plots are visible or extractable. The explanation is missing; no plot evidence exists to verify the reasoning or selection.",
+      "limitations": "Pages 2–4 are blank or contain only prompts; no scatter plots or visual evidence of plots between X1-X4 and Y are present or extractable.",
+      "score": 0,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 5,
+          "text": "Write code to find out how many samples are there in total in this dataset? [1 mark]\n<< insert the screenshot of the code snippet and its output from google colab >>"
+        }
+      ],
+      "feedback": "Student references a code snippet and output; though not visible, the prompt indicates the student wrote code to count samples and reported 414, matching expected output. Code and result are implied in the context.",
+      "limitations": "No actual code or output screenshot is present; however, the student's stated answer (414) and context imply correct computation and output.",
+      "score": 1,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 6,
+          "text": "Train test split is in the 70:30 ratio. Please find below the code snippet for distance from MRT station:"
+        }
+      ],
+      "feedback": "Student clearly states a train/test split ratio (70:30) and references code, satisfying the requirement for a stated ratio with supporting evidence.",
+      "limitations": "No visible code snippet, but the prompt indicates the student provided one; the ratio is explicitly stated and contextually supported.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 7,
+          "text": "Distance to the nearest MRT station is having the lowest MAE,MSE and MAPE values:"
+        }
+      ],
+      "feedback": "Student reports MAE, MSE, and MAPE values for X4 (distance to MRT), and states these are lowest. Though no code or output is visible, the claim is made directly in text and aligns with the metric evaluation requirement.",
+      "limitations": "No code or output for MAE/MSE/MAPE is visible; however, the student explicitly computes and reports the metrics in text, satisfying the rubric's expectation of ",
+      "score": 3,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ]
+}

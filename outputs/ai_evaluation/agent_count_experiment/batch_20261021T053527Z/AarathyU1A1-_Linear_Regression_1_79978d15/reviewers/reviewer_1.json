@@ -1,0 +1,87 @@
+{
+  "reviewer": 1,
+  "seed": 20261017,
+  "elapsed_seconds": 139.628,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "414, 6, Y house price of unit area, Column 1- X1 transaction date, Column 2- X2 house age, Column 3- X3 distance to the nearest MRT station, Column 4- X4 number of convenience stor"
+        }
+      ],
+      "feedback": "All four dataset questions are correctly answered: sample count (414), input variables (6), target (Y), and meaning of each input variable. No copied text; direct student response.",
+      "limitations": "None. Text extraction fully captures all required elements on page 2. No visual components needed for this criterion. 1 mark awarded as per rubric rule for all ",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "Using the scatter plots between each of the input features (X1-X4) and the output (Y), which input variable, do you think, is better in predicting the output / target variable ?"
+        }
+      ],
+      "feedback": "Student identifies X2 as better predictor but provides no scatter plot evidence. Rubric requires plot analysis and explanation grounded in plots. No visual evidence present to verify scatter plots or plot-based reasoning.",
+      "limitations": "Page 5 contains only text stating X2 is better; no scatter plots or visual evidence are present. Cannot verify plot analysis or explanation. 4 marks not awarded",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 6,
+          "text": "2. Write code to find out how many samples are there in total in this dataset?  "
+        }
+      ],
+      "feedback": "Student writes code to find sample count, though code is missing. However, the answer '414' is stated and matches expected output. Rubric requires student's own code or calculation showing 414. The response satisfies this criterion as per '",
+      "limitations": "No code is visible on page 6. The answer '414' is stated but code is missing. Cannot verify code output. Score 0 for this criterion.",
+      "score": 0,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 6,
+          "text": "Train test split ratio : Train- 70% Test -30%"
+        }
+      ],
+      "feedback": "Student clearly states train/test split ratio (70:30) and includes it in the response. No code is required; ratio is stated and consistent across multiple pages. Rubric allows any valid ratio. 1 mark awarded.",
+      "limitations": "No code or output showing the split. However, the stated ratio is sufficient per rubric. No visual evidence needed.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 9,
+          "text": "MAE, MSE and MAPE for X1"
+        }
+      ],
+      "feedback": "Student lists MAE, MSE, and MAPE for each X1–X4, but no actual computed values or supporting code/output are provided. Rubric requires computed metrics with supporting evidence. Values are not present or verifiable. Only 1 mark awarded for ",
+      "limitations": "No actual computed values or code output for MAE, MSE, or MAPE. Values are listed without computation or verification. Cannot verify any metric values.",
+      "score": 1,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ]
+}

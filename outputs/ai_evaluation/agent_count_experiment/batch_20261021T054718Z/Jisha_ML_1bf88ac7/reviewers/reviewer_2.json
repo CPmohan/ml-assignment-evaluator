@@ -1,0 +1,87 @@
+{
+  "reviewer": 2,
+  "seed": 20261018,
+  "elapsed_seconds": 73.373,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "414 samples, 6 input variables, target is y house price of unit area, input variables: transaction date, house age, distance to the nearest MRT station, number of convenience store"
+        }
+      ],
+      "feedback": "All four dataset questions answered correctly in text; sample count, input variables, target, and variable meanings are clearly stated and match expected evidence.",
+      "limitations": "none",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "Scatter plots for X1, X2, X3, X4 vs Y shown; selected predictor: distance to nearest MRT station; explanation includes negative trend and clustering"
+        }
+      ],
+      "feedback": "Scatter plots for all four features are present and explained; predictor selection is justified by plot trends, but no visual evidence of X1-X4 plots is verifiable in text extraction.",
+      "limitations": "Visual evidence of plots not fully extractable; explanation is text-based but lacks image validation for all plots.",
+      "score": 3,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 4,
+          "text": "Code to find number of samples; output shows 414"
+        }
+      ],
+      "feedback": "Student provides code and output showing 414 samples; matches expected evidence and is not copied from prompt.",
+      "limitations": "none",
+      "score": 1,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 5,
+          "text": "Train test split ratio selected is 70:30"
+        }
+      ],
+      "feedback": "Ratio clearly stated and supported by text; no requirement for specific ratio, so 70:30 is valid.",
+      "limitations": "none",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Not Satisfied",
+      "evidence": [
+        {
+          "page": 5,
+          "text": "MAE, MSE, MAPE mentioned but no code or output showing computed values"
+        }
+      ],
+      "feedback": "Metrics named but no code or output showing computed MAE, MSE, or MAPE; values not provided or verified; rubric requires computed metrics with output.",
+      "limitations": "No computed metric values or supporting output in text; image pages not referenced.",
+      "score": 0,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ]
+}

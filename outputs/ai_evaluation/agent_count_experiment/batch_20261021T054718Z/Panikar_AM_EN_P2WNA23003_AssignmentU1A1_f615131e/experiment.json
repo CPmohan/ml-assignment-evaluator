@@ -1,0 +1,24 @@
+{
+  "experiment_id": "20261021T081741Z",
+  "assignment": "Panikar_AM.EN.P2WNA23003_AssignmentU1A1.pdf",
+  "assignment_sha256": "f615131e4cb861531e0cb157b8fb70e8ee32a5c90aec525d89266db5bff57869",
+  "rubric_path": "C:\\Users\\kisho\\ml_assignment_evaluator\\rubric.json",
+  "rubric_version": "1.0-assignment-criteria",
+  "model": "qwen3:4b-instruct",
+  "temperature": 0.2,
+  "first_seed": 20261017,
+  "max_agents": 4,
+  "status": "completed",
+  "visual_review_required_pages": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "started_at": "2026-10-21T08:17:41.084066+00:00",
+  "reviewers_completed": 4,
+  "finished_at": "2026-10-21T08:25:30.267892+00:00",
+  "total_elapsed_seconds": 469.167,
+  "comparison_csv": "agent_count_comparison.csv",
+  "comparison_markdown": "agent_count_comparison.md"
+}

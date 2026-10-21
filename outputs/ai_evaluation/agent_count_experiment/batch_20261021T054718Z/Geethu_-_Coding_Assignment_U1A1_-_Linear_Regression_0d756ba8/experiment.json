@@ -1,0 +1,23 @@
+{
+  "experiment_id": "20261021T072306Z",
+  "assignment": "Geethu - Coding Assignment U1A1 - Linear Regression.pdf",
+  "assignment_sha256": "0d756ba8ab3e31c960383377af0e7fd4dc88290df1472347b35ce37e8672a742",
+  "rubric_path": "C:\\Users\\kisho\\ml_assignment_evaluator\\rubric.json",
+  "rubric_version": "1.0-assignment-criteria",
+  "model": "qwen3:4b-instruct",
+  "temperature": 0.2,
+  "first_seed": 20261017,
+  "max_agents": 4,
+  "status": "completed",
+  "visual_review_required_pages": [
+    2,
+    3,
+    4
+  ],
+  "started_at": "2026-10-21T07:23:06.934904+00:00",
+  "reviewers_completed": 4,
+  "finished_at": "2026-10-21T07:31:22.153111+00:00",
+  "total_elapsed_seconds": 495.186,
+  "comparison_csv": "agent_count_comparison.csv",
+  "comparison_markdown": "agent_count_comparison.md"
+}

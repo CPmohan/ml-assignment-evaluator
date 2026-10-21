@@ -1,0 +1,97 @@
+{
+  "status": "AI rubric suggestions generated — human review required",
+  "assignment": "S Devika - Coding Assignment U1A1 - Linear Regression A1.pdf",
+  "rubric_version": "1.0-assignment-criteria",
+  "evaluated_at": "2026-10-11T09:50:48.994369+00:00",
+  "total_possible": 10,
+  "score_coverage": 5,
+  "ai_provisional_total": 5,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "1. How many samples are there? 414 2. How many input variables are there? 6 3. Which column is the output variable? Y= house price of unit area 4. What does each of the input cols?"
+        }
+      ],
+      "feedback": "All four dataset questions are correctly answered with clear, student-generated responses.",
+      "limitations": "None. Text extraction fully captures the required dataset understanding elements on page 1. No visual elements needed for this criterion.",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "The input variable X3 (the distance to the Nearest MRT Station) is better in predicting the output / target variable"
+        }
+      ],
+      "feedback": "Selected predictor X3 is justified, but no scatter plots or plot evidence is present in text; visual confirmation required for plot-based reasoning.",
+      "limitations": "No scatter plots or plot evidence in text; a reviewer must visually confirm the presence of scatter plots for X1-X4 vs Y on a page with embedded_images>0.",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "Write code to find out how many samples are there in total in dataset? "
+        }
+      ],
+      "feedback": "The student states 414 samples, but code is missing. However, the prompt requires code/output; without code, this criterion is not satisfied.",
+      "limitations": "No code or output showing 414 samples is present in text; student only states the number without supporting computation.",
+      "score": 0,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "80:20 Split: approximately 80% of the data is assigned to the training set, while the remaining 20% forms the test set."
+        }
+      ],
+      "feedback": "Train/test split ratio is clearly stated and matches expected format; no code needed as ratio is explicitly reported.",
+      "limitations": "None. The split ratio is directly stated in text and matches the requirement.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "Evaluate the linear regression model by computing the MAE, MSE and Mean Absolute Percentage Error (MAPE)."
+        }
+      ],
+      "feedback": "The student mentions computing MAE, MSE, and MAPE, but no actual values or supporting code/output are provided in text.",
+      "limitations": "No computed values or output for MAE, MSE, or MAPE are present; visual confirmation of computed metrics needed if images exist.",
+      "score": 1,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ],
+  "visual_review_required_pages": [],
+  "safeguards": [
+    "These are AI suggestions, not final grades.",
+    "A reviewer must check cited evidence in the original PDF.",
+    "Plots, screenshots, and image-only pages require visual verification."
+  ]
+}

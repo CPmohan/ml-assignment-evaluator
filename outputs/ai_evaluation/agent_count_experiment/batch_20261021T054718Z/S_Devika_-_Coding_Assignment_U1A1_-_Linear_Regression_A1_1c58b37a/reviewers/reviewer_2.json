@@ -1,0 +1,87 @@
+{
+  "reviewer": 2,
+  "seed": 20261018,
+  "elapsed_seconds": 81.576,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "1. How many samples are there? 414 2. How many input variables are there? 6 3. Which column is the output variable? Y= house price of unit area 4. What does each input column mean?"
+        }
+      ],
+      "feedback": "All four dataset questions are answered correctly: sample count (414), input variables (6), target (Y), and meaning of each input variable. No copied text; direct student response.",
+      "limitations": "None, as all required elements are clearly stated in text.",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "The input variable X3 (the distance to the Nearest MRT Station) is better in predicting the output / target variable"
+        }
+      ],
+      "feedback": "Selected predictor X3 is correct, but no scatter plots or plot-based explanation is provided in text; evidence of scatter plots is missing and cannot be verified from text alone.",
+      "limitations": "No visual evidence of scatter plots present; text extraction omits plot content; student does not provide plot evidence or reasoning based on plots.",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "Write code to find out how many samples are there in total in dataset?"
+        }
+      ],
+      "feedback": "Student states 414 samples, but no actual code or output is shown. However, the prompt requires code/output; absence of code means this criterion is not satisfied.",
+      "limitations": "No code or output is provided to verify sample count; student only states the number without supporting computation.",
+      "score": 0,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "80:20 Split: approximately 80% of the data is assigned to the training set, while the remaining 20% forms the test set."
+        }
+      ],
+      "feedback": "Train/test split ratio (80:20) is clearly stated and matches expected format; no code is required as ratio is reported. Student response satisfies the rubric criterion.",
+      "limitations": "None; split ratio is explicitly stated and verifiable in text.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "Evaluate the linear regression model by computing the MAE, MSE and Mean Absolute Percentage Error (MAPE)"
+        }
+      ],
+      "feedback": "Student mentions computing MAE, MSE, and MAPE but provides no actual values or supporting code/output. Values are not reported, so no metric is verified. Only the mention of computation is present.",
+      "limitations": "No computed values or output shown; student does not provide MAE, MSE, or MAPE results in text or code.",
+      "score": 0,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ]
+}

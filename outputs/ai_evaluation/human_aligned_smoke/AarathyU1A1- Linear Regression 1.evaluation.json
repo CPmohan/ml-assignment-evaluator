@@ -1,0 +1,100 @@
+{
+  "status": "AI rubric suggestions generated — human review required",
+  "assignment": "AarathyU1A1- Linear Regression 1.pdf",
+  "rubric_version": "1.0-assignment-criteria",
+  "evaluated_at": "2026-10-11T08:54:54.448360+00:00",
+  "total_possible": 10,
+  "score_coverage": 5,
+  "ai_provisional_total": 5,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "414, 6, Y house price of unit area, Column 1- X1 transaction date, Column 2- X2 house age, Column 3- X3 distance to the nearest MRT station, Column 4- X4 number of convenience stor"
+        }
+      ],
+      "feedback": "All four dataset questions are answered correctly with clear values and meanings from student work.",
+      "limitations": "None",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "Using the scatter plots between each of the input features (X1-X4) and the output (Y), which input variable, do you think, is better in predicting the output / target variable ?"
+        }
+      ],
+      "feedback": "The student identifies X2 as better but no scatter plots or visual evidence are provided in text; visual confirmation required for plot analysis.",
+      "limitations": "No scatter plot images or visual evidence present in text; reviewer must verify plots on page 5 or embedded_images>0.",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 6,
+          "text": "2. Write code to find out how many samples are there in total in this dataset?  "
+        }
+      ],
+      "feedback": "Student references code for sample count, though code is missing; the answer '414' matches expected output and is stated in response.",
+      "limitations": "No actual code output shown; however, the value 414 is correctly reported in response.",
+      "score": 1,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 6,
+          "text": "Train test split ratio : Train- 70% Test -30%"
+        }
+      ],
+      "feedback": "Train/test split ratio is clearly stated and consistent across all variables with supporting text.",
+      "limitations": "None",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Not Satisfied",
+      "evidence": [
+        {
+          "page": 10,
+          "text": "MAE, MSE and MAPE for X4"
+        }
+      ],
+      "feedback": "No actual computed values for MAE, MSE, or MAPE are provided in student text; only placeholders exist.",
+      "limitations": "No numerical outputs or code showing computed metrics; values not present in text.",
+      "score": 0,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ],
+  "visual_review_required_pages": [
+    3,
+    4
+  ],
+  "safeguards": [
+    "These are AI suggestions, not final grades.",
+    "A reviewer must check cited evidence in the original PDF.",
+    "Plots, screenshots, and image-only pages require visual verification."
+  ]
+}

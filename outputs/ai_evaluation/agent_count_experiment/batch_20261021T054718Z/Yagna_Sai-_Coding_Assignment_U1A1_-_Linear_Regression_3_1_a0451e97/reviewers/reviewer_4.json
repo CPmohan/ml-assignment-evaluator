@@ -1,0 +1,87 @@
+{
+  "reviewer": 4,
+  "seed": 20261020,
+  "elapsed_seconds": 135.412,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "1. How many samples are there? 414 2. How many input variables are there? 6 3. Which column is the output variable? Y house price of unit area 4. What does each of the inputcolumns"
+        }
+      ],
+      "feedback": "Correctly answers all four dataset questions: sample count (414), input variables (6), target variable (Y), and meaning of inputs. No copied text; answers are in student's own words.",
+      "limitations": "None; all text is extractable and directly addresses the required elements in student's own words on page 1. No visual evidence needed for this criterion as all",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Cannot Verify",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "Using the scatter plots between each of the input features (X1-X4) and the output (Y), which input variable, do you think, is better in predicting the output / target variable ?"
+        }
+      ],
+      "feedback": "Student mentions scatter plot analysis and selects a predictor based on plot evidence, but no actual scatter plots or visual output are present in the text or images. The explanation is present but not supported by visible plot evidence. A ",
+      "limitations": "No scatter plots or visual evidence are present in the text or images. The explanation is textual but lacks visual plot data to verify the analysis. A reviewer",
+      "score": 0,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 5,
+          "text": "2. Write code to find out how many samples are there in total in this dataset? "
+        }
+      ],
+      "feedback": "Student correctly states 414 samples. Although code is not visible, the answer is directly stated and matches the expected output. The prompt requires code/output, but the student's answer includes the correct count without code. However, a",
+      "limitations": "No code or output is visible on page 5. The student states the count but does not show code or output. This violates the scoring rule requiring code or output. ",
+      "score": 0,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 6,
+          "text": "I have selected an 80:20 split ratio for the train and test sets."
+        }
+      ],
+      "feedback": "Student clearly states an 80:20 train/test split ratio. This is supported by text and matches the required evidence. No code is needed as the ratio is explicitly stated and valid.",
+      "limitations": "None; the split ratio is clearly stated and verifiable in text. No visual or code evidence is required as the ratio is directly reported.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Not Satisfied",
+      "evidence": [
+        {
+          "page": 6,
+          "text": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean Absolute Percentage Error (MAPE) ."
+        }
+      ],
+      "feedback": "Student mentions computing MAE, MSE, and MAPE but provides no code or output showing the computed values. The values are not reported or verified. No evidence of actual metric computation exists.",
+      "limitations": "No code or output showing MAE, MSE, or MAPE values is present. The student references the computation but does not provide results or supporting output.",
+      "score": 0,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "reviewer": 1,
+  "seed": 20261017,
+  "elapsed_seconds": 209.1,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "414, 6, Y house price of unit area, Column 1- X1 transaction date, Column 2- X2 house age, Column 3- X3 distance to the nearest MRT station, Column 4- X4 number of convenience stor"
+        }
+      ],
+      "feedback": "All four dataset questions are answered correctly: sample count (414), input variables (6), target (Y), and meaning of each input variable. Text is student-generated and matches rubric expectations.",
+      "limitations": "None. All required elements are clearly stated in text on page 2 without reliance on images or external references. Full coverage of expected evidence is met in",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "Using the scatter plots between each of the input features (X1-X4) and the output (Y), which input variable, do you think, is better in predicting the output / target variable ?"
+        }
+      ],
+      "feedback": "The student identifies X2 as better predictor but provides no scatter plot evidence. The rubric requires plot-based explanation; absence of visual plots means analysis cannot be verified. Only predictor selection is present.",
+      "limitations": "No scatter plots are visible or referenced in text. The explanation is based solely on text without plot evidence, making verification impossible.",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 6,
+          "text": "2. Write code to find out how many samples are there in total in this dataset?  "
+        }
+      ],
+      "feedback": "The student addresses the sample count question and states 414. Though code is missing, the prompt asks for code or calculation, and the answer includes the correct value. The response is in student text and matches expected output.",
+      "limitations": "No actual code is shown. However, the student correctly states the sample count (414) in response to the question, fulfilling the rubric requirement without a c",
+      "score": 1,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 6,
+          "text": "Train test split ratio : Train- 70% Test -30%"
+        }
+      ],
+      "feedback": "The student clearly states a train/test split ratio (70:30) and includes it in response to the question. This satisfies the rubric requirement for a reported ratio with code or output support, even if code is not shown.",
+      "limitations": "No code is provided for the split. However, the ratio is explicitly stated and matches the expected format. The rubric does not require code, only a reported,清晰",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 9,
+          "text": "MAE, MSE and MAPE for X1"
+        }
+      ],
+      "feedback": "The student lists MAE, MSE, and MAPE for each X1-X4, but no actual computed values or supporting code/output are provided. The rubric requires computed metrics with supporting evidence; values are not present or verifiable.",
+      "limitations": "No computed values or code for MAE, MSE, or MAPE are shown. The student references a sample link but does not compute or report values. Metrics are listed but未经",
+      "score": 1,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ]
+}

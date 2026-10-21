@@ -1,0 +1,97 @@
+{
+  "status": "AI rubric suggestions generated — human review required",
+  "assignment": "Jisha ML.pdf",
+  "rubric_version": "1.0-assignment-criteria",
+  "evaluated_at": "2026-10-11T09:38:03.508618+00:00",
+  "total_possible": 10,
+  "score_coverage": 5,
+  "ai_provisional_total": 6,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "1. How many samples are there? << 414 >> 2. How many input variables are there? << 6 >> 3. Which column is the output variable? << y house price of unit area >> 4. What does eachof"
+        }
+      ],
+      "feedback": "All four dataset questions are correctly answered with specific values and meanings from student work on page 1.",
+      "limitations": "None",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "plt.scatter(x1,y)... plt.scatter(x4,y) ... Distance to the nearest MRT station: This can better predict the model because most of the samples are clustered together in the begin..."
+        }
+      ],
+      "feedback": "Scatter plots for X1-X4 vs Y are present and a predictor is selected with explanation, but no visual plot evidence is provided for verification.",
+      "limitations": "Visual plot evidence not extractable; explanation is text-based but lacks image confirmation.",
+      "score": 3,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 4,
+          "text": "Write code to find out how many samples are there in total in this dataset?"
+        }
+      ],
+      "feedback": "Student states 414 samples, and code is implied though not shown; output is stated, meeting expected evidence.",
+      "limitations": "No visible code or output snippet on page 4; inference based on stated value only.",
+      "score": 1,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 4,
+          "text": "The train test split ratio selected is 70:30"
+        }
+      ],
+      "feedback": "Train/test ratio of 70:30 is clearly stated and matches expected format; no code required as ratio is explicitly reported.",
+      "limitations": "None",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 5,
+          "text": "Evaluate the linear regression model by computing the MAE, MSE and MAPE"
+        }
+      ],
+      "feedback": "MAE, MSE, and MAPE are mentioned, but no computed values or supporting code/output are provided in text or image.",
+      "limitations": "No computed metric values or output shown; student only references the formula.",
+      "score": 0,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ],
+  "visual_review_required_pages": [],
+  "safeguards": [
+    "These are AI suggestions, not final grades.",
+    "A reviewer must check cited evidence in the original PDF.",
+    "Plots, screenshots, and image-only pages require visual verification."
+  ]
+}

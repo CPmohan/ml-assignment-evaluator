@@ -1,0 +1,24 @@
+{
+  "experiment_id": "20261021T073757Z",
+  "assignment": "Harsha - Coding Assignment U1A1 - Linear Regression (3) 2.pdf",
+  "assignment_sha256": "d4cb131e97ccd6eea3914d9e41ccfe7c7482b3b1910a8f743e5ac24d3ee0b369",
+  "rubric_path": "C:\\Users\\kisho\\ml_assignment_evaluator\\rubric.json",
+  "rubric_version": "1.0-assignment-criteria",
+  "model": "qwen3:4b-instruct",
+  "temperature": 0.2,
+  "first_seed": 20261017,
+  "max_agents": 4,
+  "status": "completed",
+  "visual_review_required_pages": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "started_at": "2026-10-21T07:37:57.840077+00:00",
+  "reviewers_completed": 4,
+  "finished_at": "2026-10-21T07:43:25.015965+00:00",
+  "total_elapsed_seconds": 327.148,
+  "comparison_csv": "agent_count_comparison.csv",
+  "comparison_markdown": "agent_count_comparison.md"
+}

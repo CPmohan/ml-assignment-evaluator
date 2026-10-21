@@ -1,0 +1,473 @@
+{
+  "status": "AI suggestions — human review required",
+  "experiment_id": "20261021T063357Z",
+  "assignment": "Arjun K Ashok - Coding Assignment U1A1 - Linear Regression.pdf",
+  "assignment_sha256": "6648b3bbbcfa57f0294f6710025e06d9ac44196135b8308ce3fca902a174b391",
+  "rubric_version": "1.0-assignment-criteria",
+  "model": "qwen3:4b-instruct",
+  "temperature": 0.2,
+  "reviewers": [
+    {
+      "reviewer": 1,
+      "seed": 20261017,
+      "elapsed_seconds": 136.688,
+      "criteria": [
+        {
+          "criterion_id": "Q1",
+          "decision": "Satisfied",
+          "evidence": [
+            {
+              "page": 1,
+              "text": "1. How many samples are there? 414 2. How many input variables are there? 6 3. Which column is the output variable (target outcome)? 7- Y House price of unit area. 4. What doeseach"
+            }
+          ],
+          "feedback": "Correctly answers all four dataset questions: sample count (414), input variables (6), target variable (Y), and meaning of each input variable. No copied text; answers are student-generated.",
+          "limitations": "None; all text is present and verifiable in the submission text on page 1.",
+          "score": 1,
+          "criterion_name": "Dataset understanding",
+          "max_score": 1,
+          "score_status": "AI suggestion — reviewer approval required"
+        },
+        {
+          "criterion_id": "Q2",
+          "decision": "Cannot Verify",
+          "evidence": [
+            {
+              "page": 2,
+              "text": "Of the given input variables \"distance to the metro station\" has a good correlation with the given target variable."
+            }
+          ],
+          "feedback": "Student identifies a predictor but no scatter plots are present or visible in text. The explanation is based on plot evidence that is not verifiable in the text or images. Cannot confirm plot analysis or visual correlation.",
+          "limitations": "No scatter plots or visual evidence provided; text extraction omits embedded images. A reviewer must visually confirm the plots to verify the analysis.",
+          "score": 0,
+          "criterion_name": "Scatter-plot analysis and predictor selection",
+          "max_score": 4,
+          "score_status": "AI suggestion — reviewer approval required"
+        },
+        {
+          "criterion_id": "Q3",
+          "decision": "Partially Satisfied",
+          "evidence": [
+            {
+              "page": 3,
+              "text": "2. Write code to find out how many samples are there in total in this dataset? "
+            }
+          ],
+          "feedback": "Student states 414 samples, but no code or output showing the computation (e.g., len() or count) is provided. The answer lacks supporting code or output as required by the rubric.",
+          "limitations": "No code or output visible in text; student mentions the number but does not show how it was computed.",
+          "score": 0,
+          "criterion_name": "Number of samples",
+          "max_score": 1,
+          "score_status": "AI suggestion — reviewer approval required"
+        },
+        {
+          "criterion_id": "Q4",
+          "decision": "Satisfied",
+          "evidence": [
+            {
+              "page": 3,
+              "text": "Train- test split ratio= 0.75/0.25 = 75% train data-25% test data"
+            }
+          ],
+          "feedback": "Clearly states a train/test split ratio (75%/25%) and provides a rationale. The split is supported by text and matches the expected format; no code is required as per rubric flexibility.",
+          "limitations": "None; the split is explicitly stated and verifiable in text.",
+          "score": 1,
+          "criterion_name": "Train/test split",
+          "max_score": 1,
+          "score_status": "AI suggestion — reviewer approval required"
+        },
+        {
+          "criterion_id": "Q5",
+          "decision": "Not Satisfied",
+          "evidence": [
+            {
+              "page": 4,
+              "text": "Evaluate the linear regression model by computing the MAE, MSE and Mean Absolute Percentage Error (MAPE)."
+            }
+          ],
+          "feedback": "Student mentions MAE, MSE, and MAPE but provides no code, output, or computed values. No evidence of actual computation or results as required by the rubric.",
+          "limitations": "No computed values or code output visible; student only references the metrics without implementation or results.",
+          "score": 0,
+          "criterion_name": "Regression model evaluation",
+          "max_score": 3,
+          "score_status": "AI suggestion — reviewer approval required"
+        }
+      ]
+    },
+    {
+      "reviewer": 2,
+      "seed": 20261018,
+      "elapsed_seconds": 125.012,
+      "criteria": [
+        {
+          "criterion_id": "Q1",
+          "decision": "Satisfied",
+          "evidence": [
+            {
+              "page": 1,
+              "text": "1. How many samples are there? 414 2. How many input variables are there? 6 3. Which column is the output variable (target outcome)? 7- Y House price of unit area. 4. What doeseach"
+            }
+          ],
+          "feedback": "Correctly answers sample count (414), input variables (6), target variable (Y), and meaning of each input variable. All four expected elements are present in student text.",
+          "limitations": "None; text extraction fully captures all required dataset understanding elements from page 1 text and structure.",
+          "score": 1,
+          "criterion_name": "Dataset understanding",
+          "max_score": 1,
+          "score_status": "AI suggestion — reviewer approval required"
+        },
+        {
+          "criterion_id": "Q2",
+          "decision": "Cannot Verify",
+          "evidence": [
+            {
+              "page": 2,
+              "text": "Of the given input variables \"distance to the metro station\" has a good correlation with the given target variable."
+            }
+          ],
+          "feedback": "Student identifies a predictor but no scatter plots are visible or referenced. The explanation is present, but plot evidence is missing or not extractable; visual confirmation required to verify scatter plot analysis.",
+          "limitations": "No scatter plots or visual evidence present in text; page 2 contains only text-based explanation without plot or code output.",
+          "score": 0,
+          "criterion_name": "Scatter-plot analysis and predictor selection",
+          "max_score": 4,
+          "score_status": "AI suggestion — reviewer approval required"
+        },
+        {
+          "criterion_id": "Q3",
+          "decision": "Satisfied",
+          "evidence": [
+            {
+              "page": 3,
+              "text": "2. Write code to find out how many samples are there in total in this dataset? "
+            }
+          ],
+          "feedback": "Student states 414 samples, and while code is not shown, the prompt requires only the count and output. The value 414 is correctly stated and matches expected output; no code is needed per rubric if value is correct and stated.",
+          "limitations": "No code or output shown; however, the stated value 414 is correct and matches expected output, satisfying the rubric without requiring visible code.",
+          "score": 1,
+          "criterion_name": "Number of samples",
+          "max_score": 1,
+          "score_status": "AI suggestion — reviewer approval required"
+        },
+        {
+          "criterion_id": "Q4",
+          "decision": "Satisfied",
+          "evidence": [
+            {
+              "page": 3,
+              "text": "Train- test split ratio= 0.75/0.25 = 75% train data-25% test data"
+            }
+          ],
+          "feedback": "Student clearly states a train/test split ratio (75%/25%) and provides a clear rationale. This meets the rubric requirement for a reported split ratio with code or output, even if code is not visible.",
+          "limitations": "No code or output shown, but the split ratio is clearly stated and valid; rubric does not require code if ratio is reported.",
+          "score": 1,
+          "criterion_name": "Train/test split",
+          "max_score": 1,
+          "score_status": "AI suggestion — reviewer approval required"
+        },
+        {
+          "criterion_id": "Q5",
+          "decision": "Cannot Verify",
+          "evidence": [
+            {
+              "page": 4,
+              "text": "Evaluate the linear regression model by computing the MAE, MSE and Mean Absolute Percentage Error (MAPE)."
+            }
+          ],
+          "feedback": "Student mentions computing MAE, MSE, and MAPE but provides no values or code output. No computed metrics are shown, so evaluation cannot be verified; values are not present in text or images.",
+          "limitations": "No computed values or code output for MAE, MSE, or MAPE; student only references the metrics without reporting results.",
+          "score": 0,
+          "criterion_name": "Regression model evaluation",
+          "max_score": 3,
+          "score_status": "AI suggestion — reviewer approval required"
+        }
+      ]
+    },
+    {
+      "reviewer": 3,
+      "seed": 20261019,
+      "elapsed_seconds": 125.089,
+      "criteria": [
+        {
+          "criterion_id": "Q1",
+          "decision": "Satisfied",
+          "evidence": [
+            {
+              "page": 1,
+              "text": "1. How many samples are there? 414 2. How many input variables are there? 6 3. Which column is the output variable (target outcome)? 7- Y House price of unit area. 4. What doeseach"
+            }
+          ],
+          "feedback": "Correctly answers sample count (414), input variables (6), target variable (Y), and meaning of each input variable. All four expected elements are present in student text.",
+          "limitations": "None; text extraction fully captures all required dataset understanding elements from page 1 text and structure.",
+          "score": 1,
+          "criterion_name": "Dataset understanding",
+          "max_score": 1,
+          "score_status": "AI suggestion — reviewer approval required"
+        },
+        {
+          "criterion_id": "Q2",
+          "decision": "Cannot Verify",
+          "evidence": [
+            {
+              "page": 2,
+              "text": "Of the given input variables \"distance to the metro station\" has a good correlation with the given target variable."
+            }
+          ],
+          "feedback": "Student states a predictor selection but no scatter plots are visible or referenced. Plot evidence is missing; explanation lacks visual support from plots as required by rubric.",
+          "limitations": "Page 2 contains no scatter plot or image; text extraction omits visual evidence of scatter plots between X1-X4 and Y.",
+          "score": 0,
+          "criterion_name": "Scatter-plot analysis and predictor selection",
+          "max_score": 4,
+          "score_status": "AI suggestion — reviewer approval required"
+        },
+        {
+          "criterion_id": "Q3",
+          "decision": "Satisfied",
+          "evidence": [
+            {
+              "page": 3,
+              "text": "2. Write code to find out how many samples are there in total in this dataset? "
+            }
+          ],
+          "feedback": "Student correctly states 414 samples, and the question implies code execution; though code is missing, the answer matches expected output and is directly stated in response to the prompt.",
+          "limitations": "No code or output is visible on page 3; however, the stated result (414) is correct and directly answers the query without copying.",
+          "score": 1,
+          "criterion_name": "Number of samples",
+          "max_score": 1,
+          "score_status": "AI suggestion — reviewer approval required"
+        },
+        {
+          "criterion_id": "Q4",
+          "decision": "Satisfied",
+          "evidence": [
+            {
+              "page": 3,
+              "text": "Train- test split ratio= 0.75/0.25 = 75% train data-25% test data"
+            }
+          ],
+          "feedback": "Student clearly states a train/test split ratio (75%/25%) and provides a rationale. This meets the rubric requirement for a reported split ratio with clear evidence.",
+          "limitations": "None; the split ratio is explicitly stated and verifiable from text.",
+          "score": 1,
+          "criterion_name": "Train/test split",
+          "max_score": 1,
+          "score_status": "AI suggestion — reviewer approval required"
+        },
+        {
+          "criterion_id": "Q5",
+          "decision": "Cannot Verify",
+          "evidence": [
+            {
+              "page": 4,
+              "text": "Evaluate the linear regression model by computing the MAE, MSE and Mean Absolute Percentage Error (MAPE)."
+            }
+          ],
+          "feedback": "Student mentions MAE, MSE, and MAPE but provides no computed values or supporting code/output. Values are not reported or verified in text or images.",
+          "limitations": "No computed MAE, MSE, or MAPE values or code output are present; student only references the metrics without actual results.",
+          "score": 0,
+          "criterion_name": "Regression model evaluation",
+          "max_score": 3,
+          "score_status": "AI suggestion — reviewer approval required"
+        }
+      ]
+    }
+  ],
+  "agent_count": 3,
+  "aggregation": "per-criterion mode; ties resolve to the lower score",
+  "ai_provisional_total": 3,
+  "total_possible": 10,
+  "overall_criterion_agreement": 0.9333333333333333,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "1. How many samples are there? 414 2. How many input variables are there? 6 3. Which column is the output variable (target outcome)? 7- Y House price of unit area. 4. What doeseach"
+        }
+      ],
+      "feedback": "Correctly answers all four dataset questions: sample count (414), input variables (6), target variable (Y), and meaning of each input variable. No copied text; answers are student-generated.",
+      "limitations": "None; all text is present and verifiable in the submission text on page 1.",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required",
+      "reviewer_scores": [
+        {
+          "reviewer": 1,
+          "score": 1
+        },
+        {
+          "reviewer": 2,
+          "score": 1
+        },
+        {
+          "reviewer": 3,
+          "score": 1
+        }
+      ],
+      "agreement_votes": 3,
+      "valid_votes": 3,
+      "agreement_ratio": 1.0,
+      "score_range": [
+        1,
+        1
+      ]
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Cannot Verify",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "Of the given input variables \"distance to the metro station\" has a good correlation with the given target variable."
+        }
+      ],
+      "feedback": "Student identifies a predictor but no scatter plots are present or visible in text. The explanation is based on plot evidence that is not verifiable in the text or images. Cannot confirm plot analysis or visual correlation.",
+      "limitations": "No scatter plots or visual evidence provided; text extraction omits embedded images. A reviewer must visually confirm the plots to verify the analysis.",
+      "score": 0,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required",
+      "reviewer_scores": [
+        {
+          "reviewer": 1,
+          "score": 0
+        },
+        {
+          "reviewer": 2,
+          "score": 0
+        },
+        {
+          "reviewer": 3,
+          "score": 0
+        }
+      ],
+      "agreement_votes": 3,
+      "valid_votes": 3,
+      "agreement_ratio": 1.0,
+      "score_range": [
+        0,
+        0
+      ]
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "2. Write code to find out how many samples are there in total in this dataset? "
+        }
+      ],
+      "feedback": "Student states 414 samples, and while code is not shown, the prompt requires only the count and output. The value 414 is correctly stated and matches expected output; no code is needed per rubric if value is correct and stated.",
+      "limitations": "No code or output shown; however, the stated value 414 is correct and matches expected output, satisfying the rubric without requiring visible code.",
+      "score": 1,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required",
+      "reviewer_scores": [
+        {
+          "reviewer": 1,
+          "score": 0
+        },
+        {
+          "reviewer": 2,
+          "score": 1
+        },
+        {
+          "reviewer": 3,
+          "score": 1
+        }
+      ],
+      "agreement_votes": 2,
+      "valid_votes": 3,
+      "agreement_ratio": 0.6666666666666666,
+      "score_range": [
+        0,
+        1
+      ]
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "Train- test split ratio= 0.75/0.25 = 75% train data-25% test data"
+        }
+      ],
+      "feedback": "Clearly states a train/test split ratio (75%/25%) and provides a rationale. The split is supported by text and matches the expected format; no code is required as per rubric flexibility.",
+      "limitations": "None; the split is explicitly stated and verifiable in text.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required",
+      "reviewer_scores": [
+        {
+          "reviewer": 1,
+          "score": 1
+        },
+        {
+          "reviewer": 2,
+          "score": 1
+        },
+        {
+          "reviewer": 3,
+          "score": 1
+        }
+      ],
+      "agreement_votes": 3,
+      "valid_votes": 3,
+      "agreement_ratio": 1.0,
+      "score_range": [
+        1,
+        1
+      ]
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Not Satisfied",
+      "evidence": [
+        {
+          "page": 4,
+          "text": "Evaluate the linear regression model by computing the MAE, MSE and Mean Absolute Percentage Error (MAPE)."
+        }
+      ],
+      "feedback": "Student mentions MAE, MSE, and MAPE but provides no code, output, or computed values. No evidence of actual computation or results as required by the rubric.",
+      "limitations": "No computed values or code output visible; student only references the metrics without implementation or results.",
+      "score": 0,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required",
+      "reviewer_scores": [
+        {
+          "reviewer": 1,
+          "score": 0
+        },
+        {
+          "reviewer": 2,
+          "score": 0
+        },
+        {
+          "reviewer": 3,
+          "score": 0
+        }
+      ],
+      "agreement_votes": 3,
+      "valid_votes": 3,
+      "agreement_ratio": 1.0,
+      "score_range": [
+        0,
+        0
+      ]
+    }
+  ],
+  "visual_review_required_pages": [
+    3,
+    4
+  ],
+  "limitations": [
+    "Each reviewer is a separate seeded request to the same Ollama model, not a separate model process.",
+    "Reviewer agreement is not evidence of correctness or human agreement.",
+    "A human must verify cited evidence and image-only content against the original PDF."
+  ]
+}

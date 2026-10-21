@@ -1,0 +1,259 @@
+{
+  "filename": "Yagna Sai- Coding Assignment U1A1 - Linear Regression (3) (1).pdf",
+  "section_a": [
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "v file, and open it in your computer and analyze the data. \nTry to understand what the data is about. Read through the data description \ngiven \nin \nthe \nUCI \nwebsite \nas \nwell. \n \nSection A \nAnswer the following questions [1 mark if you answer all the below \nquestions] : \n1. How many samples are there? \n414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \nY house price of unit area \n4. What does each of the input columns mean ? \nThe input columns describe characteristics or features of the Real \nestate asset. \n \nSection B \nFor each of the questions below, you need to put in the screenshot of the code \nand its output.",
+      "matched_pattern": "\\bsection\\s*a\\b"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "bout. Read through the data description \ngiven \nin \nthe \nUCI \nwebsite \nas \nwell. \n \nSection A \nAnswer the following questions [1 mark if you answer all the below \nquestions] : \n1. How many samples are there? \n414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \nY house price of unit area \n4. What does each of the input columns mean ? \nThe input columns describe characteristics or features of the Real \nestate asset. \n \nSection B \nFor each of the questions below, you need to put in the screenshot of the code \nand its output. You could use the sample google colab file that is provided with \nthis assignment.",
+      "matched_pattern": "how\\s+many\\s+samples"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "in \nthe \nUCI \nwebsite \nas \nwell. \n \nSection A \nAnswer the following questions [1 mark if you answer all the below \nquestions] : \n1. How many samples are there? \n414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \nY house price of unit area \n4. What does each of the input columns mean ? \nThe input columns describe characteristics or features of the Real \nestate asset. \n \nSection B \nFor each of the questions below, you need to put in the screenshot of the code \nand its output. You could use the sample google colab file that is provided with \nthis assignment.",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " mark if you answer all the below \nquestions] : \n1. How many samples are there? \n414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \nY house price of unit area \n4. What does each of the input columns mean ? \nThe input columns describe characteristics or features of the Real \nestate asset. \n \nSection B \nFor each of the questions below, you need to put in the screenshot of the code \nand its output. You could use the sample google colab file that is provided with \nthis assignment.",
+      "matched_pattern": "target\\s+outcome"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " there? \n414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \nY house price of unit area \n4. What does each of the input columns mean ? \nThe input columns describe characteristics or features of the Real \nestate asset. \n \nSection B \nFor each of the questions below, you need to put in the screenshot of the code \nand its output. You could use the sample google colab file that is provided with \nthis assignment.",
+      "matched_pattern": "input\\s+columns?\\s+mean"
+    },
+    {
+      "label": "section_a",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 2/7 \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the \noutput / target variable ?",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 2/7 \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the \noutput / target variable ?",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 5,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "living area have led to a \nmore linear growth in the cost of a unit area housing. \n There doesn't seem to be a lot of variation in the remaining plots. \n2. Write code to find out how many samples are there in total in this dataset? [1 \nmark] \n \n \n3. What is the train test split ratio that you have chosen ? [1 Mark]",
+      "matched_pattern": "how\\s+many\\s+samples"
+    }
+  ],
+  "scatter_analysis": [
+    {
+      "label": "scatter_analysis",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 2/7 \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the \noutput / target variable ?",
+      "matched_pattern": "scatter\\s*plot"
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the \noutput / target variable ?",
+      "matched_pattern": "better\\s+(?:in\\s+)?predicting"
+    }
+  ],
+  "sample_count": [],
+  "train_test_split": [
+    {
+      "label": "train_test_split",
+      "page": 6,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 6/7 \n \nI have selected an 80:20 split ratio for the train and test sets. \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percentage_\nerror.html)  \n[3 marks] \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \n Discovered how to build code to create the csv file shown below ",
+      "value": "6/7",
+      "uncertain": true
+    },
+    {
+      "label": "train_test_split",
+      "page": 6,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 6/7 \n \nI have selected an 80:20 split ratio for the train and test sets. \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percentage_\nerror.html)  \n[3 marks] \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \n Discovered how to build code to create the csv file shown below from \nan xlsx file. given th",
+      "value": "80:20",
+      "uncertain": true
+    }
+  ],
+  "reflection": [
+    {
+      "label": "reflection",
+      "page": 6,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "ror (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percentage_\nerror.html)  \n[3 marks] \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \n Discovered how to build code to create the csv file shown below from \nan xlsx file. given that the provided file is in ‘xlsx’ format. \n I now know how to analyze the data and use it to draw conclusions \nthat are useful in real-world situations  \n Learned how to train and test models in the dataset. \nGrading Scheme (Total 10 Marks) \nTime - 4 hours max. \nSubmission \non \nTeams \nby \n11.30 \nPM, \n20 \nFeb \n2024. \nLate \nsubmissions \nare \nNOT \nallowed. \n \nPlag",
+      "matched_pattern": "what.*learned"
+    },
+    {
+      "label": "reflection",
+      "page": 6,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percentage_\nerror.html)  \n[3 marks] \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \n Discovered how to build code to create the csv file shown below from \nan xlsx file. given that the provided file is in ‘xlsx’ format. \n I now know how to analyze the data and use it to draw conclusions \nthat are useful in real-world situations  \n Learned how to train and test models in the dataset. \nGrading Scheme (Total 10 Marks) \nTime - 4 hours max. \nSubmission \non \nTeams \nby \n11.30 \nPM, \n20 \nFeb \n2024. \nLate \nsubmissions \nare \nNOT \nallowed. \n \nPlag",
+      "matched_pattern": "\\blearned\\b"
+    },
+    {
+      "label": "reflection",
+      "page": 6,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "\nan xlsx file. given that the provided file is in ‘xlsx’ format. \n I now know how to analyze the data and use it to draw conclusions \nthat are useful in real-world situations  \n Learned how to train and test models in the dataset. \nGrading Scheme (Total 10 Marks) \nTime - 4 hours max. \nSubmission \non \nTeams \nby \n11.30 \nPM, \n20 \nFeb \n2024. \nLate \nsubmissions \nare \nNOT \nallowed. \n \nPlagiarism Policy",
+      "matched_pattern": "\\blearned\\b"
+    }
+  ],
+  "metrics": {
+    "MAE": [
+      {
+        "label": "MAE",
+        "page": 6,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "plit ratio for the train and test sets. \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percentage_\nerror.html)  \n[3 marks] \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \n Discovered how to build code to create the csv ",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean ",
+        "value": null,
+        "needs_review": true
+      }
+    ],
+    "MSE": [
+      {
+        "label": "MSE",
+        "page": 6,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "ratio for the train and test sets. \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percentage_\nerror.html)  \n[3 marks] \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \n Discovered how to build code to create the csv file ",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean ",
+        "value": null,
+        "needs_review": true
+      }
+    ],
+    "MAPE": [
+      {
+        "label": "MAPE",
+        "page": 6,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "r the train and test sets. \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percentage_\nerror.html)  \n[3 marks] \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \n Discovered how to build code to create the csv file shown below from \nan xlsx file. give",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 6,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percentage_\nerror.html)  \n[3 marks] \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \n Discovered how to build code to create the csv file shown below from \nan xlsx file. given that",
+        "line_or_table_context": "Absolute Percentage Error (MAPE) . ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 6,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "inear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percentage_\nerror.html)  \n[3 marks] \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \n Discovered how to build code to create the csv file shown below from \nan xlsx file. given that the provided ",
+        "line_or_table_context": "(for MAPE - pls refer to the sample here - https://scikit-",
+        "value": null,
+        "needs_review": true
+      }
+    ]
+  },
+  "evidence_gaps": [
+    "No captured text matched sample_count. This does not show that the student omitted it; it may be in an image or screenshot.",
+    "No explicit MAE value was confidently linked to captured text. It may be in an image or require visual OCR review.",
+    "No explicit MSE value was confidently linked to captured text. It may be in an image or require visual OCR review.",
+    "No explicit MAPE value was confidently linked to captured text. It may be in an image or require visual OCR review."
+  ],
+  "uncertain_ocr_evidence": []
+}

@@ -1,0 +1,62 @@
+{
+  "filename": "AarathyU1A1- Linear Regression 1.pdf",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "ASSIGNMENT 1 \n \n23GE613 – Applied Machine Learning \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n    Aarathi R \nAM.EN.P2GEO22009",
+      "image_count": 0
+    },
+    {
+      "page": 2,
+      "text": "Section A \nAnswer the following questions: \n \n1. How many samples are there? \n 414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \nY house price of unit area \n4. What \ndoes \neach \nof \nthe \ninput \ncolumns \nmean \n? \nColumn 1- X1 transaction date \nColumn 2- X2 house age \nColumn 3- X3 distance to the nearest MRT station \nColumn 4- X4 number of convenience stores \nColumn 5- X5 latitude \nColumn6- X6 longitude \n \n \n \nSection B \n \n \n1. Understanding the dataset  \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable ?",
+      "image_count": 0
+    },
+    {
+      "page": 3,
+      "text": "",
+      "image_count": 2
+    },
+    {
+      "page": 4,
+      "text": "",
+      "image_count": 1
+    },
+    {
+      "page": 5,
+      "text": "The input variable “ X2 house age” is better in predicting the output / target \nvariable",
+      "image_count": 1
+    },
+    {
+      "page": 6,
+      "text": "2. Write code to find out how many samples are there in total in this dataset?  \n \n \n \n \n3. What is the train test split ratio that you have chosen ? \n \n \nTrain test split ratio :   \n \nTrain- 70%   \nTest -30%",
+      "image_count": 2
+    },
+    {
+      "page": 7,
+      "text": "Train test split ratio for X2:   \n \nTrain- 70%   \nTest -30% \n \n \n \n \nTrain test split ratio for X3:   \n \nTrain- 70%   \nTest -30%",
+      "image_count": 2
+    },
+    {
+      "page": 8,
+      "text": "Train test split ratio for X4:   \n \nTrain- 70%   \nTest -30% \n \n \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percenta\nge_error.html)",
+      "image_count": 1
+    },
+    {
+      "page": 9,
+      "text": "MAE, MSE and MAPE for X1 \n \n \n \nMAE, MSE and MAPE for X2",
+      "image_count": 2
+    },
+    {
+      "page": 10,
+      "text": "MAE, MSE and MAPE for X3 \n \n \n \nMAE, MSE and MAPE for X4",
+      "image_count": 2
+    },
+    {
+      "page": 11,
+      "text": "5. What are the 3 new things that you learned after you completed this \nassignment ? \n \n \n Calculating MAPE \n Learned how to train and test the model \n Learned how to create a model with multiple input variables",
+      "image_count": 0
+    }
+  ],
+  "text": "ASSIGNMENT 1 \n \n23GE613 – Applied Machine Learning \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n    Aarathi R \nAM.EN.P2GEO22009\n\nSection A \nAnswer the following questions: \n \n1. How many samples are there? \n 414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \nY house price of unit area \n4. What \ndoes \neach \nof \nthe \ninput \ncolumns \nmean \n? \nColumn 1- X1 transaction date \nColumn 2- X2 house age \nColumn 3- X3 distance to the nearest MRT station \nColumn 4- X4 number of convenience stores \nColumn 5- X5 latitude \nColumn6- X6 longitude \n \n \n \nSection B \n \n \n1. Understanding the dataset  \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable ?\n\n\n\n\n\nThe input variable “ X2 house age” is better in predicting the output / target \nvariable\n\n2. Write code to find out how many samples are there in total in this dataset?  \n \n \n \n \n3. What is the train test split ratio that you have chosen ? \n \n \nTrain test split ratio :   \n \nTrain- 70%   \nTest -30%\n\nTrain test split ratio for X2:   \n \nTrain- 70%   \nTest -30% \n \n \n \n \nTrain test split ratio for X3:   \n \nTrain- 70%   \nTest -30%\n\nTrain test split ratio for X4:   \n \nTrain- 70%   \nTest -30% \n \n \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percenta\nge_error.html)\n\nMAE, MSE and MAPE for X1 \n \n \n \nMAE, MSE and MAPE for X2\n\nMAE, MSE and MAPE for X3 \n \n \n \nMAE, MSE and MAPE for X4\n\n5. What are the 3 new things that you learned after you completed this \nassignment ? \n \n \n Calculating MAPE \n Learned how to train and test the model \n Learned how to create a model with multiple input variables"
+}

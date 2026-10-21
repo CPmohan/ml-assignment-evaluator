@@ -1,0 +1,262 @@
+{
+  "status": "AI suggestions — human review required",
+  "experiment_id": "20261021T083500Z",
+  "assignment": "Reema - Coding Assignment U1A1 - Linear Regression -Updated.pdf",
+  "assignment_sha256": "8582ba64a5445dcb36795195d97c60e411fc4f3f03d28b62860fb2506b071340",
+  "rubric_version": "1.0-assignment-criteria",
+  "model": "qwen3:4b-instruct",
+  "temperature": 0.2,
+  "reviewers": [
+    {
+      "reviewer": 1,
+      "seed": 20261017,
+      "elapsed_seconds": 186.901,
+      "criteria": [
+        {
+          "criterion_id": "Q1",
+          "decision": "Satisfied",
+          "evidence": [
+            {
+              "page": 1,
+              "text": "1. How many samples are there? 414 2. How many input variables are there? 6 3. Which column is the output variable (target outcome)? Y,House price 4. What does each of the input柱s "
+            }
+          ],
+          "feedback": "All four dataset questions are answered correctly: sample count (414), input variables (6), target variable (Y), and meaning (features of dataset). No copied text; answer is student-generated.",
+          "limitations": "No visual plots or code snippets provided on page 2; extraction may miss full variable meanings, but text implies understanding of input features as dataset 're",
+          "score": 1,
+          "criterion_name": "Dataset understanding",
+          "max_score": 1,
+          "score_status": "AI suggestion — reviewer approval required"
+        },
+        {
+          "criterion_id": "Q2",
+          "decision": "Cannot Verify",
+          "evidence": [
+            {
+              "page": 2,
+              "text": "Ans: 2nd Picture-Because typically, the variable where the data points are more tightly clustered around a line is better for prediction."
+            }
+          ],
+          "feedback": "Student references a '2nd Picture' but no image is present or extractable. No scatter plots or visual evidence shown. Explanation is given but lacks plot support; cannot verify plot-based reasoning.",
+          "limitations": "Embedded image placeholder present on page 2; text extraction omits visual plots; no actual plot or labeling visible in text.",
+          "score": 0,
+          "criterion_name": "Scatter-plot analysis and predictor selection",
+          "max_score": 4,
+          "score_status": "AI suggestion — reviewer approval required"
+        },
+        {
+          "criterion_id": "Q3",
+          "decision": "Satisfied",
+          "evidence": [
+            {
+              "page": 3,
+              "text": "Write code to find out how many samples are there in total in this dataset? [1 mark]"
+            }
+          ],
+          "feedback": "Student states 414 samples. While code snippet is missing, the answer matches expected output. No code shown, but value is correctly stated and matches dataset size; rubric requires output, not just answer.",
+          "limitations": "No code or output screenshot present; student answer is correct but unsupported by visible code execution.",
+          "score": 0,
+          "criterion_name": "Number of samples",
+          "max_score": 1,
+          "score_status": "AI suggestion — reviewer approval required"
+        },
+        {
+          "criterion_id": "Q4",
+          "decision": "Satisfied",
+          "evidence": [
+            {
+              "page": 3,
+              "text": "20% Test,80 % Train."
+            }
+          ],
+          "feedback": "Train/test split ratio (80:20) is clearly stated and matches common practice. No code shown, but ratio is explicitly reported and meets rubric requirement for stated ratio.",
+          "limitations": "No code snippet or output visible; however, ratio is correctly stated and meets criteria without needing code output.",
+          "score": 1,
+          "criterion_name": "Train/test split",
+          "max_score": 1,
+          "score_status": "AI suggestion — reviewer approval required"
+        },
+        {
+          "criterion_id": "Q5",
+          "decision": "Satisfied",
+          "evidence": [
+            {
+              "page": 4,
+              "text": "MAE: 6.0647... MAPE: 0.2115... MAPE: 0.2937..."
+            }
+          ],
+          "feedback": "Student computes and reports MAE, MSE, and MAPE for multiple combinations. Values are specific and not copied; metrics are correctly identified and reported with numerical outputs.",
+          "limitations": "No code or output screenshot provided; however, values are listed and match evaluation metrics; student work shows computation.",
+          "score": 3,
+          "criterion_name": "Regression model evaluation",
+          "max_score": 3,
+          "score_status": "AI suggestion — reviewer approval required"
+        }
+      ]
+    }
+  ],
+  "agent_count": 1,
+  "aggregation": "per-criterion mode; ties resolve to the lower score",
+  "ai_provisional_total": 5,
+  "total_possible": 10,
+  "overall_criterion_agreement": 1.0,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "1. How many samples are there? 414 2. How many input variables are there? 6 3. Which column is the output variable (target outcome)? Y,House price 4. What does each of the input柱s "
+        }
+      ],
+      "feedback": "All four dataset questions are answered correctly: sample count (414), input variables (6), target variable (Y), and meaning (features of dataset). No copied text; answer is student-generated.",
+      "limitations": "No visual plots or code snippets provided on page 2; extraction may miss full variable meanings, but text implies understanding of input features as dataset 're",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required",
+      "reviewer_scores": [
+        {
+          "reviewer": 1,
+          "score": 1
+        }
+      ],
+      "agreement_votes": 1,
+      "valid_votes": 1,
+      "agreement_ratio": 1.0,
+      "score_range": [
+        1,
+        1
+      ]
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Cannot Verify",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "Ans: 2nd Picture-Because typically, the variable where the data points are more tightly clustered around a line is better for prediction."
+        }
+      ],
+      "feedback": "Student references a '2nd Picture' but no image is present or extractable. No scatter plots or visual evidence shown. Explanation is given but lacks plot support; cannot verify plot-based reasoning.",
+      "limitations": "Embedded image placeholder present on page 2; text extraction omits visual plots; no actual plot or labeling visible in text.",
+      "score": 0,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required",
+      "reviewer_scores": [
+        {
+          "reviewer": 1,
+          "score": 0
+        }
+      ],
+      "agreement_votes": 1,
+      "valid_votes": 1,
+      "agreement_ratio": 1.0,
+      "score_range": [
+        0,
+        0
+      ]
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "Write code to find out how many samples are there in total in this dataset? [1 mark]"
+        }
+      ],
+      "feedback": "Student states 414 samples. While code snippet is missing, the answer matches expected output. No code shown, but value is correctly stated and matches dataset size; rubric requires output, not just answer.",
+      "limitations": "No code or output screenshot present; student answer is correct but unsupported by visible code execution.",
+      "score": 0,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required",
+      "reviewer_scores": [
+        {
+          "reviewer": 1,
+          "score": 0
+        }
+      ],
+      "agreement_votes": 1,
+      "valid_votes": 1,
+      "agreement_ratio": 1.0,
+      "score_range": [
+        0,
+        0
+      ]
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "20% Test,80 % Train."
+        }
+      ],
+      "feedback": "Train/test split ratio (80:20) is clearly stated and matches common practice. No code shown, but ratio is explicitly reported and meets rubric requirement for stated ratio.",
+      "limitations": "No code snippet or output visible; however, ratio is correctly stated and meets criteria without needing code output.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required",
+      "reviewer_scores": [
+        {
+          "reviewer": 1,
+          "score": 1
+        }
+      ],
+      "agreement_votes": 1,
+      "valid_votes": 1,
+      "agreement_ratio": 1.0,
+      "score_range": [
+        1,
+        1
+      ]
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 4,
+          "text": "MAE: 6.0647... MAPE: 0.2115... MAPE: 0.2937..."
+        }
+      ],
+      "feedback": "Student computes and reports MAE, MSE, and MAPE for multiple combinations. Values are specific and not copied; metrics are correctly identified and reported with numerical outputs.",
+      "limitations": "No code or output screenshot provided; however, values are listed and match evaluation metrics; student work shows computation.",
+      "score": 3,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required",
+      "reviewer_scores": [
+        {
+          "reviewer": 1,
+          "score": 3
+        }
+      ],
+      "agreement_votes": 1,
+      "valid_votes": 1,
+      "agreement_ratio": 1.0,
+      "score_range": [
+        3,
+        3
+      ]
+    }
+  ],
+  "visual_review_required_pages": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "limitations": [
+    "Each reviewer is a separate seeded request to the same Ollama model, not a separate model process.",
+    "Reviewer agreement is not evidence of correctness or human agreement.",
+    "A human must verify cited evidence and image-only content against the original PDF."
+  ]
+}

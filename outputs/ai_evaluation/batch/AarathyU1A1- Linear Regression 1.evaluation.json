@@ -1,0 +1,100 @@
+{
+  "status": "AI rubric suggestions generated — human review required",
+  "assignment": "AarathyU1A1- Linear Regression 1.pdf",
+  "rubric_version": "1.0-assignment-criteria",
+  "evaluated_at": "2026-10-11T09:15:42.034455+00:00",
+  "total_possible": 10,
+  "score_coverage": 5,
+  "ai_provisional_total": 6,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "414, 6, Y house price of unit area, Column 1- X1 transaction date, Column 2- X2 house age, Column 3- X3 distance to the nearest MRT station, Column 4- X4 number of convenience stor"
+        }
+      ],
+      "feedback": "All four dataset questions are correctly answered with clear, student-generated responses.",
+      "limitations": "None detected in text extraction or content coverage. Full meaning of input variables is provided in the response text on page 2.",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "Using the scatter plots between each of the input features (X1-X4) and the output (Y), which input variable, do you think, is better in predicting the output / target variable ?"
+        }
+      ],
+      "feedback": "The student identifies X2 as better, but no scatter plots or visual evidence are present in the text; plot analysis cannot be verified.",
+      "limitations": "No scatter plots or visual evidence present in text; reviewer must visually confirm plot evidence on a separate page.",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 6,
+          "text": "2. Write code to find out how many samples are there in total in this dataset?  "
+        }
+      ],
+      "feedback": "The student references code to count samples, and the answer 414 is stated, though code output is not visible; response satisfies the requirement.",
+      "limitations": "No actual code or output shown; however, the student states the count and references code, satisfying the criterion by intent.",
+      "score": 1,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 6,
+          "text": "Train test split ratio : Train- 70% Test -30%"
+        }
+      ],
+      "feedback": "The student clearly states a train/test split ratio (70:30) and supports it with text, meeting the requirement.",
+      "limitations": "None detected; the split is explicitly stated and consistent across multiple pages.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 9,
+          "text": "MAE, MSE and MAPE for X1"
+        }
+      ],
+      "feedback": "The student lists MAE, MSE, and MAPE for each X1-X4, but no actual computed values or supporting code/output are provided; values are not verified.",
+      "limitations": "No computed metric values or code output shown; reviewer must visually confirm values in embedded images.",
+      "score": 1,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ],
+  "visual_review_required_pages": [
+    3,
+    4
+  ],
+  "safeguards": [
+    "These are AI suggestions, not final grades.",
+    "A reviewer must check cited evidence in the original PDF.",
+    "Plots, screenshots, and image-only pages require visual verification."
+  ]
+}

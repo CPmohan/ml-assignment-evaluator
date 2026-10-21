@@ -1,0 +1,87 @@
+{
+  "reviewer": 3,
+  "seed": 20261019,
+  "elapsed_seconds": 81.073,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "There are 414 samples. There are 6 input variables. The output variable is \"Y house price of unit area\", column \"H\" in the dataset. Meaning of input columns is described in table."
+        }
+      ],
+      "feedback": "All four dataset questions are correctly answered: sample count (414), input variables (6), target variable (Y), and meaning of each input variable as per table.",
+      "limitations": "none",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "The X3 input variable (Distance to nearest MRT station) is better in predicting the output variable since the scatter plot shows a clear Negative Correlation..."
+        }
+      ],
+      "feedback": "Student identifies X3 as predictor and gives explanation based on plot evidence, but no actual scatter plots are visible or verifiable in text; plot evidence is missing, so full 4 marks not awarded.",
+      "limitations": "embedded_images>0 not present; no visible scatter plots in text or image references",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 5,
+          "text": "Screenshot of code snippet to find total number of samples with output showing 414"
+        }
+      ],
+      "feedback": "Student provides code and output showing 414 samples, matching expected value and own work, satisfying the criterion.",
+      "limitations": "none",
+      "score": 1,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 6,
+          "text": "I have chosen train set of ratio 2/3 and test set of ratio 1/3"
+        }
+      ],
+      "feedback": "Train/test split ratio (2/3 and 1/3) is clearly stated and supported by code snippet (implied by screenshot), satisfying the criterion.",
+      "limitations": "none",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 7,
+          "text": "Screenshot of code snippet for evaluating model using MAE, MSE and MAPE with corresponding output"
+        }
+      ],
+      "feedback": "Student computes and reports MAE, MSE, and MAPE with supporting code and output, satisfying all three metrics; values are not copied from prompt.",
+      "limitations": "none",
+      "score": 3,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ]
+}

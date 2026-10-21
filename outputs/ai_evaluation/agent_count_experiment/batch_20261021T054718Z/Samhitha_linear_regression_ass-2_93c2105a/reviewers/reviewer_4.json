@@ -1,0 +1,87 @@
+{
+  "reviewer": 4,
+  "seed": 20261020,
+  "elapsed_seconds": 109.568,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "From csv file we get no. of samples = 414. From Csv file we observe the are 8 variables and input variables = 6. X1 transaction date, X2 house age, X3 distance to the nearest MRT, "
+        }
+      ],
+      "feedback": "Correctly states sample count (414), number of input variables (6), target variable (Y), and meaning of each input variable. All four expected elements are present in student text.",
+      "limitations": "None; all dataset elements are clearly stated in text without reliance on images or external outputs. No visual evidence is needed for this criterion as all key",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 4,
+          "text": "FOR X1 AND Y: Output: [PAGE 4]"
+        }
+      ],
+      "feedback": "Scatter plots for X1, X2, X3, X4 vs Y are referenced but only output labels are visible on pages 4–6; no actual plot images are present or extractable. No explanation based on plot evidence is provided. Only predictor selection is stated, a",
+      "limitations": "Visual evidence of scatter plots is missing or not extractable. Pages 4–6 contain only output labels, not actual plots. No explanation of plot-based reasoning.",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 7,
+          "text": "There are 414 samples and 8 variables in dataset"
+        }
+      ],
+      "feedback": "Student explicitly states 414 samples in text and includes it in a code-like statement. The value matches expected output and is derived from their own observation, not copied from prompt.",
+      "limitations": "None; the student's own calculation and output are clearly stated in text.",
+      "score": 1,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 7,
+          "text": "Train split ratio: 70, Test split ratio: 30"
+        }
+      ],
+      "feedback": "Clearly states train/test split ratio (70:30) and supports it with text. The ratio is explicitly reported and matches expected format. No code is required as ratio is stated directly.",
+      "limitations": "None; the split ratio is clearly stated and verifiable from text.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Not Satisfied",
+      "evidence": [
+        {
+          "page": 8,
+          "text": "Evaluate the linear regression model by computing the MAE, MSE and Mean Absolute Percentage Error (MAPE)."
+        }
+      ],
+      "feedback": "Student mentions computing MAE, MSE, and MAPE but provides no actual values or code output. No evidence of computed metrics is present in text or images. Values are not reported or verified.",
+      "limitations": "No computed values or supporting output are visible or extractable. The mention of computation is present but lacks actual results.",
+      "score": 0,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ]
+}

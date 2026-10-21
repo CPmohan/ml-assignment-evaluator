@@ -1,0 +1,6 @@
+{
+  "status": "not_calculated",
+  "paired_criterion_scores": 0,
+  "reason": "No human/AI score pairs are available in data/human_marks.csv.",
+  "metrics": null
+}

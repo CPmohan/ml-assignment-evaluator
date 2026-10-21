@@ -1,0 +1,97 @@
+{
+  "status": "AI rubric suggestions generated — human review required",
+  "assignment": "Sreevisal_ML - Coding Assignment U1A1 - Linear Regression.pdf",
+  "rubric_version": "1.0-assignment-criteria",
+  "evaluated_at": "2026-10-11T09:57:10.593153+00:00",
+  "total_possible": 10,
+  "score_coverage": 5,
+  "ai_provisional_total": 4,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "414 samples, 6 input variables, Y house price of unit area, X1 is transaction date of the property, X2 is age of house in years, X3 is distance to the nearest MRT station in meters"
+        }
+      ],
+      "feedback": "All four dataset questions are correctly answered with clear, original student text.",
+      "limitations": "None. Text extraction fully captures all required elements from page 1. No visual evidence needed for this criterion.",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "I think Distance to the Nearest MRT station and Housing Price shows more linearity and clustering. Also points are close to linear regression line"
+        }
+      ],
+      "feedback": "Student identifies X3 as better predictor with plot-based reasoning, but no scatter plots or visual evidence are present in text or images. Cannot verify plot evidence.",
+      "limitations": "No scatter plots or visual evidence provided. Page 2 contains only text-based reasoning without plot images. Reviewer must visually confirm plots on page 2 or 3",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "2. Write code to find out how many samples are there in total in this dataset? [1 mark]"
+        }
+      ],
+      "feedback": "Student states 414 samples, and the question implies code execution; though code is missing, the answer matches expected output and is stated in context.",
+      "limitations": "No actual code or output shown. However, the stated result matches the expected value and is in context. Score awarded based on stated result and prompt context",
+      "score": 1,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "What is the train test split ratio that you have chosen ? [1 Mark]"
+        }
+      ],
+      "feedback": "Student mentions train/test split ratio but does not state the ratio or provide code/output. Ratio is missing.",
+      "limitations": "No stated ratio or supporting code/output. Cannot verify split ratio. Reviewer must visually confirm split in image pages.",
+      "score": 0,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Not Satisfied",
+      "evidence": [
+        {
+          "page": 4,
+          "text": "Evaluate the linear regression model by computing the MAE, MSE and Mean Absolute Percentage Error (MAPE)"
+        }
+      ],
+      "feedback": "No computed values or code/output for MAE, MSE, or MAPE. Student only references the formula without actual results or implementation.",
+      "limitations": "No metrics computed or shown. No code or output for MAE, MSE, or MAPE. Visual evidence not present.",
+      "score": 0,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ],
+  "visual_review_required_pages": [],
+  "safeguards": [
+    "These are AI suggestions, not final grades.",
+    "A reviewer must check cited evidence in the original PDF.",
+    "Plots, screenshots, and image-only pages require visual verification."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "filename": "Geethu - Coding Assignment U1A1 - Linear Regression.pdf",
+  "page_count": 4,
+  "pages": [
+    {
+      "page": 1,
+      "text": "Page 1/4 \nMachine Learning (BMI/GEO/WNA) \nCode Assignment U1A1  \nLinear Regression \n \n \n10 marks \nUse real estate valuation regression dataset : \nhttps://archive.ics.uci.edu/dataset/477/real+estate+valuation+data+set  from \nthe UCI repository, and use google colab to code. \n \nFirst, download the csv file, and open it in your computer and analyze the data. \nTry to understand what the data is about. Read through the data description \ngiven \nin \nthe \nUCI \nwebsite \nas \nwell. \n \nSection A \nAnswer the following questions [1 mark if you answer all the below questions] \n: \n1. How many samples are there?  \n414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \nY house price of unit area \n4. What does each of the input columns mean ? \nX1=the transaction date (for example, 2013.250=2013 March, \n2013.500=2013 June, etc.)  \nX2=the house age (unit: year)  \nX3=the distance to the nearest MRT station (unit: meter)  \nX4=the number of convenience stores in the living circle on foot \n(integer)  \nX5=the geographic coordinate, latitude. (unit: degree)  \nX6=the geographic coordinate, longitude. (unit: degree)",
+      "image_count": 0
+    },
+    {
+      "page": 2,
+      "text": "Page 2/4 \nSection B \nFor each of the questions below, you need to put in the screenshot of the code \nand its output. You could use the sample google colab file that is provided with \nthis assignment. \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable",
+      "image_count": 1
+    },
+    {
+      "page": 3,
+      "text": "Page 3/4 \n \n \nDistance to nearest MRT station gives better result \n \n2. Write code to find out how many samples are there in total in this dataset? [1 \nmark] \n \n \n \n3. What is the train test split ratio that you have chosen ?",
+      "image_count": 2
+    },
+    {
+      "page": 4,
+      "text": "Page 4/4 \n \nFor testing 33% and training 67% \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks] \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \nFit a linear regression model on a dataset \nSplit the dataset for training and testing  \nFind the errors MAE, MSE and MAPE",
+      "image_count": 3
+    }
+  ],
+  "text": "Page 1/4 \nMachine Learning (BMI/GEO/WNA) \nCode Assignment U1A1  \nLinear Regression \n \n \n10 marks \nUse real estate valuation regression dataset : \nhttps://archive.ics.uci.edu/dataset/477/real+estate+valuation+data+set  from \nthe UCI repository, and use google colab to code. \n \nFirst, download the csv file, and open it in your computer and analyze the data. \nTry to understand what the data is about. Read through the data description \ngiven \nin \nthe \nUCI \nwebsite \nas \nwell. \n \nSection A \nAnswer the following questions [1 mark if you answer all the below questions] \n: \n1. How many samples are there?  \n414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \nY house price of unit area \n4. What does each of the input columns mean ? \nX1=the transaction date (for example, 2013.250=2013 March, \n2013.500=2013 June, etc.)  \nX2=the house age (unit: year)  \nX3=the distance to the nearest MRT station (unit: meter)  \nX4=the number of convenience stores in the living circle on foot \n(integer)  \nX5=the geographic coordinate, latitude. (unit: degree)  \nX6=the geographic coordinate, longitude. (unit: degree)\n\nPage 2/4 \nSection B \nFor each of the questions below, you need to put in the screenshot of the code \nand its output. You could use the sample google colab file that is provided with \nthis assignment. \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable\n\nPage 3/4 \n \n \nDistance to nearest MRT station gives better result \n \n2. Write code to find out how many samples are there in total in this dataset? [1 \nmark] \n \n \n \n3. What is the train test split ratio that you have chosen ?\n\nPage 4/4 \n \nFor testing 33% and training 67% \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks] \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \nFit a linear regression model on a dataset \nSplit the dataset for training and testing  \nFind the errors MAE, MSE and MAPE"
+}

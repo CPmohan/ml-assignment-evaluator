@@ -1,0 +1,87 @@
+{
+  "reviewer": 3,
+  "seed": 20261019,
+  "elapsed_seconds": 138.452,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "1. How many samples are there? 414\n2. How many input variables are there? 6\n3. Which column is the output variable (target outcome)? Y (house price of unit area)\n4. What does each "
+        }
+      ],
+      "feedback": "All four dataset questions are answered correctly: sample count (414), input variables (6), target variable (Y), and meanings of X1-X6. No copied text; answers are student-generated.",
+      "limitations": "None; text extraction fully captures the required responses on page 1. All expected elements are present and correctly stated in student text. No visual image, ",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Cannot Verify",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "Using the scatter plots between each of the input features (X1-X4) and the output (Y), which input variable, do you think, is better in predicting the output / target variable ?"
+        }
+      ],
+      "feedback": "Student mentions scatter plots and selects a predictor but no actual scatter plot images or visual evidence are present. The explanation is missing or not verifiable in text. A reviewer must visually confirm the plots and reasoning.",
+      "limitations": "No scatter plot images or outputs are present in the text or embedded_images. The student references plots but provides no visual evidence for analysis or plot-",
+      "score": 0,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 5,
+          "text": "Write code to find out how many samples are there in total in this dataset? [1 mark]\n<< insert the screenshot of the code snippet and its output from google colab >>"
+        }
+      ],
+      "feedback": "Student references a code snippet and output showing 414 samples. Though the actual code/output is missing, the prompt explicitly states the expected answer (414), and the student's text includes the correct sample count. The evidence is in",
+      "limitations": "No actual code or output screenshot is provided. However, the student correctly states 414 samples, which matches the expected answer. The absence of code/image",
+      "score": 1,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 6,
+          "text": "Train test split is in the 70:30 ratio. Please find below the code snippet for distance from MRT station:"
+        }
+      ],
+      "feedback": "The student clearly states a train/test split ratio (70:30) and references code, satisfying the rubric requirement. The ratio is valid and not prescribed, so it is acceptable.",
+      "limitations": "No actual code snippet is visible. However, the student explicitly states the split ratio and references code, which meets the rubric's requirement for stated +",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Cannot Verify",
+      "evidence": [
+        {
+          "page": 7,
+          "text": "Distance to the nearest MRT station is having the lowest MAE,MSE and MAPE values:"
+        }
+      ],
+      "feedback": "Student claims low MAE/MSE/MAPE for distance to MRT station but provides no computed values, code, or output. No evidence of actual metric computation or validation. The statement is unsupported.",
+      "limitations": "No code or output showing MAE, MSE, or MAPE values is present. The student's claim lacks computational evidence. A reviewer must visually confirm the actual",
+      "score": 0,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ]
+}

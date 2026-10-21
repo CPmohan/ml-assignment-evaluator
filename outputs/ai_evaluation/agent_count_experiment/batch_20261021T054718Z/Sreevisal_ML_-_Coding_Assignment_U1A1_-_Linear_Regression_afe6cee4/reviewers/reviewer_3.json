@@ -1,0 +1,87 @@
+{
+  "reviewer": 3,
+  "seed": 20261019,
+  "elapsed_seconds": 120.138,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "1. How many samples are there? 414 samples 2. How many input variables are there? 6 input variables 3. Which column is the output variable? Y house price of unit area 4. What does每"
+        }
+      ],
+      "feedback": "Correctly answers all four dataset questions: sample count (414), input variables (6), target variable (Y), and meaning of each input variable (X1-X4). All responses are student-generated and match expected evidence.",
+      "limitations": "None; text extraction fully captures all required responses on page 1. No visual elements needed for this criterion. 1 mark awarded as all four expected points均",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Cannot Verify",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "I think Distance to the Nearest MRT station and Housing Price shows more linearity and clustering. Also points are close to linear regression line"
+        }
+      ],
+      "feedback": "Student provides a selection and explanation based on scatter plots, but no actual scatter plot images or code output are present. Visual evidence is missing for plot analysis; cannot verify plot evidence or linearity claim.",
+      "limitations": "No scatter plot images or code output visible on page 2 or 3. Text-only explanation lacks visual support; reviewer must visually confirm plots on embedded image",
+      "score": 0,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "2. Write code to find out how many samples are there in total in this dataset? "
+        }
+      ],
+      "feedback": "Student states '414 samples' in Section A, but no code or output showing the count is provided on page 3. Missing code/output prevents verification of student computation.",
+      "limitations": "No code or output visible on page 3. Text-only statement without execution evidence fails to satisfy scoring rule.",
+      "score": 0,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Not Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "3. What is the train test split ratio that you have chosen ? [1 Mark]"
+        }
+      ],
+      "feedback": "Student does not state or show a train/test split ratio. No code or output indicates a chosen ratio. Missing required evidence for train/test split.",
+      "limitations": "No code or text on page 3 specifies a split ratio. Empty placeholder without content.",
+      "score": 0,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Not Satisfied",
+      "evidence": [
+        {
+          "page": 4,
+          "text": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean Absolute Percentage Error (MAPE) ."
+        }
+      ],
+      "feedback": "Student references MAE, MSE, and MAPE but provides no computed values or supporting code/output. No evidence of actual metric calculation or model evaluation.",
+      "limitations": "No code or output on page 4 shows computed metrics. Missing values and code prevent verification of any of the three metrics.",
+      "score": 0,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ]
+}

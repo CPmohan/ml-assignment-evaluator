@@ -1,0 +1,97 @@
+{
+  "status": "AI rubric suggestions generated — human review required",
+  "assignment": "Arjun K Ashok - Coding Assignment U1A1 - Linear Regression.pdf",
+  "rubric_version": "1.0-assignment-criteria",
+  "evaluated_at": "2026-10-11T09:20:31.823640+00:00",
+  "total_possible": 10,
+  "score_coverage": 5,
+  "ai_provisional_total": 6,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "1. How many samples are there? 414 2. How many input variables are there? 6 3. Which column is the output variable? 7- Y House price of unit area. 4. What does each of the input柱s "
+        }
+      ],
+      "feedback": "All four dataset questions are correctly answered with clear, student-generated responses in the text.",
+      "limitations": "None; all dataset elements are explicitly stated in text.",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "Of the given input variables \"distance to the metro station\" has a good correlation with the given target variable."
+        }
+      ],
+      "feedback": "A predictor is selected and justified, but no scatter plots are provided or referenced in text; visual evidence required for full credit.",
+      "limitations": "No scatter plots or plot evidence present in text; must visually verify plots on page 2 or embedded_images>0.",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "2. Write code to find out how many samples are there in total in this dataset?"
+        }
+      ],
+      "feedback": "The student states 414 samples, and the code is implied by context; output is not shown but the value is correctly reported in text.",
+      "limitations": "No explicit code or output shown; assumes inference from stated value.",
+      "score": 1,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "Train- test split ratio= 0.75/0.25 = 75% train data-25% test data"
+        }
+      ],
+      "feedback": "The split ratio is clearly stated and matches expected format; no code required per rubric as long as ratio is reported.",
+      "limitations": "None; ratio is explicitly stated in text.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 4,
+          "text": "Evaluate the linear regression model by computing the MAE, MSE and Mean Absolute Percentage Error (MAPE)"
+        }
+      ],
+      "feedback": "MAE, MSE, and MAPE are mentioned, but no computed values or supporting code/output are provided in text; values must be verified in image evidence.",
+      "limitations": "No computed metric values or output shown; must visually confirm code/output in embedded_images.",
+      "score": 1,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ],
+  "visual_review_required_pages": [],
+  "safeguards": [
+    "These are AI suggestions, not final grades.",
+    "A reviewer must check cited evidence in the original PDF.",
+    "Plots, screenshots, and image-only pages require visual verification."
+  ]
+}

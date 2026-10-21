@@ -1,0 +1,25 @@
+{
+  "experiment_id": "20261021T075217Z",
+  "assignment": "Jisha ML.pdf",
+  "assignment_sha256": "1bf88ac729fd4a8faa856c6e0cb5cbe8ecf9ed85e186cde75c7a13d2fa92f2e0",
+  "rubric_path": "C:\\Users\\kisho\\ml_assignment_evaluator\\rubric.json",
+  "rubric_version": "1.0-assignment-criteria",
+  "model": "qwen3:4b-instruct",
+  "temperature": 0.2,
+  "first_seed": 20261017,
+  "max_agents": 4,
+  "status": "completed",
+  "visual_review_required_pages": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "started_at": "2026-10-21T07:52:17.519276+00:00",
+  "reviewers_completed": 4,
+  "finished_at": "2026-10-21T07:59:24.808340+00:00",
+  "total_elapsed_seconds": 427.266,
+  "comparison_csv": "agent_count_comparison.csv",
+  "comparison_markdown": "agent_count_comparison.md"
+}

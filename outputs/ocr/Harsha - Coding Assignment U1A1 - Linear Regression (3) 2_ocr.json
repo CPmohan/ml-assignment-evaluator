@@ -1,0 +1,14 @@
+[
+  {
+    "filename": "Harsha - Coding Assignment U1A1 - Linear Regression (3) 2.pdf",
+    "page": 4,
+    "original_text": "Page 4/6",
+    "ocr_text": "Train using training split\n*\n[35]\nregressor_2 = LinearRegression()\nregressor_2.fit(x_train,\ny_train}\ny_pred = regressor_2.predict (x_test)\n‘ o\n# Visualising the train and test dataset results\nplt.scatter(X_train,\ny_train, color =\n'red'}\nplt.plot(x_train, regressor_2.predict(x_train),\ncolor=\"cyan\")\n#plt.plot(x_test, y_pred, color=\"grey')\n#plt.scatter(x_test,\ny_test, color\n=\n'blue')\nplt.title('distance\nvs house price\n(dataset)\")\nplt.xlabel('distance to the nearest MRT station’)\nplt.ylabel('house price of unit area’)\nplt. show}\n(=\n.\n.\n—\ndistance vs house price (dataset)\n120\ne\n100\ne\na\n80\nLd\n5\ne\nSs\n60\n*\n3°\na\nry\ns\n°\ne\n%\n40\n2\n9\n.\noa\n=|\n=\n¢ 8\n..\n_\nee\n20\noh,\n~e_he\n4\n°\nze\n°\n@\n*\nOo\nO\n1000\n2000\n3000\n4000\n5000\n6000\ndistance to the nearest MRT station\nPlot y_test and y_pred\n7 o\n# Visualising the y_test and y_pred results\nplt.scatter(X_test, y_test,\ncolor = ‘blue’) #true\nplt.scatter(X_test,\ny_pred,\ncolor = ‘green’)\nplt.plot(X_test,\ny_pred,\ncolor='grey')\nplt.title('distance\nvs house price\n(dataset)')\nplt.xlabel('distance to the nearest MRT station’)\nplt.ylabel(\"house price of unit area’)\nplt.show()\nG\ndistance vs house price (dataset)\n*\ne\n607\n3°\nso]\nbe\no\n2\nso]\n¢\n5\nPer\n3\nS\ne\ne\ne,\ngy 30\ne*e\n8°\n5\n*.\n£,,3\nw\nSee\ne\n4 20\n%\n3\n<=\ne\ne\n°\n*\n10\n0\n(e)\n1000\n2000\n3000\n4000\n5000\n6000\ndistance to the nearest MRT station\nPage 4/6"
+  },
+  {
+    "filename": "Harsha - Coding Assignment U1A1 - Linear Regression (3) 2.pdf",
+    "page": 6,
+    "original_text": "Page 6/6 \n \n  \n \n \n \nSubmitted by , \nHarsha R \nAM.EN.R4WNA.23012-FT",
+    "ocr_text": "Submitted by ,\nHarsha R\nAM.EN.R4WNA.23012-FT\nPage 6/6"
+  }
+]

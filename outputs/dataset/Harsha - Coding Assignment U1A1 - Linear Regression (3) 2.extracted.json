@@ -1,0 +1,37 @@
+{
+  "filename": "Harsha - Coding Assignment U1A1 - Linear Regression (3) 2.pdf",
+  "page_count": 6,
+  "pages": [
+    {
+      "page": 1,
+      "text": "Page 1/6 \nMachine Learning (BMI/GEO/WNA) \nCode Assignment U1A1  \nLinear Regression \n \n10 marks \n \nSection A \nAnswer the following questions [1 mark if you answer all the below questions]  \n \n1. How many samples are there? \n414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \n8th \n4. What \ndoes \neach \nof \nthe \ninput \ncolumns \nmean \n? \n \n• X1= the transaction date ( column 2) \n• X2=the house age (column 3) \n• X3=the distance to the nearest MRT station (column 4) \n• X4= the number of convenience stores (column 5) \n• X5= latitude (column 6) \n• X6=longitude (column 7) \n \nSection B \nFor each of the questions below, you need to put in the screenshot of the code and \nits output. You could use the sample google colab file that is provided with this \nassignment. \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the output \n(Y), which input variable, do you think, is better in predicting the output / \ntarget variable ?",
+      "image_count": 0
+    },
+    {
+      "page": 2,
+      "text": "Page 2/6 \n \n \n X3  : The input variable that has a closer clustering of data points around a \nstraight line, indicating a stronger linear relationship between the input and \noutput variables, is better at predicting the outcome. \n \n2. Write code to find out how many samples are there in total in this dataset? [1 \nmark] \n \n3. What is the train test split ratio that you have chosen ? [1 Mark] \n               \n Train-test split ratio chosen as 80-20",
+      "image_count": 2
+    },
+    {
+      "page": 3,
+      "text": "Page 3/6 \n \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE)   \n[3 marks]",
+      "image_count": 2
+    },
+    {
+      "page": 4,
+      "text": "Page 4/6",
+      "image_count": 2
+    },
+    {
+      "page": 5,
+      "text": "Page 5/6 \n \nInput Feature \nMAE \nMSE \nMAPE \nX1 \n10.84 \n168.99 \n40.92 \nX2 \n10.62 \n165.20 \n40.12 \nX3 \n6.92 \n77.34 \n23.90 \nX4 \n8.34 \n101.73 \n29.37 \nX1,X2,X3,X4 \n5.5 \n56.1 \n18.14 \nX1,X2 \n10.50 \n161.8 \n39.38 \nX3,X4 \n6.34 \n66.27 \n20.92 \nX1,X3 \n6.8 \n73.1 \n23.3 \nX2,X4 \n7.6 \n92.7 \n26.7 \nX1,X2,X3,X4,X5,X6 5.31 \n53.51 \n17.18 \n \n• \nPerformance is better when six inputs are used together. \n5. What are the 3 new things that you learned after you completed this assignment \n? \n   \n How to interpret the coefficients of the model. \n Acquired knowledge of residual analysis and how to evaluate the model's \ngoodness of fit. \n To evaluate the performance of a linear regression model",
+      "image_count": 1
+    },
+    {
+      "page": 6,
+      "text": "Page 6/6 \n \n  \n \n \n \nSubmitted by , \nHarsha R \nAM.EN.R4WNA.23012-FT",
+      "image_count": 0
+    }
+  ],
+  "text": "Page 1/6 \nMachine Learning (BMI/GEO/WNA) \nCode Assignment U1A1  \nLinear Regression \n \n10 marks \n \nSection A \nAnswer the following questions [1 mark if you answer all the below questions]  \n \n1. How many samples are there? \n414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \n8th \n4. What \ndoes \neach \nof \nthe \ninput \ncolumns \nmean \n? \n \n• X1= the transaction date ( column 2) \n• X2=the house age (column 3) \n• X3=the distance to the nearest MRT station (column 4) \n• X4= the number of convenience stores (column 5) \n• X5= latitude (column 6) \n• X6=longitude (column 7) \n \nSection B \nFor each of the questions below, you need to put in the screenshot of the code and \nits output. You could use the sample google colab file that is provided with this \nassignment. \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the output \n(Y), which input variable, do you think, is better in predicting the output / \ntarget variable ?\n\nPage 2/6 \n \n \n X3  : The input variable that has a closer clustering of data points around a \nstraight line, indicating a stronger linear relationship between the input and \noutput variables, is better at predicting the outcome. \n \n2. Write code to find out how many samples are there in total in this dataset? [1 \nmark] \n \n3. What is the train test split ratio that you have chosen ? [1 Mark] \n               \n Train-test split ratio chosen as 80-20\n\nPage 3/6 \n \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE)   \n[3 marks]\n\nPage 4/6\n\nPage 5/6 \n \nInput Feature \nMAE \nMSE \nMAPE \nX1 \n10.84 \n168.99 \n40.92 \nX2 \n10.62 \n165.20 \n40.12 \nX3 \n6.92 \n77.34 \n23.90 \nX4 \n8.34 \n101.73 \n29.37 \nX1,X2,X3,X4 \n5.5 \n56.1 \n18.14 \nX1,X2 \n10.50 \n161.8 \n39.38 \nX3,X4 \n6.34 \n66.27 \n20.92 \nX1,X3 \n6.8 \n73.1 \n23.3 \nX2,X4 \n7.6 \n92.7 \n26.7 \nX1,X2,X3,X4,X5,X6 5.31 \n53.51 \n17.18 \n \n• \nPerformance is better when six inputs are used together. \n5. What are the 3 new things that you learned after you completed this assignment \n? \n   \n How to interpret the coefficients of the model. \n Acquired knowledge of residual analysis and how to evaluate the model's \ngoodness of fit. \n To evaluate the performance of a linear regression model\n\nPage 6/6 \n \n  \n \n \n \nSubmitted by , \nHarsha R \nAM.EN.R4WNA.23012-FT"
+}

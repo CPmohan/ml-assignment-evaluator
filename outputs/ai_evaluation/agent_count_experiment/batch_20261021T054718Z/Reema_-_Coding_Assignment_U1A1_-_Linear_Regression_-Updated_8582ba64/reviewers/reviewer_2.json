@@ -1,0 +1,87 @@
+{
+  "reviewer": 2,
+  "seed": 20261018,
+  "elapsed_seconds": 202.326,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "1. How many samples are there? 414 2. How many input variables are there? 6 3. Which column is the output variable (target outcome)? Y,House price 4. What does each of the input柱s "
+        }
+      ],
+      "feedback": "All four dataset questions are answered correctly: sample count (414), input variables (6), target variable (Y), and meaning (features of dataset). No copied text; direct student response.",
+      "limitations": "No visual plots or code snippets provided; text extraction captures only stated answers, not full context of input variable meanings or data descriptions. No sc",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Cannot Verify",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "Ans: 2nd Picture-Because typically, the variable where the data points are more tightly clustered around a line is better for prediction."
+        }
+      ],
+      "feedback": "Student references a '2nd Picture' for scatter plot evidence, but no image or plot is present in text. No actual scatter plots or visual data are extractable to verify the reasoning or plot analysis.",
+      "limitations": "Embedded image placeholder present but not accessible; text extraction omits visual evidence. No plot data or labeling to confirm which variable is selected or ",
+      "score": 0,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "2. Write code to find out how many samples are there in total in this dataset? [1 mark]"
+        }
+      ],
+      "feedback": "Student states 414 samples in Section A, and the prompt requires 414 as output. Though code snippet is missing, the correct sample count is stated and matches expected value. No code output shown, but value is correct and directly stated.",
+      "limitations": "No code or output screenshot provided; value is stated but not backed by visible code execution. Still, student correctly identifies 414 samples.",
+      "score": 1,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "20% Test,80 % Train."
+        }
+      ],
+      "feedback": "Student clearly states a train/test split of 80% train and 20% test. This ratio is explicitly reported and matches expected format. No code is shown, but the ratio is clearly stated and valid.",
+      "limitations": "No code snippet or output screenshot provided to verify implementation; however, the split ratio is correctly stated and meets rubric requirement.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 4,
+          "text": "MAE: 6.0647... MAPE: 0.2115... MAE: 6.2475... MAPE: 0.2203... MAE: 6.8259... MAPE: 0.2333... MAE: 7.6029... MAPE: 0.2623... MAE: 7.6226... MAPE: 0.2677... MAE: 8.3830... MAPE: 0.28"
+        }
+      ],
+      "feedback": "Student computes and reports MAE, MSE, and MAPE for multiple combinations. Values are specific and not copied from prompt. All three metrics are present and correctly reported in output.",
+      "limitations": "No visible code or output screenshot to confirm computation source; however, values are computed and listed in sequence. Values are consistent across entries.",
+      "score": 3,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ]
+}

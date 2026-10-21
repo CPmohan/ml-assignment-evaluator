@@ -1,0 +1,26 @@
+{
+  "experiment_id": "20261021T070108Z",
+  "assignment": "Aswathy - Coding Assignment U1A1 - Linear Regression (3) (1) (1).pdf",
+  "assignment_sha256": "97a594dc56760fd4fbf1892f685504d0352e9f81fd73ef2ef41b25b77f213822",
+  "rubric_path": "C:\\Users\\kisho\\ml_assignment_evaluator\\rubric.json",
+  "rubric_version": "1.0-assignment-criteria",
+  "model": "qwen3:4b-instruct",
+  "temperature": 0.2,
+  "first_seed": 20261017,
+  "max_agents": 4,
+  "status": "completed",
+  "visual_review_required_pages": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "started_at": "2026-10-21T07:01:08.812492+00:00",
+  "reviewers_completed": 4,
+  "finished_at": "2026-10-21T07:11:01.886915+00:00",
+  "total_elapsed_seconds": 593.045,
+  "comparison_csv": "agent_count_comparison.csv",
+  "comparison_markdown": "agent_count_comparison.md"
+}

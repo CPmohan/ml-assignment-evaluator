@@ -1,0 +1,275 @@
+{
+  "filename": "Geethu - Coding Assignment U1A1 - Linear Regression.pdf",
+  "section_a": [
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "v file, and open it in your computer and analyze the data. \nTry to understand what the data is about. Read through the data description \ngiven \nin \nthe \nUCI \nwebsite \nas \nwell. \n \nSection A \nAnswer the following questions [1 mark if you answer all the below questions] \n: \n1. How many samples are there?  \n414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \nY house price of unit area \n4. What does each of the input columns mean ? \nX1=the transaction date (for example, 2013.250=2013 March, \n2013.500=2013 June, etc.)  \nX2=the house age (unit: year)  \nX3=the distance to the nearest MRT station (unit: meter)  \nX4=the numb",
+      "matched_pattern": "\\bsection\\s*a\\b"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "bout. Read through the data description \ngiven \nin \nthe \nUCI \nwebsite \nas \nwell. \n \nSection A \nAnswer the following questions [1 mark if you answer all the below questions] \n: \n1. How many samples are there?  \n414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \nY house price of unit area \n4. What does each of the input columns mean ? \nX1=the transaction date (for example, 2013.250=2013 March, \n2013.500=2013 June, etc.)  \nX2=the house age (unit: year)  \nX3=the distance to the nearest MRT station (unit: meter)  \nX4=the number of convenience stores in the living circle on foot \n(integer)  \nX5=the geographic coordinate, latitu",
+      "matched_pattern": "how\\s+many\\s+samples"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "n \nthe \nUCI \nwebsite \nas \nwell. \n \nSection A \nAnswer the following questions [1 mark if you answer all the below questions] \n: \n1. How many samples are there?  \n414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \nY house price of unit area \n4. What does each of the input columns mean ? \nX1=the transaction date (for example, 2013.250=2013 March, \n2013.500=2013 June, etc.)  \nX2=the house age (unit: year)  \nX3=the distance to the nearest MRT station (unit: meter)  \nX4=the number of convenience stores in the living circle on foot \n(integer)  \nX5=the geographic coordinate, latitude. (unit: degree)  \nX6=the geographic coordinate",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "mark if you answer all the below questions] \n: \n1. How many samples are there?  \n414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \nY house price of unit area \n4. What does each of the input columns mean ? \nX1=the transaction date (for example, 2013.250=2013 March, \n2013.500=2013 June, etc.)  \nX2=the house age (unit: year)  \nX3=the distance to the nearest MRT station (unit: meter)  \nX4=the number of convenience stores in the living circle on foot \n(integer)  \nX5=the geographic coordinate, latitude. (unit: degree)  \nX6=the geographic coordinate, longitude. (unit: degree)",
+      "matched_pattern": "target\\s+outcome"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "there?  \n414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \nY house price of unit area \n4. What does each of the input columns mean ? \nX1=the transaction date (for example, 2013.250=2013 March, \n2013.500=2013 June, etc.)  \nX2=the house age (unit: year)  \nX3=the distance to the nearest MRT station (unit: meter)  \nX4=the number of convenience stores in the living circle on foot \n(integer)  \nX5=the geographic coordinate, latitude. (unit: degree)  \nX6=the geographic coordinate, longitude. (unit: degree)",
+      "matched_pattern": "input\\s+columns?\\s+mean"
+    },
+    {
+      "label": "section_a",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "creenshot of the code \nand its output. You could use the sample google colab file that is provided with \nthis assignment. \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "he sample google colab file that is provided with \nthis assignment. \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 3,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 3/4 \n \n \nDistance to nearest MRT station gives better result \n \n2. Write code to find out how many samples are there in total in this dataset? [1 \nmark] \n \n \n \n3. What is the train test split ratio that you have chosen ?",
+      "matched_pattern": "how\\s+many\\s+samples"
+    }
+  ],
+  "scatter_analysis": [
+    {
+      "label": "scatter_analysis",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "ignment. \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable",
+      "matched_pattern": "scatter\\s*plot"
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable",
+      "matched_pattern": "better\\s+(?:in\\s+)?predicting"
+    }
+  ],
+  "sample_count": [],
+  "train_test_split": [
+    {
+      "label": "train_test_split",
+      "page": 4,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 4/4 \n \nFor testing 33% and training 67% \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks] \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \nFit a linear regression model on a dataset \nSplit the dataset for training and testing  \nFind the e",
+      "value": "4/4",
+      "uncertain": true
+    }
+  ],
+  "reflection": [
+    {
+      "label": "reflection",
+      "page": 4,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "r (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks] \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \nFit a linear regression model on a dataset \nSplit the dataset for training and testing  \nFind the errors MAE, MSE and MAPE",
+      "matched_pattern": "what.*learned"
+    },
+    {
+      "label": "reflection",
+      "page": 4,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "o the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks] \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \nFit a linear regression model on a dataset \nSplit the dataset for training and testing  \nFind the errors MAE, MSE and MAPE",
+      "matched_pattern": "\\blearned\\b"
+    }
+  ],
+  "metrics": {
+    "MAE": [
+      {
+        "label": "MAE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "e 4/4 \n \nFor testing 33% and training 67% \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks] \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \nFit a linear regression model on a dataset \nSpl",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "student_response_or_context",
+        "answer_confirmation": "not_confirmed",
+        "snippet": " linear regression model on a dataset \nSplit the dataset for training and testing  \nFind the errors MAE, MSE and MAPE",
+        "line_or_table_context": "Find the errors MAE, MSE and MAPE",
+        "value": null,
+        "needs_review": true
+      }
+    ],
+    "MSE": [
+      {
+        "label": "MSE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": " \n \nFor testing 33% and training 67% \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks] \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \nFit a linear regression model on a dataset \nSplit th",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MSE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "student_response_or_context",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "ar regression model on a dataset \nSplit the dataset for training and testing  \nFind the errors MAE, MSE and MAPE",
+        "line_or_table_context": "Find the errors MAE, MSE and MAPE",
+        "value": null,
+        "needs_review": true
+      }
+    ],
+    "MAPE": [
+      {
+        "label": "MAPE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "testing 33% and training 67% \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks] \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \nFit a linear regression model on a dataset \nSplit the dataset for training and testing  ",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks] \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \nFit a linear regression model on a dataset \nSplit the dataset for training and testing  \nFind ",
+        "line_or_table_context": "Absolute Percentage Error (MAPE) . ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "inear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks] \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \nFit a linear regression model on a dataset \nSplit the dataset for training and testing  \nFind the errors MAE",
+        "line_or_table_context": "(for MAPE - pls refer to the sample here - https://scikit-",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "student_response_or_context",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "ssion model on a dataset \nSplit the dataset for training and testing  \nFind the errors MAE, MSE and MAPE",
+        "line_or_table_context": "Find the errors MAE, MSE and MAPE",
+        "value": null,
+        "needs_review": true
+      }
+    ]
+  },
+  "evidence_gaps": [
+    "No captured text matched sample_count. This does not show that the student omitted it; it may be in an image or screenshot.",
+    "No explicit MAE value was confidently linked to captured text. It may be in an image or require visual OCR review.",
+    "No explicit MSE value was confidently linked to captured text. It may be in an image or require visual OCR review.",
+    "No explicit MAPE value was confidently linked to captured text. It may be in an image or require visual OCR review."
+  ],
+  "uncertain_ocr_evidence": []
+}

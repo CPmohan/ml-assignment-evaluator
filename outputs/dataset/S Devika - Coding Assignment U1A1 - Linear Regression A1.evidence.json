@@ -1,0 +1,273 @@
+{
+  "filename": "S Devika - Coding Assignment U1A1 - Linear Regression A1.pdf",
+  "section_a": [
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "earning (GEO) \nCode Assignment U1A1  \nLinear Regression \n \n \nDATASET: real estate valuation regression \nhttps://archive.ics.uci.edu/dataset/477/real+estate+valuation+data+set   \n \nSection A \nAnswer the following questions (4 marks) \n1. How many samples are there? \n414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \nY= house price of unit area \n4. What \ndoes \neach \nof \nthe \ninput \ncolumns \nmean? \nX1=the transaction date  \nX2=the house age  \nX3=the distance to the nearest MRT station  \nX4=the number of convenience stores in the living circle on foot  \nX5=the geographic coordinate, latitude.  \nX6=the geographic coordin",
+      "matched_pattern": "\\bsection\\s*a\\b"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "\n \n \nDATASET: real estate valuation regression \nhttps://archive.ics.uci.edu/dataset/477/real+estate+valuation+data+set   \n \nSection A \nAnswer the following questions (4 marks) \n1. How many samples are there? \n414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \nY= house price of unit area \n4. What \ndoes \neach \nof \nthe \ninput \ncolumns \nmean? \nX1=the transaction date  \nX2=the house age  \nX3=the distance to the nearest MRT station  \nX4=the number of convenience stores in the living circle on foot  \nX5=the geographic coordinate, latitude.  \nX6=the geographic coordinate, longitude.  \nSection B",
+      "matched_pattern": "how\\s+many\\s+samples"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "https://archive.ics.uci.edu/dataset/477/real+estate+valuation+data+set   \n \nSection A \nAnswer the following questions (4 marks) \n1. How many samples are there? \n414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \nY= house price of unit area \n4. What \ndoes \neach \nof \nthe \ninput \ncolumns \nmean? \nX1=the transaction date  \nX2=the house age  \nX3=the distance to the nearest MRT station  \nX4=the number of convenience stores in the living circle on foot  \nX5=the geographic coordinate, latitude.  \nX6=the geographic coordinate, longitude.  \nSection B",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "ion A \nAnswer the following questions (4 marks) \n1. How many samples are there? \n414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \nY= house price of unit area \n4. What \ndoes \neach \nof \nthe \ninput \ncolumns \nmean? \nX1=the transaction date  \nX2=the house age  \nX3=the distance to the nearest MRT station  \nX4=the number of convenience stores in the living circle on foot  \nX5=the geographic coordinate, latitude.  \nX6=the geographic coordinate, longitude.  \nSection B",
+      "matched_pattern": "target\\s+outcome"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "? \n414 \n2. How \nmany \ninput \nvariables \nare \nthere? \n6 \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \nY= house price of unit area \n4. What \ndoes \neach \nof \nthe \ninput \ncolumns \nmean? \nX1=the transaction date  \nX2=the house age  \nX3=the distance to the nearest MRT station  \nX4=the number of convenience stores in the living circle on foot  \nX5=the geographic coordinate, latitude.  \nX6=the geographic coordinate, longitude.  \nSection B",
+      "matched_pattern": "input\\s+columns?\\s+mean"
+    },
+    {
+      "label": "section_a",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " \n \n \nThe input variable X3 (the distance to the Nearest MRT Station) is better in \npredicting the output / target variable (house price of unit area) \n \n2. Write code to find out how many samples are there in total in dataset? (1 \nmark) \n \n \n3. What is the train test split ratio that you have chosen? (1 mark)",
+      "matched_pattern": "how\\s+many\\s+samples"
+    }
+  ],
+  "scatter_analysis": [
+    {
+      "label": "scatter_analysis",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "MACHINE LEARNING: ASSIGNMENT1   \n \n \n \n \n \n \nSUBMITTED BY, \n \n \n \n \n \n \n \n \n \n \n \n \nS DEVIKA NAIR \n \n \n \n \n \n \n \n \n \n \n   ROLL NO: AMENP2GEO23009 \nPage 2/3 \n1. Using the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable? (4 marks) \n \n \nThe input variable X3 (the distance to the Nearest MRT Station) is better in \npredicting the output / target variable (house price of unit area) \n \n2. Write code to find out how many samples are there in total in dataset? (1 \nmark) \n \n \n3. What is the train test split ratio that you have chosen? (1 mark)",
+      "matched_pattern": "scatter\\s*plot"
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " \n \n \n \n \n \n   ROLL NO: AMENP2GEO23009 \nPage 2/3 \n1. Using the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable? (4 marks) \n \n \nThe input variable X3 (the distance to the Nearest MRT Station) is better in \npredicting the output / target variable (house price of unit area) \n \n2. Write code to find out how many samples are there in total in dataset? (1 \nmark) \n \n \n3. What is the train test split ratio that you have chosen? (1 mark)",
+      "matched_pattern": "better\\s+(?:in\\s+)?predicting"
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "t (Y), which input variable, do you think, is better in predicting the output \n/ target variable? (4 marks) \n \n \nThe input variable X3 (the distance to the Nearest MRT Station) is better in \npredicting the output / target variable (house price of unit area) \n \n2. Write code to find out how many samples are there in total in dataset? (1 \nmark) \n \n \n3. What is the train test split ratio that you have chosen? (1 mark)",
+      "matched_pattern": "better\\s+(?:in\\s+)?predicting"
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 3,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "at are the 3 new things that you learned after you completed this \nassignment? \n \n• Calculate Mean Absolute Percentage Error (MAPE) \n• 80:20 Train Test set split ratio \n• Plotting regression line model",
+      "matched_pattern": "regression\\s+line"
+    }
+  ],
+  "sample_count": [],
+  "train_test_split": [
+    {
+      "label": "train_test_split",
+      "page": 3,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "MACHINE LEARNING: ASSIGNMENT1   \n \n \n \n \n \n \nSUBMITTED BY, \n \n \n \n \n \n \n \n \n \n \n \n \nS DEVIKA NAIR \n \n \n \n \n \n \n \n \n \n \n   ROLL NO: AMENP2GEO23009 \nPage 3/3 \n      \n \n80:20 Split: approximately 80% of the data is assigned to the training set, while \nthe remaining 20% forms the test set. \n \n4. Evaluate the linear regression model by computing the MAE, MSE and \nMean Absolute Percentage Error (MAPE).(3 marks) \n \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment? \n \n• Calculate Mean Absolute Percentage Error (MAPE) \n• 80:20 Train Test set split ratio \n• Plotting regression line model",
+      "value": "3/3",
+      "uncertain": true
+    },
+    {
+      "label": "train_test_split",
+      "page": 3,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "MACHINE LEARNING: ASSIGNMENT1   \n \n \n \n \n \n \nSUBMITTED BY, \n \n \n \n \n \n \n \n \n \n \n \n \nS DEVIKA NAIR \n \n \n \n \n \n \n \n \n \n \n   ROLL NO: AMENP2GEO23009 \nPage 3/3 \n      \n \n80:20 Split: approximately 80% of the data is assigned to the training set, while \nthe remaining 20% forms the test set. \n \n4. Evaluate the linear regression model by computing the MAE, MSE and \nMean Absolute Percentage Error (MAPE).(3 marks) \n \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment? \n \n• Calculate Mean Absolute Percentage Error (MAPE) \n• 80:20 Train Test set split ratio \n• Plotting regression line model",
+      "value": "80:20",
+      "uncertain": true
+    },
+    {
+      "label": "train_test_split",
+      "page": 3,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "centage Error (MAPE).(3 marks) \n \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment? \n \n• Calculate Mean Absolute Percentage Error (MAPE) \n• 80:20 Train Test set split ratio \n• Plotting regression line model",
+      "value": "80:20",
+      "uncertain": true
+    }
+  ],
+  "reflection": [
+    {
+      "label": "reflection",
+      "page": 3,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " while \nthe remaining 20% forms the test set. \n \n4. Evaluate the linear regression model by computing the MAE, MSE and \nMean Absolute Percentage Error (MAPE).(3 marks) \n \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment? \n \n• Calculate Mean Absolute Percentage Error (MAPE) \n• 80:20 Train Test set split ratio \n• Plotting regression line model",
+      "matched_pattern": "what.*learned"
+    },
+    {
+      "label": "reflection",
+      "page": 3,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " test set. \n \n4. Evaluate the linear regression model by computing the MAE, MSE and \nMean Absolute Percentage Error (MAPE).(3 marks) \n \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment? \n \n• Calculate Mean Absolute Percentage Error (MAPE) \n• 80:20 Train Test set split ratio \n• Plotting regression line model",
+      "matched_pattern": "\\blearned\\b"
+    }
+  ],
+  "metrics": {
+    "MAE": [
+      {
+        "label": "MAE",
+        "page": 3,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": " \nthe remaining 20% forms the test set. \n \n4. Evaluate the linear regression model by computing the MAE, MSE and \nMean Absolute Percentage Error (MAPE).(3 marks) \n \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment? \n \n• Calculate Mean Absolute Percentage Error (MAPE) \n• 80:20 Train Test set split ratio \n• Plotting regression line model",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and ",
+        "value": null,
+        "needs_review": true
+      }
+    ],
+    "MSE": [
+      {
+        "label": "MSE",
+        "page": 3,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": " remaining 20% forms the test set. \n \n4. Evaluate the linear regression model by computing the MAE, MSE and \nMean Absolute Percentage Error (MAPE).(3 marks) \n \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment? \n \n• Calculate Mean Absolute Percentage Error (MAPE) \n• 80:20 Train Test set split ratio \n• Plotting regression line model",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and ",
+        "value": null,
+        "needs_review": true
+      }
+    ],
+    "MAPE": [
+      {
+        "label": "MAPE",
+        "page": 3,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "g 20% forms the test set. \n \n4. Evaluate the linear regression model by computing the MAE, MSE and \nMean Absolute Percentage Error (MAPE).(3 marks) \n \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment? \n \n• Calculate Mean Absolute Percentage Error (MAPE) \n• 80:20 Train Test set split ratio \n• Plotting regression line model",
+        "line_or_table_context": "Mean Absolute Percentage Error (MAPE).(3 marks) ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 3,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "Evaluate the linear regression model by computing the MAE, MSE and \nMean Absolute Percentage Error (MAPE).(3 marks) \n \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment? \n \n• Calculate Mean Absolute Percentage Error (MAPE) \n• 80:20 Train Test set split ratio \n• Plotting regression line model",
+        "line_or_table_context": "Mean Absolute Percentage Error (MAPE).(3 marks) ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 3,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "\n5. What are the 3 new things that you learned after you completed this \nassignment? \n \n• Calculate Mean Absolute Percentage Error (MAPE) \n• 80:20 Train Test set split ratio \n• Plotting regression line model",
+        "line_or_table_context": "• Calculate Mean Absolute Percentage Error (MAPE) ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 3,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "student_response_or_context",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "at you learned after you completed this \nassignment? \n \n• Calculate Mean Absolute Percentage Error (MAPE) \n• 80:20 Train Test set split ratio \n• Plotting regression line model",
+        "line_or_table_context": "• Calculate Mean Absolute Percentage Error (MAPE) ",
+        "value": null,
+        "needs_review": true
+      }
+    ]
+  },
+  "evidence_gaps": [
+    "No captured text matched sample_count. This does not show that the student omitted it; it may be in an image or screenshot.",
+    "No explicit MAE value was confidently linked to captured text. It may be in an image or require visual OCR review.",
+    "No explicit MSE value was confidently linked to captured text. It may be in an image or require visual OCR review.",
+    "No explicit MAPE value was confidently linked to captured text. It may be in an image or require visual OCR review."
+  ],
+  "uncertain_ocr_evidence": []
+}

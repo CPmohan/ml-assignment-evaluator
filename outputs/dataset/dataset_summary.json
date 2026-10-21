@@ -1,0 +1,8 @@
+{
+  "submission_count": 28,
+  "evidence_prepared": 28,
+  "ai_scores_generated": 0,
+  "human_scores_available": 0,
+  "human_marks_csv": "data\\human_marks.csv",
+  "note": "An input PDF count is not an evaluation count. Scores require AI runs and human verification."
+}

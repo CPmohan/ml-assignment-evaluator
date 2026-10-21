@@ -1,0 +1,87 @@
+{
+  "reviewer": 1,
+  "seed": 20261017,
+  "elapsed_seconds": 178.218,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "1. How many samples are there? Ans) 414 2. How many input variables are there? Ans) 6 3. Which column is the output variable? Ans) House price of unit area 4. What does each of the"
+        }
+      ],
+      "feedback": "All four dataset questions are correctly answered: sample count (414), input variables (6), target variable (house price), and meanings of X1-X4. No copied text; answers are student-generated.",
+      "limitations": "None; text extraction fully captures all required elements on page 1.",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "Distance to the nearest MRT station is better in predicting the output variable because from this plot we could identify that as the distance to the MRT station increases house价格"
+        }
+      ],
+      "feedback": "Student identifies a predictor (distance to MRT) and gives a plot-based explanation, but no actual scatter plots are visible or referenced in text. The explanation is grounded in plot evidence only if images exist; without visual proof, the",
+      "limitations": "No scatter plots are visible or referenced in text. A reviewer must visually confirm the presence and content of scatter plots for X1-X4 vs Y on pages 5–7.",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "Ans) "
+        }
+      ],
+      "feedback": "Student states 414 samples in answer to the sample count question. However, no code or output is provided to show how this count was computed. The prompt requires student code or calculation showing 414; absence of such evidence means this ",
+      "limitations": "No code or calculation is present on page 3 to verify the 414 sample count. The student's answer is correct but unsupported by executable code or output.",
+      "score": 0,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "Train test split ratio = 70:30"
+        }
+      ],
+      "feedback": "The student clearly states a train/test split ratio (70:30) and provides supporting calculation (276/138). This meets the rubric requirement for a stated ratio with code or output, even though no code is shown. The ratio is valid and",
+      "limitations": "No explicit code or output is shown for the split, but the calculation is provided and the ratio is stated. The rubric does not require code, only a stated and ",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 10,
+          "text": "MAE, MSE, and MAPE values are less for distance to MRT station so this might be the most predictive among other features"
+        }
+      ],
+      "feedback": "Student reports MAE, MSE, and MAPE values for all features, including for distance to MRT. However, no code or output supports the computation of these metrics. Values are listed but not tied to model predictions or code execution. The",
+      "limitations": "No code or output is provided to show how MAE, MSE, or MAPE were computed. The values are listed but not verified as outputs from model evaluation.",
+      "score": 1,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ]
+}

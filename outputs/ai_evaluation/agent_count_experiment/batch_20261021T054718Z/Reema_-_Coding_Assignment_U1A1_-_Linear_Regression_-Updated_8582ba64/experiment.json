@@ -1,0 +1,25 @@
+{
+  "experiment_id": "20261021T083500Z",
+  "assignment": "Reema - Coding Assignment U1A1 - Linear Regression -Updated.pdf",
+  "assignment_sha256": "8582ba64a5445dcb36795195d97c60e411fc4f3f03d28b62860fb2506b071340",
+  "rubric_path": "C:\\Users\\kisho\\ml_assignment_evaluator\\rubric.json",
+  "rubric_version": "1.0-assignment-criteria",
+  "model": "qwen3:4b-instruct",
+  "temperature": 0.2,
+  "first_seed": 20261017,
+  "max_agents": 4,
+  "status": "completed",
+  "visual_review_required_pages": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "started_at": "2026-10-21T08:35:00.984305+00:00",
+  "reviewers_completed": 4,
+  "finished_at": "2026-10-21T08:47:49.855716+00:00",
+  "total_elapsed_seconds": 768.846,
+  "comparison_csv": "agent_count_comparison.csv",
+  "comparison_markdown": "agent_count_comparison.md"
+}

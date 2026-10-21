@@ -1,0 +1,23 @@
+{
+  "experiment_id": "20261021T091310Z",
+  "assignment": "S_Pranoy.pdf",
+  "assignment_sha256": "736124b08853e1e1e2ae357a631a8149b07649c93730054810fdb1870c1e7fbd",
+  "rubric_path": "C:\\Users\\kisho\\ml_assignment_evaluator\\rubric.json",
+  "rubric_version": "1.0-assignment-criteria",
+  "model": "qwen3:4b-instruct",
+  "temperature": 0.2,
+  "first_seed": 20261017,
+  "max_agents": 4,
+  "status": "completed",
+  "visual_review_required_pages": [
+    2,
+    3,
+    4
+  ],
+  "started_at": "2026-10-21T09:13:10.624588+00:00",
+  "reviewers_completed": 4,
+  "finished_at": "2026-10-21T09:20:57.939651+00:00",
+  "total_elapsed_seconds": 467.282,
+  "comparison_csv": "agent_count_comparison.csv",
+  "comparison_markdown": "agent_count_comparison.md"
+}

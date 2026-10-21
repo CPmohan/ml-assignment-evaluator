@@ -1,0 +1,23 @@
+{
+  "experiment_id": "20261021T064219Z",
+  "assignment": "AryaR_AM_En_P2GEO23002_Assignment1.pdf",
+  "assignment_sha256": "ed9d57e0f181ed1d51497cd277c15d5cc2d1a52b54cfc12b8525f57fd22c8fa2",
+  "rubric_path": "C:\\Users\\kisho\\ml_assignment_evaluator\\rubric.json",
+  "rubric_version": "1.0-assignment-criteria",
+  "model": "qwen3:4b-instruct",
+  "temperature": 0.2,
+  "first_seed": 20261017,
+  "max_agents": 4,
+  "status": "completed",
+  "visual_review_required_pages": [
+    2,
+    3,
+    4
+  ],
+  "started_at": "2026-10-21T06:42:19.200514+00:00",
+  "reviewers_completed": 4,
+  "finished_at": "2026-10-21T06:47:55.816467+00:00",
+  "total_elapsed_seconds": 336.591,
+  "comparison_csv": "agent_count_comparison.csv",
+  "comparison_markdown": "agent_count_comparison.md"
+}

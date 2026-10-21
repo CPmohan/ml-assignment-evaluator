@@ -1,0 +1,89 @@
+{
+  "assignment_file": "AryaR_AM_En_P2GEO23002_Assignment1.json",
+  "evaluation_type": "manual rubric-based draft",
+  "rubric_status": "provisional; advisor approval pending",
+  "total_awarded": 10.0,
+  "total_possible": 10,
+  "criteria": [
+    {
+      "id": "A",
+      "criterion": "Section A dataset questions",
+      "max_marks": 1,
+      "note": "Award only if all required Section A questions are answered.",
+      "awarded_marks": 1.0,
+      "evidence": "Pages 1-2: All required Section A questions are answered."
+    },
+    {
+      "id": "B1",
+      "criterion": "Scatter-plot analysis",
+      "max_marks": 1,
+      "note": "Look for scatter plots comparing X1-X4 with Y.",
+      "awarded_marks": 1.0,
+      "evidence": ""
+    },
+    {
+      "id": "B2",
+      "criterion": "Predictor selection",
+      "max_marks": 1,
+      "note": "Look for a clearly identified best predictor.",
+      "awarded_marks": 1.0,
+      "evidence": ""
+    },
+    {
+      "id": "B3",
+      "criterion": "Plot evidence",
+      "max_marks": 1,
+      "note": "Look for plots or readable screenshots supporting the choice.",
+      "awarded_marks": 1.0,
+      "evidence": ""
+    },
+    {
+      "id": "B4",
+      "criterion": "Explanation of predictor choice",
+      "max_marks": 1,
+      "note": "Look for an explanation based on the plotted relationship.",
+      "awarded_marks": 1.0,
+      "evidence": ""
+    },
+    {
+      "id": "C",
+      "criterion": "Number of samples",
+      "max_marks": 1,
+      "note": "Expected dataset size: 414 samples.",
+      "awarded_marks": 1.0,
+      "evidence": ""
+    },
+    {
+      "id": "D",
+      "criterion": "Train/test split",
+      "max_marks": 1,
+      "note": "Look for the split ratio used.",
+      "awarded_marks": 1.0,
+      "evidence": ""
+    },
+    {
+      "id": "E1",
+      "criterion": "MAE",
+      "max_marks": 1,
+      "note": "Look for MAE calculation or output.",
+      "awarded_marks": 1.0,
+      "evidence": ""
+    },
+    {
+      "id": "E2",
+      "criterion": "MSE",
+      "max_marks": 1,
+      "note": "Look for MSE calculation or output.",
+      "awarded_marks": 1.0,
+      "evidence": ""
+    },
+    {
+      "id": "E3",
+      "criterion": "MAPE",
+      "max_marks": 1,
+      "note": "Look for MAPE calculation or output.",
+      "awarded_marks": 1.0,
+      "evidence": ""
+    }
+  ]
+}

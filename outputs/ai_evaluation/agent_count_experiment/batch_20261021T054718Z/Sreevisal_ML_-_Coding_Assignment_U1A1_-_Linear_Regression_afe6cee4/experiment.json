@@ -1,0 +1,24 @@
+{
+  "experiment_id": "20261021T093450Z",
+  "assignment": "Sreevisal_ML - Coding Assignment U1A1 - Linear Regression.pdf",
+  "assignment_sha256": "afe6cee40a019ca5c45361f54ce41d3c4c62847f915f0df81452abb9699deb9a",
+  "rubric_path": "C:\\Users\\kisho\\ml_assignment_evaluator\\rubric.json",
+  "rubric_version": "1.0-assignment-criteria",
+  "model": "qwen3:4b-instruct",
+  "temperature": 0.2,
+  "first_seed": 20261017,
+  "max_agents": 4,
+  "status": "completed",
+  "visual_review_required_pages": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "started_at": "2026-10-21T09:34:50.503743+00:00",
+  "reviewers_completed": 4,
+  "finished_at": "2026-10-21T09:42:26.760622+00:00",
+  "total_elapsed_seconds": 456.231,
+  "comparison_csv": "agent_count_comparison.csv",
+  "comparison_markdown": "agent_count_comparison.md"
+}

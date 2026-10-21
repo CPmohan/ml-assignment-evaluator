@@ -1,0 +1,52 @@
+{
+  "filename": "Aswathy - Coding Assignment U1A1 - Linear Regression (3) (1) (1).pdf",
+  "page_count": 9,
+  "pages": [
+    {
+      "page": 1,
+      "text": "Page 1/9 \nMachine Learning (BMI/GEO/WNA) \nCode Assignment U1A1  \nLinear Regression \nThis is NOT a group Assignment. \n \n10 marks \nPlease complete seeing the videos for Week 1-2 before attempting this \nassignment.  \n \nUse real estate valuation regression dataset : \nhttps://archive.ics.uci.edu/dataset/477/real+estate+valuation+data+set  \nfrom the UCI repository, and use google colab to code. \n \nFirst, download the csv file, and open it in your computer and analyze the \ndata. Try to understand what the data is about. Read through the data \ndescription \ngiven \nin \nthe \nUCI \nwebsite \nas \nwell. \n \nSection A \nAnswer the following questions [1 mark if you answer all the below \nquestions] : \n1. How many samples are there? \nThere are 414 samples in the dataset. \n2. How \nmany \ninput \nvariables \nare \nthere? \nThere are 6 input variables in the dataset. \nX1=the transaction date  \nX2=the house age (unit: year) \nX3=the distance to the nearest MRT station (unit: meter)",
+      "image_count": 0
+    },
+    {
+      "page": 2,
+      "text": "Page 2/9 \nX4=the number of convenience stores in the living circle on foot (integer) \nX5=the geographic coordinate, latitude. (unit: degree) \nX6=the geographic coordinate, longitude. (unit: degree) \n \n3. Which column is the output variable (target outcome)? \nThere is one output variable in the dataset : Y= house price of unit \narea. \n4. What does each of the input columns mean ? \nThe input values represent various attributes related to real estate \nvaluation. \n1. X1=the transaction date - this column represents the date when the transactions \ntook place.  \n2. X2=the house age (unit: year) - this column represents the age of the house in \nyears. \n3. X3=the distance to the nearest MRT station (unit: meter) -this column \nrepresents the distance from the property to the nearest MRT station.  \n4. X4=the number of convenience stores in the living circle on foot (integer) - \nthis column represents the count of convenience stores in the living area within \na particular distance. \n5. X5=the geographic coordinate, latitude. (unit: degree)- this column represents \nthe geographical location or coordinate of the property in terms of its north-\nsouth position, measured in degrees. \n6. X6=the geographic coordinate, longitude. (unit: degree) - this column \nrepresents the geographical coordinate of the property in terms of its east-west \nposition, \nmeasured \nin \ndegrees.  \n \nSection B \nFor each of the questions below, you need to put in the screenshot of the \ncode and its output. You could use the sample google colab file that is \nprovided with this assignment.",
+      "image_count": 0
+    },
+    {
+      "page": 3,
+      "text": "Page 3/9 \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting \nthe output / target variable ? \n1. Input variable X1 \n \n \n2. Input variable X2",
+      "image_count": 2
+    },
+    {
+      "page": 4,
+      "text": "Page 4/9 \n \n \n \n \n3. Input variable X3",
+      "image_count": 3
+    },
+    {
+      "page": 5,
+      "text": "Page 5/9 \n \n4. Input variable X4",
+      "image_count": 2
+    },
+    {
+      "page": 6,
+      "text": "Page 6/9 \n \n \n \n \n \nThe input variable house age and distance to the nearest MRT station \nwill be a better input variable in predicting the output variable as both \nhave a direct linear proportion to each other. House age indicates the \nstructural conditions and design model of a house which directly \naffects the price of house. \n \n2. Write code to find out how many samples are there in total in this \ndataset? [1 mark]",
+      "image_count": 1
+    },
+    {
+      "page": 7,
+      "text": "Page 7/9 \n \n \n \n3. What is the train test split ratio that you have chosen ? [1 Mark] \n \nThe train-test ratio is 75-25%. \n \n4. Evaluate the linear regression model by computing the MAE, MSE and \nMean Absolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_perce\nntage_error.html)  \n[3 marks]",
+      "image_count": 2
+    },
+    {
+      "page": 8,
+      "text": "Page 8/9 \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \n1. MAPE- mean absolute percentage error  \n2. MAE \n3. MSE \n \nGrading Scheme (Total 10 Marks) \nTime - 4 hours max. \nSubmission \non \nTeams \nby \n11.30 \nPM, \n20 \nFeb \n2024. \nLate \nsubmissions \nare \nNOT \nallowed. \n \nPlagiarism Policy \nYou are NOT allowed to discuss. You cannot copy paste text/image from the internet \nor other sources. All assignments are put through TurnitIn, and any similarity score of \nmore than 40% will be flagged as plagiarism. The penalties are as follows. \n● 1st instance of plagiarism - 0 marks for this assignment \n● 2nd instance of plagiarism - GRADE DOWN for the entire course",
+      "image_count": 1
+    },
+    {
+      "page": 9,
+      "text": "Page 9/9 \n● 3rd \ninstance \nof \nplagiarism \n- \nFAIL \nin \nthe \ncourse \n \nBy submitting this assignment, you agree to the above policies on grading, submission \nand plagiarism.",
+      "image_count": 0
+    }
+  ],
+  "text": "Page 1/9 \nMachine Learning (BMI/GEO/WNA) \nCode Assignment U1A1  \nLinear Regression \nThis is NOT a group Assignment. \n \n10 marks \nPlease complete seeing the videos for Week 1-2 before attempting this \nassignment.  \n \nUse real estate valuation regression dataset : \nhttps://archive.ics.uci.edu/dataset/477/real+estate+valuation+data+set  \nfrom the UCI repository, and use google colab to code. \n \nFirst, download the csv file, and open it in your computer and analyze the \ndata. Try to understand what the data is about. Read through the data \ndescription \ngiven \nin \nthe \nUCI \nwebsite \nas \nwell. \n \nSection A \nAnswer the following questions [1 mark if you answer all the below \nquestions] : \n1. How many samples are there? \nThere are 414 samples in the dataset. \n2. How \nmany \ninput \nvariables \nare \nthere? \nThere are 6 input variables in the dataset. \nX1=the transaction date  \nX2=the house age (unit: year) \nX3=the distance to the nearest MRT station (unit: meter)\n\nPage 2/9 \nX4=the number of convenience stores in the living circle on foot (integer) \nX5=the geographic coordinate, latitude. (unit: degree) \nX6=the geographic coordinate, longitude. (unit: degree) \n \n3. Which column is the output variable (target outcome)? \nThere is one output variable in the dataset : Y= house price of unit \narea. \n4. What does each of the input columns mean ? \nThe input values represent various attributes related to real estate \nvaluation. \n1. X1=the transaction date - this column represents the date when the transactions \ntook place.  \n2. X2=the house age (unit: year) - this column represents the age of the house in \nyears. \n3. X3=the distance to the nearest MRT station (unit: meter) -this column \nrepresents the distance from the property to the nearest MRT station.  \n4. X4=the number of convenience stores in the living circle on foot (integer) - \nthis column represents the count of convenience stores in the living area within \na particular distance. \n5. X5=the geographic coordinate, latitude. (unit: degree)- this column represents \nthe geographical location or coordinate of the property in terms of its north-\nsouth position, measured in degrees. \n6. X6=the geographic coordinate, longitude. (unit: degree) - this column \nrepresents the geographical coordinate of the property in terms of its east-west \nposition, \nmeasured \nin \ndegrees.  \n \nSection B \nFor each of the questions below, you need to put in the screenshot of the \ncode and its output. You could use the sample google colab file that is \nprovided with this assignment.\n\nPage 3/9 \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting \nthe output / target variable ? \n1. Input variable X1 \n \n \n2. Input variable X2\n\nPage 4/9 \n \n \n \n \n3. Input variable X3\n\nPage 5/9 \n \n4. Input variable X4\n\nPage 6/9 \n \n \n \n \n \nThe input variable house age and distance to the nearest MRT station \nwill be a better input variable in predicting the output variable as both \nhave a direct linear proportion to each other. House age indicates the \nstructural conditions and design model of a house which directly \naffects the price of house. \n \n2. Write code to find out how many samples are there in total in this \ndataset? [1 mark]\n\nPage 7/9 \n \n \n \n3. What is the train test split ratio that you have chosen ? [1 Mark] \n \nThe train-test ratio is 75-25%. \n \n4. Evaluate the linear regression model by computing the MAE, MSE and \nMean Absolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_perce\nntage_error.html)  \n[3 marks]\n\nPage 8/9 \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment ? \n1. MAPE- mean absolute percentage error  \n2. MAE \n3. MSE \n \nGrading Scheme (Total 10 Marks) \nTime - 4 hours max. \nSubmission \non \nTeams \nby \n11.30 \nPM, \n20 \nFeb \n2024. \nLate \nsubmissions \nare \nNOT \nallowed. \n \nPlagiarism Policy \nYou are NOT allowed to discuss. You cannot copy paste text/image from the internet \nor other sources. All assignments are put through TurnitIn, and any similarity score of \nmore than 40% will be flagged as plagiarism. The penalties are as follows. \n● 1st instance of plagiarism - 0 marks for this assignment \n● 2nd instance of plagiarism - GRADE DOWN for the entire course\n\nPage 9/9 \n● 3rd \ninstance \nof \nplagiarism \n- \nFAIL \nin \nthe \ncourse \n \nBy submitting this assignment, you agree to the above policies on grading, submission \nand plagiarism."
+}

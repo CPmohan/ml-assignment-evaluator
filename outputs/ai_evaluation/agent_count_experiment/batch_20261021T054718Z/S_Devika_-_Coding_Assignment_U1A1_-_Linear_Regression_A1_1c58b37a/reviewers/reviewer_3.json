@@ -1,0 +1,87 @@
+{
+  "reviewer": 3,
+  "seed": 20261019,
+  "elapsed_seconds": 112.885,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "1. How many samples are there? 414 2. How many input variables are there? 6 3. Which column is the output variable? Y= house price of unit area 4. What does each of the input cols?"
+        }
+      ],
+      "feedback": "All four dataset questions answered correctly: sample count (414), input variables (6), target (Y), and meaning of each input variable. No copied prompt text.",
+      "limitations": "None. Text extraction fully captures all required dataset details on page 1. No visual elements needed for this criterion. 414 is explicitly stated and matches.",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Not Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "The input variable X3 (the distance to the Nearest MRT Station) is better in predicting the output / target variable (house price of unit area)"
+        }
+      ],
+      "feedback": "Selected predictor X3 is correct, but no scatter plots or plot evidence is present. Rubric requires scatter plots for X1-X4 vs Y and plot-based explanation; this is missing and not verifiable.",
+      "limitations": "No scatter plots or visual evidence present. Text extraction omits embedded images. Cannot verify plot evidence on page 2 or elsewhere.",
+      "score": 0,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "2. Write code to find out how many samples are there in total in dataset? "
+        }
+      ],
+      "feedback": "Student states 414 samples. However, no code or output showing the count is provided. The prompt requires student's own code or output. This evidence is missing.",
+      "limitations": "No code or output is present to verify 414 samples. Text only states the number without supporting computation.",
+      "score": 0,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "80:20 Split: approximately 80% of the data is assigned to the training set, while the remaining 20% forms the test set."
+        }
+      ],
+      "feedback": "Train/test split ratio (80:20) is clearly stated and matches expected evidence. No code is required as ratio is reported. This satisfies the rubric.",
+      "limitations": "None. Ratio is explicitly stated and verifiable in text. No image needed for ratio reporting.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Not Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean Absolute Percentage Error (MAPE)."
+        }
+      ],
+      "feedback": "No values for MAE, MSE, or MAPE are reported. No code or output showing computed metrics. Rubric requires values with supporting output; this is missing.",
+      "limitations": "No computed metric values or supporting code/output. Text only references evaluation without providing any values or results.",
+      "score": 0,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ]
+}

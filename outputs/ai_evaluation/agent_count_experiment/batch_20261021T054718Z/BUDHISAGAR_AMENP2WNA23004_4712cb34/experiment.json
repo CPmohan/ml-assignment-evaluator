@@ -1,0 +1,23 @@
+{
+  "experiment_id": "20261021T071609Z",
+  "assignment": "BUDHISAGAR_AMENP2WNA23004.pdf",
+  "assignment_sha256": "4712cb34cd8a1b59c5cb8313a6ee3c60966ba36e856bad12435089cd31c4e3b4",
+  "rubric_path": "C:\\Users\\kisho\\ml_assignment_evaluator\\rubric.json",
+  "rubric_version": "1.0-assignment-criteria",
+  "model": "qwen3:4b-instruct",
+  "temperature": 0.2,
+  "first_seed": 20261017,
+  "max_agents": 4,
+  "status": "completed",
+  "visual_review_required_pages": [
+    2,
+    3,
+    4
+  ],
+  "started_at": "2026-10-21T07:16:09.288518+00:00",
+  "reviewers_completed": 4,
+  "finished_at": "2026-10-21T07:23:06.920673+00:00",
+  "total_elapsed_seconds": 417.61,
+  "comparison_csv": "agent_count_comparison.csv",
+  "comparison_markdown": "agent_count_comparison.md"
+}

@@ -1,0 +1,225 @@
+{
+  "filename": "Abhilash_AM.EN.P2GEO23001_LinearRegressionU1A1.pdf",
+  "section_a": [
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "CODING ASSIGNMENT U1A1 \nSection A \nAnswer the following questions [1 mark if you answer all the below questions]: \n1. How many samples are there? \nAnswer: 414 \n \n2. How many input variables are there? \nAnswer: 6 \n \n3. Which column is the output variable (target outcome)? \nAnswer: Y house price of unit area \n \n4. What does each of the input columns mean? \n          Answer: X1 shows the year & months in which the transaction of land \nwas done. X2 contains data about how old the houses in transaction \nare in terms of number of yea",
+      "matched_pattern": "\\bsection\\s*a\\b"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "CODING ASSIGNMENT U1A1 \nSection A \nAnswer the following questions [1 mark if you answer all the below questions]: \n1. How many samples are there? \nAnswer: 414 \n \n2. How many input variables are there? \nAnswer: 6 \n \n3. Which column is the output variable (target outcome)? \nAnswer: Y house price of unit area \n \n4. What does each of the input columns mean? \n          Answer: X1 shows the year & months in which the transaction of land \nwas done. X2 contains data about how old the houses in transaction \nare in terms of number of years. X3 variable consist of the distance \nof the sold houses from nearest MRT (mass rapid transit) sta",
+      "matched_pattern": "how\\s+many\\s+samples"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "CODING ASSIGNMENT U1A1 \nSection A \nAnswer the following questions [1 mark if you answer all the below questions]: \n1. How many samples are there? \nAnswer: 414 \n \n2. How many input variables are there? \nAnswer: 6 \n \n3. Which column is the output variable (target outcome)? \nAnswer: Y house price of unit area \n \n4. What does each of the input columns mean? \n          Answer: X1 shows the year & months in which the transaction of land \nwas done. X2 contains data about how old the houses in transaction \nare in terms of number of years. X3 variable consist of the distance \nof the sold houses from nearest MRT (mass rapid transit) station \nwhereas X4 shows the number of convenience stores",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "f you answer all the below questions]: \n1. How many samples are there? \nAnswer: 414 \n \n2. How many input variables are there? \nAnswer: 6 \n \n3. Which column is the output variable (target outcome)? \nAnswer: Y house price of unit area \n \n4. What does each of the input columns mean? \n          Answer: X1 shows the year & months in which the transaction of land \nwas done. X2 contains data about how old the houses in transaction \nare in terms of number of years. X3 variable consist of the distance \nof the sold houses from nearest MRT (mass rapid transit) station \nwhereas X4 shows the number of convenience stores in the living \ncircle around the house. \n \nSection B \n1. Understanding the data",
+      "matched_pattern": "target\\s+outcome"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "14 \n \n2. How many input variables are there? \nAnswer: 6 \n \n3. Which column is the output variable (target outcome)? \nAnswer: Y house price of unit area \n \n4. What does each of the input columns mean? \n          Answer: X1 shows the year & months in which the transaction of land \nwas done. X2 contains data about how old the houses in transaction \nare in terms of number of years. X3 variable consist of the distance \nof the sold houses from nearest MRT (mass rapid transit) station \nwhereas X4 shows the number of convenience stores in the living \ncircle around the house. \n \nSection B \n1. Understanding the dataset [4 marks]. Which input variable do you think is \nbetter in predicting the output ",
+      "matched_pattern": "input\\s+columns?\\s+mean"
+    },
+    {
+      "label": "section_a",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "swer: X3 (distance to the nearest MRT station). Because it shows stronger \ncorrelation with the target variable compared to the other input variables. \n \n2. Write code to find out how many samples are there in total in this dataset? \n        [1 mark] \n \n \n \n3. What is the train test split ratio you have chosen? [1 Mark] \nAnswer: 1/4 (25% - 75%)",
+      "matched_pattern": "how\\s+many\\s+samples"
+    },
+    {
+      "label": "section_a",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Answer: X3 (distance to the nearest MRT station). Because it shows stronger \ncorrelation with the target variable compared to the other input variables. \n \n2. Write code to find out how many samples are there in total in this dataset? \n        [1 mark] \n \n \n \n3. What is the train test split ratio you have chosen? [1 Mark] \nAnswer: 1/4 (25% - 75%)",
+      "matched_pattern": "input\\s+variables"
+    }
+  ],
+  "scatter_analysis": [
+    {
+      "label": "scatter_analysis",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "ereas X4 shows the number of convenience stores in the living \ncircle around the house. \n \nSection B \n1. Understanding the dataset [4 marks]. Which input variable do you think is \nbetter in predicting the output / target variable?",
+      "matched_pattern": "better\\s+(?:in\\s+)?predicting"
+    }
+  ],
+  "sample_count": [],
+  "train_test_split": [
+    {
+      "label": "train_test_split",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "\n \n2. Write code to find out how many samples are there in total in this dataset? \n        [1 mark] \n \n \n \n3. What is the train test split ratio you have chosen? [1 Mark] \nAnswer: 1/4 (25% - 75%)",
+      "value": "1/4",
+      "uncertain": false
+    }
+  ],
+  "reflection": [
+    {
+      "label": "reflection",
+      "page": 4,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "5. What are the 3 new things you learned after completing this assignment? \nAnswer: \n To evaluate input variable that is better for predictions. \n To plot multiple charts without writing codes for each. \n I learned about MAPE.",
+      "matched_pattern": "what.*learned"
+    },
+    {
+      "label": "reflection",
+      "page": 4,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "5. What are the 3 new things you learned after completing this assignment? \nAnswer: \n To evaluate input variable that is better for predictions. \n To plot multiple charts without writing codes for each. \n I learned about MAPE.",
+      "matched_pattern": "\\blearned\\b"
+    },
+    {
+      "label": "reflection",
+      "page": 4,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "ou learned after completing this assignment? \nAnswer: \n To evaluate input variable that is better for predictions. \n To plot multiple charts without writing codes for each. \n I learned about MAPE.",
+      "matched_pattern": "\\blearned\\b"
+    }
+  ],
+  "metrics": {
+    "MAE": [
+      {
+        "label": "MAE",
+        "page": 3,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE). [3 marks]",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean ",
+        "value": null,
+        "needs_review": true
+      }
+    ],
+    "MSE": [
+      {
+        "label": "MSE",
+        "page": 3,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE). [3 marks]",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean ",
+        "value": null,
+        "needs_review": true
+      }
+    ],
+    "MAPE": [
+      {
+        "label": "MAPE",
+        "page": 3,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE). [3 marks]",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE). [3 marks]",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 3,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE). [3 marks]",
+        "line_or_table_context": "Absolute Percentage Error (MAPE). [3 marks]",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "student_response_or_context",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "tter for predictions. \n To plot multiple charts without writing codes for each. \n I learned about MAPE.",
+        "line_or_table_context": " I learned about MAPE.",
+        "value": null,
+        "needs_review": true
+      }
+    ]
+  },
+  "evidence_gaps": [
+    "No captured text matched sample_count. This does not show that the student omitted it; it may be in an image or screenshot.",
+    "No explicit MAE value was confidently linked to captured text. It may be in an image or require visual OCR review.",
+    "No explicit MSE value was confidently linked to captured text. It may be in an image or require visual OCR review.",
+    "No explicit MAPE value was confidently linked to captured text. It may be in an image or require visual OCR review."
+  ],
+  "uncertain_ocr_evidence": []
+}

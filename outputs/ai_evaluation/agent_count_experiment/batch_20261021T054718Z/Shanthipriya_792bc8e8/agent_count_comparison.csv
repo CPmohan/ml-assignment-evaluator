@@ -1,0 +1,5 @@
+agent_count,ai_provisional_total,total_possible,overall_criterion_agreement,Q1_consensus,Q2_consensus,Q3_consensus,Q4_consensus,Q5_consensus,Q1_scores,Q2_scores,Q3_scores,Q4_scores,Q5_scores
+1,3,10,1.0,1,2,0,0,0,1,2,0,0,0
+2,3,10,1.0,1,2,0,0,0,"1,1","2,2","0,0","0,0","0,0"
+3,3,10,1.0,1,2,0,0,0,"1,1,1","2,2,2","0,0,0","0,0,0","0,0,0"
+4,3,10,1.0,1,2,0,0,0,"1,1,1,1","2,2,2,2","0,0,0,0","0,0,0,0","0,0,0,0"

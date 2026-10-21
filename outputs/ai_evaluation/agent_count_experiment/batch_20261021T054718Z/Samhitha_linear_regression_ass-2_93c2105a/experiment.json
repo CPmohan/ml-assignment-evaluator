@@ -1,0 +1,28 @@
+{
+  "experiment_id": "20261021T092057Z",
+  "assignment": "Samhitha linear regression ass-2.pdf",
+  "assignment_sha256": "93c2105a2aebbbb167982d21b67e5766394041487194106e78fb99bd37e2d4bf",
+  "rubric_path": "C:\\Users\\kisho\\ml_assignment_evaluator\\rubric.json",
+  "rubric_version": "1.0-assignment-criteria",
+  "model": "qwen3:4b-instruct",
+  "temperature": 0.2,
+  "first_seed": 20261017,
+  "max_agents": 4,
+  "status": "completed",
+  "visual_review_required_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "started_at": "2026-10-21T09:20:57.962227+00:00",
+  "reviewers_completed": 4,
+  "finished_at": "2026-10-21T09:28:27.103821+00:00",
+  "total_elapsed_seconds": 449.118,
+  "comparison_csv": "agent_count_comparison.csv",
+  "comparison_markdown": "agent_count_comparison.md"
+}

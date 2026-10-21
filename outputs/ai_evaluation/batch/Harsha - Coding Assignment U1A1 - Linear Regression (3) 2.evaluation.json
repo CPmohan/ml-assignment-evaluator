@@ -1,0 +1,99 @@
+{
+  "status": "AI rubric suggestions generated — human review required",
+  "assignment": "Harsha - Coding Assignment U1A1 - Linear Regression (3) 2.pdf",
+  "rubric_version": "1.0-assignment-criteria",
+  "evaluated_at": "2026-10-11T09:34:36.984695+00:00",
+  "total_possible": 10,
+  "score_coverage": 5,
+  "ai_provisional_total": 7,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "1. How many samples are there? 414 2. How many input variables are there? 6 3. Which column is the output variable? 8th 4. What does each input column mean? X1=transaction date, X2"
+        }
+      ],
+      "feedback": "All four dataset questions are correctly answered with clear, student-generated responses.",
+      "limitations": "None.",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "X3 : The input variable that has a closer clustering of data points around a straight line, indicating a stronger linear relationship"
+        }
+      ],
+      "feedback": "Selection of X3 is justified with plot-based reasoning, but no scatter plot images are present for verification.",
+      "limitations": "No scatter plot images provided; visual evidence missing for plot analysis.",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "Write code to find out how many samples are there in total in this dataset?"
+        }
+      ],
+      "feedback": "The student states 414 samples, but no code or output is shown. However, the answer matches the expected value and is stated in the response.",
+      "limitations": "No code or output shown; cannot verify computation from student work.",
+      "score": 0,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "Train-test split ratio chosen as 80-20"
+        }
+      ],
+      "feedback": "The ratio is clearly stated and matches the required format; no code is needed as the ratio is explicitly reported.",
+      "limitations": "None.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "MAE, MSE, MAPE computed for various feature combinations with values listed"
+        }
+      ],
+      "feedback": "All three metrics are computed and reported with supporting values in the table; values are not copied from prompt.",
+      "limitations": "None.",
+      "score": 3,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ],
+  "visual_review_required_pages": [
+    4
+  ],
+  "safeguards": [
+    "These are AI suggestions, not final grades.",
+    "A reviewer must check cited evidence in the original PDF.",
+    "Plots, screenshots, and image-only pages require visual verification."
+  ]
+}

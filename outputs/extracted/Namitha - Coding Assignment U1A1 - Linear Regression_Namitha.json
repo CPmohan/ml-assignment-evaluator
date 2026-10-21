@@ -1,0 +1,47 @@
+{
+  "filename": "Namitha - Coding Assignment U1A1 - Linear Regression_Namitha.pdf",
+  "page_count": 10,
+  "text": "Machine Learning (BMI/GEO/WNA)\nCode Assignment U1A1 \nLinear Regression \nThis is NOT a group Assignment.\n10 marks\nPlease complete seeing the videos for Week 1-2 before attempting this \nassignment. \nUse real estate valuation regression dataset : https://archive.ics.uci.edu/dataset/\n477/real+estate+valuation+data+set  from the UCI repository, and use google \ncolab to code.\nFirst, download the csv file, and open it in your computer and analyze the data. \nTry to understand what the data is about. Read through the data description \ngiven in the UCI website as well. \nSection A\nAnswer the following questions [1 mark if you answer all the below \nquestions] :\n1. How many samples are there?\n414\n2. How many input variables are there? \n6\n3. Which column is the output variable (target outcome)? \nY (house price of unit area)\n4. What does each of the input columns mean ? \nX1 transaction date                                                         \n                        \nX2 is house age\n  X3 distance to the nearest MRT station\n  X4 number of convenience stores\n  X5 latitude\nPage /\n1 10\n\nX6 longitude \nSection B\nFor each of the questions below, you need to put in the screenshot of the code and its output. You \ncould use the sample google colab file that is provided with this assignment.\n1. Understanding the dataset [4 marks]\nThere are many input variables in this dataset. Use only X1 to X4 as input variables, and y as the \noutput variable.\nUsing the scatter plots between each of the input features (X1-X4) and the output (Y), which input \nvariable, do you think, is better in predicting the output / target variable ?\nPage /\n2 10\n\nPage /\n3 10\n\nPage /\n4 10\n\n2. Write code to find out how many samples are there in total in this dataset? [1 \nmark]\n<< insert the screenshot of the code snippet and its output from google \ncolab >>\nPage /\n5 10\n\n3. What is the train test split ratio that you have chosen ? [1 Mark]\nTrain test split is in the 70:30 ratio. Please find below the code snippet for \ndistance from MRT station:\n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-learn.org/stable/\nmodules/generated/sklearn.metrics.mean_absolute_percentage_error.html) \n[3 marks]\nPage /\n6 10\n\nDistance to the nearest MRT station is having the lowest MAE,MSE and \nMAPE values: \nPage /\n7 10\n\nPage /\n8 10\n\nPage /\n9 10\n\n5. What are the 3 new things that you learned after you completed this \nassignment ?\n<< answer here in bullets >> \n1.Computing MAPE \n2.Understanding which input makes better output prediction when dataset \nis having multiple inputs \n3.Understanding overall algorithm of linear regression \nGrading Scheme (Total 10 Marks)\nTime - 4 hours max.\nSubmission on Teams by 11.30 PM, 20 Feb 2024. \nLate submissions are NOT allowed. \nPlagiarism Policy\nYou are NOT allowed to discuss. You cannot copy paste text/image from the internet or other \nsources. All assignments are put through TurnitIn, and any similarity score of more than 40% \nwill be flagged as plagiarism. The penalties are as follows.\n●\n1st instance of plagiarism - 0 marks for this assignment\n●\n2nd instance of plagiarism - GRADE DOWN for the entire course\n●\n3rd instance of plagiarism - FAIL in the course \nBy submitting this assignment, you agree to the above policies on grading, submission and \nplagiarism.\nPage \n/\n10 10",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Machine Learning (BMI/GEO/WNA)\nCode Assignment U1A1 \nLinear Regression \nThis is NOT a group Assignment.\n10 marks\nPlease complete seeing the videos for Week 1-2 before attempting this \nassignment. \nUse real estate valuation regression dataset : https://archive.ics.uci.edu/dataset/\n477/real+estate+valuation+data+set  from the UCI repository, and use google \ncolab to code.\nFirst, download the csv file, and open it in your computer and analyze the data. \nTry to understand what the data is about. Read through the data description \ngiven in the UCI website as well. \nSection A\nAnswer the following questions [1 mark if you answer all the below \nquestions] :\n1. How many samples are there?\n414\n2. How many input variables are there? \n6\n3. Which column is the output variable (target outcome)? \nY (house price of unit area)\n4. What does each of the input columns mean ? \nX1 transaction date                                                         \n                        \nX2 is house age\n  X3 distance to the nearest MRT station\n  X4 number of convenience stores\n  X5 latitude\nPage /\n1 10"
+    },
+    {
+      "page": 2,
+      "text": "X6 longitude \nSection B\nFor each of the questions below, you need to put in the screenshot of the code and its output. You \ncould use the sample google colab file that is provided with this assignment.\n1. Understanding the dataset [4 marks]\nThere are many input variables in this dataset. Use only X1 to X4 as input variables, and y as the \noutput variable.\nUsing the scatter plots between each of the input features (X1-X4) and the output (Y), which input \nvariable, do you think, is better in predicting the output / target variable ?\nPage /\n2 10"
+    },
+    {
+      "page": 3,
+      "text": "Page /\n3 10"
+    },
+    {
+      "page": 4,
+      "text": "Page /\n4 10"
+    },
+    {
+      "page": 5,
+      "text": "2. Write code to find out how many samples are there in total in this dataset? [1 \nmark]\n<< insert the screenshot of the code snippet and its output from google \ncolab >>\nPage /\n5 10"
+    },
+    {
+      "page": 6,
+      "text": "3. What is the train test split ratio that you have chosen ? [1 Mark]\nTrain test split is in the 70:30 ratio. Please find below the code snippet for \ndistance from MRT station:\n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-learn.org/stable/\nmodules/generated/sklearn.metrics.mean_absolute_percentage_error.html) \n[3 marks]\nPage /\n6 10"
+    },
+    {
+      "page": 7,
+      "text": "Distance to the nearest MRT station is having the lowest MAE,MSE and \nMAPE values: \nPage /\n7 10"
+    },
+    {
+      "page": 8,
+      "text": "Page /\n8 10"
+    },
+    {
+      "page": 9,
+      "text": "Page /\n9 10"
+    },
+    {
+      "page": 10,
+      "text": "5. What are the 3 new things that you learned after you completed this \nassignment ?\n<< answer here in bullets >> \n1.Computing MAPE \n2.Understanding which input makes better output prediction when dataset \nis having multiple inputs \n3.Understanding overall algorithm of linear regression \nGrading Scheme (Total 10 Marks)\nTime - 4 hours max.\nSubmission on Teams by 11.30 PM, 20 Feb 2024. \nLate submissions are NOT allowed. \nPlagiarism Policy\nYou are NOT allowed to discuss. You cannot copy paste text/image from the internet or other \nsources. All assignments are put through TurnitIn, and any similarity score of more than 40% \nwill be flagged as plagiarism. The penalties are as follows.\n●\n1st instance of plagiarism - 0 marks for this assignment\n●\n2nd instance of plagiarism - GRADE DOWN for the entire course\n●\n3rd instance of plagiarism - FAIL in the course \nBy submitting this assignment, you agree to the above policies on grading, submission and \nplagiarism.\nPage \n/\n10 10"
+    }
+  ]
+}

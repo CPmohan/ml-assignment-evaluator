@@ -1,0 +1,97 @@
+{
+  "status": "AI rubric suggestions generated — human review required",
+  "assignment": "Megha.pdf",
+  "rubric_version": "1.0-assignment-criteria",
+  "evaluated_at": "2026-10-11T09:39:29.896123+00:00",
+  "total_possible": 10,
+  "score_coverage": 5,
+  "ai_provisional_total": 5,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "There are 414 samples, There are 6 input variables, Y house price of unit area is output variable, Input columns are the independent variables on which the output/target variable"
+        }
+      ],
+      "feedback": "All four dataset questions are correctly answered with student-generated text, no copied content.",
+      "limitations": "None.",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "Input feature 1, Input feature 2, Input feature 3, Input feature 4, The input feature 3 is better in predicting the output variable."
+        }
+      ],
+      "feedback": "Scatter plots are referenced but not visible; explanation is given but lacks plot evidence for X1-X4; only one predictor selected with no plot analysis for all four variables.",
+      "limitations": "Embedded_images>0 present but not extractable; reviewer must visually confirm scatter plots for X1-X4 vs Y.",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 5,
+          "text": "Write code to find out how many samples are there in total in this dataset?"
+        }
+      ],
+      "feedback": "The student states 414 samples, but no code or output is shown. No evidence of code or output identifying 414 samples.",
+      "limitations": "No code or output provided; student only states the number without supporting computation.",
+      "score": 0,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 5,
+          "text": "Train test split ratio - 8:2"
+        }
+      ],
+      "feedback": "Train/test ratio of 8:2 is clearly stated and matches expected format; no code or output needed as ratio is reported directly.",
+      "limitations": "None.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 5,
+          "text": "MAE, MSE, MAPE of linear regression model for input variable 3"
+        }
+      ],
+      "feedback": "Student identifies MAE, MSE, MAPE but no code or output showing computed values; values not provided or verified.",
+      "limitations": "No computed values or supporting output; cannot verify metric values from text.",
+      "score": 1,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ],
+  "visual_review_required_pages": [],
+  "safeguards": [
+    "These are AI suggestions, not final grades.",
+    "A reviewer must check cited evidence in the original PDF.",
+    "Plots, screenshots, and image-only pages require visual verification."
+  ]
+}

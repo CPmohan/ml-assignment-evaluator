@@ -1,0 +1,97 @@
+{
+  "status": "AI rubric suggestions generated — human review required",
+  "assignment": "AryaR_AM_En_P2GEO23002_Assignment1.pdf",
+  "rubric_version": "1.0-assignment-criteria",
+  "evaluated_at": "2026-10-11T09:21:49.765436+00:00",
+  "total_possible": 10,
+  "score_coverage": 5,
+  "ai_provisional_total": 4,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "1. 414 samples 2. 6 input variables 3. Y house price of unit area 4. X1 transaction date: The date of transaction of houses in decimal years unit. X2 house age: The age of the hous"
+        }
+      ],
+      "feedback": "All four dataset questions are correctly answered with clear, original explanations from student work.",
+      "limitations": "None; text extraction fully captures all required elements.",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "scatter plots"
+        }
+      ],
+      "feedback": "Scatter plots are referenced but not visible; no explanation grounded in plot evidence is present in text. Cannot verify visual analysis.",
+      "limitations": "Visual evidence (scatter plots) is missing or not extractable; reviewer must visually confirm plot evidence and reasoning.",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "I chose 70:30 as train test split ratio."
+        }
+      ],
+      "feedback": "No code shown for sample count; however, student states 414 samples, which matches expected value. But no code or output is provided to support it. Thus, does not satisfy scoring rule.",
+      "limitations": "No code or output provided for sample count; evidence is missing.",
+      "score": 0,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "I chose 70:30 as train test split ratio."
+        }
+      ],
+      "feedback": "Train/test split ratio of 70:30 is clearly stated and matches expected format; no code required as ratio is explicitly reported.",
+      "limitations": "None; ratio is clearly stated in student text.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Not Satisfied",
+      "evidence": [
+        {
+          "page": 4,
+          "text": "Evaluate the linear regression model by computing the MAE, MSE and Mean Absolute Percentage Error (MAPE)"
+        }
+      ],
+      "feedback": "No code or output showing computed MAE, MSE, or MAPE is present; student only references the metric without providing values or supporting evidence.",
+      "limitations": "No computed metrics or output shown; visual evidence missing.",
+      "score": 0,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ],
+  "visual_review_required_pages": [],
+  "safeguards": [
+    "These are AI suggestions, not final grades.",
+    "A reviewer must check cited evidence in the original PDF.",
+    "Plots, screenshots, and image-only pages require visual verification."
+  ]
+}

@@ -1,0 +1,8 @@
+[
+  {
+    "filename": "Megha.pdf",
+    "page": 3,
+    "original_text": "Page 3/7 \n \nInput feature 2 \n \n \nInput feature 3",
+    "ocr_text": "Input feature 2\n<\n[6]\n#x2\nplt.scatter(x?,\ny,\ncolor\n=\n‘red')\nplt.title( \"House price of unit area vs\nhouse age’)\nplt.xlabel{ ‘House age’)\nplt.ylabel{'House price of unit area’)\nplt.show(}\nHouse price of unit area vs house age\n120\ne\n100\n5\n=\n°°\nee\n9»\n604\n°\n°\no\ne°\n8\n5\n9%° %\n*\n@\na S ee\nete\na\n8\n2 40\n° eve?\n©\ne °\nz\n- oye\n°.\n°° WM | ee\nof\na\ne Os a\nee °\n%.4.\n¢\n30\nf %&%,\nP\n0\ni)\n10\n20\n30\n40\nHouse age\nInput feature 3\n[7]\n#x3\nplt.scatter(x3,\ny,\ncolor\n=\n‘blue\")\nplt.title( ‘House price of unit area vs Distance to the nearest MRT station’)\nplt.xlabel('Distance to the nearest MRT station’)\nplt.ylabel( ‘House price of unit area’)\nplt.show()\nPage 3/7"
+  }
+]

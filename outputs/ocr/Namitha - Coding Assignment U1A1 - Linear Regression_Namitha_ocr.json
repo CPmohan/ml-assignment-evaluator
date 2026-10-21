@@ -1,0 +1,32 @@
+[
+  {
+    "filename": "Namitha - Coding Assignment U1A1 - Linear Regression_Namitha.pdf",
+    "page": 3,
+    "original_text": "Page /\n3 10",
+    "ocr_text": "Vv\nVisualization of House Age vs House Price\nx ©\nplt.scatter(i_house_age,o_hse_price,\ncolor = 'red')\nplt.title(\"House Age vs House Price\")\nplt.xlabel(\"House Age\")\nplt.ylabel(\"House Price\")\nplt.show()\ne\nHouse Age vs House Price\n120\ne\n100\n60\nee\nVv\n2\n60\ne\ndps:\n.\nx=\noO\n8\no\no\nbee) “—°\n“eo\n%\n@\n401\n@ %e Se\nF\ne°\n20\nP » a\nee\n© %,%\nee\n|\ne\n0\n10\n20\n30\n40\nHouse Age\nPage 3/10"
+  },
+  {
+    "filename": "Namitha - Coding Assignment U1A1 - Linear Regression_Namitha.pdf",
+    "page": 4,
+    "original_text": "Page /\n4 10",
+    "ocr_text": "Vumber of\nconvenience stores VS House rrice\n120\n100\n80\n1B)v\na.\n%\n60\n|\no\nx\n40\n20\n0\n2\n4\n6\n8\n10\nNumber of convenience stores\nPage 4/10"
+  },
+  {
+    "filename": "Namitha - Coding Assignment U1A1 - Linear Regression_Namitha.pdf",
+    "page": 7,
+    "original_text": "Distance to the nearest MRT station is having the lowest MAE,MSE and \nMAPE values: \nPage /\n7 10",
+    "ocr_text": "Distance to the nearest MRT station is having the lowest MAE,MSE and\nMAPE values:\nMAE,MSE MAPE of Transaction date\n[\n]\nfrom sklearn.metrics\nimport mean_squared_error\nfrom sklearn.metrics\nimport mean_absolute_error\nfrom sklearn.metrics\nimport mean_absolute_percentage_error\nprint('MAE',\nmean_absolute_error(o_hse_price_test,\npredict_transc_dt_price))\nprint('MSE',\nmean_squared_error(o_hse_price_test,\npredict_transc_dt_price))\nprint('MAPE',\nmean_absolute_percentage_error(o_hse_price_test,\npredict_transc_dt_price))\nMAE 10.44563902111346\nMSE 161.3821358518997\nMAPE @.38660544116976053\nMAE,MSE MAPE of House Age\nx\nr >)\nfrom sklearn.metrics import mean_squared_error\nfrom sklearn.metrics import mean_absolute_error\nfrom sklearn.metrics import mean_absolute_percentage_error\nprint('MAE',\nmean_absolute_error(o_hse_price_test,\npredict_hse_age_price))\nprint('MSE',\nmean_squared_error(o_hse_price_test,\npredict_hse_age_price))\nprint('MAPE',\nmean_absolute_percentage_error(o_hse_price_test,\npredict_hse_age_price))\n[3\nMAE 10.16673823057855\nMSE\n155.2335946063674\nMAPE @.3810065186268437\nPage 7/10"
+  },
+  {
+    "filename": "Namitha - Coding Assignment U1A1 - Linear Regression_Namitha.pdf",
+    "page": 8,
+    "original_text": "Page /\n8 10",
+    "ocr_text": "MAE,MSE MAPE of distance from MRT station\nf\noO\nfrom sklearn.metrics import mean_squared_error\nfrom sklearn.metrics\nimport mean_absolute_error\nfrom sklearn.metrics\nimport mean_absolute_percentage_error\nprint('MAE',\nmean_absolute_error(o_hse_price_test,\npredict_MRT_price))\nprint('MSE',\nmean_squared_error(o_hse_price_test,\npredict_MRT_price))\nprint('MAPE', mean_absolute_percentage_error(o_hse_price_test,\npredict_MRT_price))\nMAE 7.375059897706616\nMSE 91.52078612852627\nMAPE @.26404699660687225\nPage 8/10"
+  },
+  {
+    "filename": "Namitha - Coding Assignment U1A1 - Linear Regression_Namitha.pdf",
+    "page": 9,
+    "original_text": "Page /\n9 10",
+    "ocr_text": "MAE,MSE MAPE of distance from convinience store\n%\n>)\nfrom sklearn.metrics import mean_squared_error\nfrom sklearn.metrics import mean_absolute_error\nfrom sklearn.metrics import mean_absolute_percentage_error\nprint('MAE',\nmean_absolute_error(o_hse_price_test,\npredict_convn_store_price))\nprint('MSE',\nmean_squared_error(o_hse_price_test,\npredict_convn_store_price))\nprint('MAPE',\nmean_absolute_percentage_error(o_hse_price_test,\npredict_convn_store_price))\n[Ss\nMAE 8.20165218267539\nMSE 107.87750183247465\nMAPE @.29021770887259596\nPage 9/10"
+  }
+]

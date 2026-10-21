@@ -1,0 +1,87 @@
+{
+  "reviewer": 3,
+  "seed": 20261019,
+  "elapsed_seconds": 122.548,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "There are 414 samples. There are 6 input variables. Y house price of unit area is output variable. Input columns are the independent variables on which the output/target variable依赖"
+        }
+      ],
+      "feedback": "All four dataset questions are correctly answered: sample count (414), input variables (6), target variable (Y), and meaning of inputs. No prompt text copied; answer is student-generated.",
+      "limitations": "None. Text is fully extractable and directly addresses all expected evidence points on page 1. No visual components needed for this criterion. 1 mark awarded as",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "Input feature 1, Input feature 2, Input feature 3, Input feature 4"
+        }
+      ],
+      "feedback": "Scatter plots for X1-X4 vs Y are referenced but not shown. Selected predictor (X3) is identified with explanation, but plot evidence is missing. No visual plots present to verify trend or skew. Cannot verify plot-based reasoning.",
+      "limitations": "Pages 3-4 contain embedded_images>0 but no visible scatter plots or plot outputs. Text extraction omits plot content; reviewer must visually confirm scatter-plt",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 5,
+          "text": "Write code to find out how many samples are there in total in this dataset? [1 mark]"
+        }
+      ],
+      "feedback": "Student states 414 samples. While code is missing, the stated result matches expected output. No code shown, but the correct count is reported in text. Rubric requires code or calculation; this is absent.",
+      "limitations": "No code or calculation is provided in the text. The student only states the number, not how it was computed. Cannot verify code output.",
+      "score": 0,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 5,
+          "text": "Train test split ratio - 8:2"
+        }
+      ],
+      "feedback": "Train/test split ratio of 8:2 is clearly stated and matches expected format. No code or output is required as long as ratio is reported. Student provides valid split ratio.",
+      "limitations": "None. Ratio is explicitly stated and verifiable in text.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Not Satisfied",
+      "evidence": [
+        {
+          "page": 5,
+          "text": "MAE, MSE, MAPE of linear regression model for input variable 3 (distance to the nearest MRT station)"
+        }
+      ],
+      "feedback": "Student mentions MAE, MSE, and MAPE but provides no computed values or supporting code/output. No actual metric values are reported. Rubric requires computed metrics with supporting evidence.",
+      "limitations": "No code or output for metrics is present. Student only references the metrics without values or computation.",
+      "score": 0,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ]
+}

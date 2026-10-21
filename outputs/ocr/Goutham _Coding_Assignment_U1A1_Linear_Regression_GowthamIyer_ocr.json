@@ -1,0 +1,8 @@
+[
+  {
+    "filename": "Goutham _Coding_Assignment_U1A1_Linear_Regression_GowthamIyer.pdf",
+    "page": 4,
+    "original_text": "Page 4/8 \nScreenshot of code snippet to generate feature-wise scatter plots against the \noutput variable:",
+    "ocr_text": "Screenshot of code snippet to generate feature-wise scatter plots against the\noutput variable:\nMachine Learning: Code Assignment U1A1\nLinear Regression\nAuthor: Gowtham lyer\nv\nImport Required Libraries\nx\n[53]\nimport pandas as pd\n-\nimport numpy as np\nimport matplotlib.pyplot\nas plt\nv Load dataset (Real Estate Valuation Dataset) and print X1 to X4 andy variables.\nx\n[54]\ndataset = pd.read_csv('/content/Real estate valuation data set.csv')\n-\nX1 = dataset['X1 transaction date’]\nX2 = dataset['X2 house age’]\nX3 = dataset['X3 distance to the nearest MRT station’]\nX4 = dataset['X4 number of convenience stores’]\ny = dataset['Y house price of unit area']\n¥ Convert all input variables and the output variable to 1-D arrays from dataframes\nx\n[55]\nX1 = np.reshape(X1.to_numpy(),\n(-1, 1))\n-\nX2 = np.reshape(X2.to_numpy(),\n(-1,\n1)\nX3 = np.reshape(X3.to_numpy(),\n(-1,\n1))\nX4 = np.reshape(X4.to_numpy(),\n(-1,\n1)\ny = np.reshape(y.to_numpy(),\n(-1,\n1))\nv\nFeature-wise Scatter Plots against the output variable\nPage 4/8"
+  }
+]

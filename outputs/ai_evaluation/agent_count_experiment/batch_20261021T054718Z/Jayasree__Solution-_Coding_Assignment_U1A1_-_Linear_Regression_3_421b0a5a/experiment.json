@@ -1,0 +1,24 @@
+{
+  "experiment_id": "20261021T074325Z",
+  "assignment": "Jayasree _Solution- Coding Assignment U1A1 - Linear Regression (3).pdf",
+  "assignment_sha256": "421b0a5aad11d7d5827a1efe99697d45389c268667aa0e010bc4e57c972b3490",
+  "rubric_path": "C:\\Users\\kisho\\ml_assignment_evaluator\\rubric.json",
+  "rubric_version": "1.0-assignment-criteria",
+  "model": "qwen3:4b-instruct",
+  "temperature": 0.2,
+  "first_seed": 20261017,
+  "max_agents": 4,
+  "status": "completed",
+  "visual_review_required_pages": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "started_at": "2026-10-21T07:43:25.037028+00:00",
+  "reviewers_completed": 4,
+  "finished_at": "2026-10-21T07:52:17.496935+00:00",
+  "total_elapsed_seconds": 532.433,
+  "comparison_csv": "agent_count_comparison.csv",
+  "comparison_markdown": "agent_count_comparison.md"
+}

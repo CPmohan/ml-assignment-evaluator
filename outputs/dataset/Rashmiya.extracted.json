@@ -1,0 +1,37 @@
+{
+  "filename": "Rashmiya.pdf",
+  "page_count": 6,
+  "pages": [
+    {
+      "page": 1,
+      "text": "Page 1/6 \nMachine Learning (BMI/GEO/WNA) \nCode Assignment U1A1  \nLinear Regression \nThis is NOT a group Assignment. \n \n10 marks \nPlease complete seeing the videos for Week 1-2 before attempting this \nassignment.  \n \nUse real estate valuation regression dataset : \nhttps://archive.ics.uci.edu/dataset/477/real+estate+valuation+data+set  from \nthe UCI repository, and use google colab to code. \n \nFirst, download the csv file, and open it in your computer and analyze the data. \nTry to understand what the data is about. Read through the data description \ngiven \nin \nthe \nUCI \nwebsite \nas \nwell. \n \nSection A \nAnswer the following questions [1 mark if you answer all the below \nquestions] : \n1. How many samples are there? \nAns: 414 \n2. How \nmany \ninput \nvariables \nare \nthere? \nAns: 6 \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \nAns: Y(House price of unit area) \n4. What \ndoes \neach \nof \nthe \ninput \ncolumns \nmean \n? \nAns: Each input columns means, the features of that particular area \nwhich leads to the real estate valuation i.e. house price of unit area. \nThat is, the input parameters affect the output or the target value.",
+      "image_count": 0
+    },
+    {
+      "page": 2,
+      "text": "Page 2/6 \nSection B \nFor each of the questions below, you need to put in the screenshot of the code \nand its output. You could use the sample google colab file that is provided with \nthis assignment. \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the \noutput / target variable ? \n \n1.",
+      "image_count": 2
+    },
+    {
+      "page": 3,
+      "text": "Page 3/6 \n2. \n \n \n3.",
+      "image_count": 3
+    },
+    {
+      "page": 4,
+      "text": "Page 4/6 \n \n4. \n \n \n<< Distance to the nearest MRT station >>",
+      "image_count": 3
+    },
+    {
+      "page": 5,
+      "text": "Page 5/6 \n \n2. Write code to find out how many samples are there in total in this dataset? \n[1 mark] \n \n \n3. What is the train test split ratio that you have chosen ? [1 Mark] \n \nThe train test split ratio is 70:30. (70% training model and 30% testing set). \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+      "image_count": 3
+    },
+    {
+      "page": 6,
+      "text": "Page 6/6 \n5. What are the 3 new things that you learned after you completed this \nassignment ? \n• How to find number of samples from a given dataset. \n• How to do a train test split  \n• About mean absolute percentage error and how to code it. \n \n \nGrading Scheme (Total 10 Marks) \nTime - 4 hours max. \nSubmission \non \nTeams \nby \n11.30 \nPM, \n20 \nFeb \n2024. \nLate \nsubmissions \nare \nNOT \nallowed. \n \nPlagiarism Policy \nYou are NOT allowed to discuss. You cannot copy paste text/image from the internet or \nother sources. All assignments are put through TurnitIn, and any similarity score of more \nthan 40% will be flagged as plagiarism. The penalties are as follows. \n● 1st instance of plagiarism - 0 marks for this assignment \n● 2nd instance of plagiarism - GRADE DOWN for the entire course \n● 3rd \ninstance \nof \nplagiarism \n- \nFAIL \nin \nthe \ncourse \n \nBy submitting this assignment, you agree to the above policies on grading, submission and \nplagiarism.",
+      "image_count": 0
+    }
+  ],
+  "text": "Page 1/6 \nMachine Learning (BMI/GEO/WNA) \nCode Assignment U1A1  \nLinear Regression \nThis is NOT a group Assignment. \n \n10 marks \nPlease complete seeing the videos for Week 1-2 before attempting this \nassignment.  \n \nUse real estate valuation regression dataset : \nhttps://archive.ics.uci.edu/dataset/477/real+estate+valuation+data+set  from \nthe UCI repository, and use google colab to code. \n \nFirst, download the csv file, and open it in your computer and analyze the data. \nTry to understand what the data is about. Read through the data description \ngiven \nin \nthe \nUCI \nwebsite \nas \nwell. \n \nSection A \nAnswer the following questions [1 mark if you answer all the below \nquestions] : \n1. How many samples are there? \nAns: 414 \n2. How \nmany \ninput \nvariables \nare \nthere? \nAns: 6 \n3. Which \ncolumn \nis \nthe \noutput \nvariable \n(target \noutcome)? \nAns: Y(House price of unit area) \n4. What \ndoes \neach \nof \nthe \ninput \ncolumns \nmean \n? \nAns: Each input columns means, the features of that particular area \nwhich leads to the real estate valuation i.e. house price of unit area. \nThat is, the input parameters affect the output or the target value.\n\nPage 2/6 \nSection B \nFor each of the questions below, you need to put in the screenshot of the code \nand its output. You could use the sample google colab file that is provided with \nthis assignment. \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the \noutput / target variable ? \n \n1.\n\nPage 3/6 \n2. \n \n \n3.\n\nPage 4/6 \n \n4. \n \n \n<< Distance to the nearest MRT station >>\n\nPage 5/6 \n \n2. Write code to find out how many samples are there in total in this dataset? \n[1 mark] \n \n \n3. What is the train test split ratio that you have chosen ? [1 Mark] \n \nThe train test split ratio is 70:30. (70% training model and 30% testing set). \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]\n\nPage 6/6 \n5. What are the 3 new things that you learned after you completed this \nassignment ? \n• How to find number of samples from a given dataset. \n• How to do a train test split  \n• About mean absolute percentage error and how to code it. \n \n \nGrading Scheme (Total 10 Marks) \nTime - 4 hours max. \nSubmission \non \nTeams \nby \n11.30 \nPM, \n20 \nFeb \n2024. \nLate \nsubmissions \nare \nNOT \nallowed. \n \nPlagiarism Policy \nYou are NOT allowed to discuss. You cannot copy paste text/image from the internet or \nother sources. All assignments are put through TurnitIn, and any similarity score of more \nthan 40% will be flagged as plagiarism. The penalties are as follows. \n● 1st instance of plagiarism - 0 marks for this assignment \n● 2nd instance of plagiarism - GRADE DOWN for the entire course \n● 3rd \ninstance \nof \nplagiarism \n- \nFAIL \nin \nthe \ncourse \n \nBy submitting this assignment, you agree to the above policies on grading, submission and \nplagiarism."
+}

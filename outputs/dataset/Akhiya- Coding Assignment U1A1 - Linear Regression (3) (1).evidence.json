@@ -1,0 +1,294 @@
+{
+  "filename": "Akhiya- Coding Assignment U1A1 - Linear Regression (3) (1).pdf",
+  "section_a": [
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "csv file, and open it in your computer and analyze the data. \nTry to understand what the data is about. Read through the data description \ngiven \nin \nthe \nUCI \nwebsite \nas \nwell. \nSection A \nAnswer the following questions [1 mark if you answer all the below questions] \n: \n1. How many samples are there? \n414 \n \n2. How many input variables are there? \n6 \n \n3. Which column is the output variable (target outcome)? \nY house price of unit area \n \n \n4. What does each of the input columns mean ? \nX1 transaction date: Date of purchase of the real estate. \nX2 house age: how old the house is, to assume the life span of the house. \nX3 distance to the nearest MRT station: How close the nearest",
+      "matched_pattern": "\\bsection\\s*a\\b"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " about. Read through the data description \ngiven \nin \nthe \nUCI \nwebsite \nas \nwell. \nSection A \nAnswer the following questions [1 mark if you answer all the below questions] \n: \n1. How many samples are there? \n414 \n \n2. How many input variables are there? \n6 \n \n3. Which column is the output variable (target outcome)? \nY house price of unit area \n \n \n4. What does each of the input columns mean ? \nX1 transaction date: Date of purchase of the real estate. \nX2 house age: how old the house is, to assume the life span of the house. \nX3 distance to the nearest MRT station: How close the nearest metro is, how \nclose the mode of transport is, which would help if they are someone who \nuses the metr",
+      "matched_pattern": "how\\s+many\\s+samples"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " \nin \nthe \nUCI \nwebsite \nas \nwell. \nSection A \nAnswer the following questions [1 mark if you answer all the below questions] \n: \n1. How many samples are there? \n414 \n \n2. How many input variables are there? \n6 \n \n3. Which column is the output variable (target outcome)? \nY house price of unit area \n \n \n4. What does each of the input columns mean ? \nX1 transaction date: Date of purchase of the real estate. \nX2 house age: how old the house is, to assume the life span of the house. \nX3 distance to the nearest MRT station: How close the nearest metro is, how \nclose the mode of transport is, which would help if they are someone who \nuses the metro a lot.",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "ions [1 mark if you answer all the below questions] \n: \n1. How many samples are there? \n414 \n \n2. How many input variables are there? \n6 \n \n3. Which column is the output variable (target outcome)? \nY house price of unit area \n \n \n4. What does each of the input columns mean ? \nX1 transaction date: Date of purchase of the real estate. \nX2 house age: how old the house is, to assume the life span of the house. \nX3 distance to the nearest MRT station: How close the nearest metro is, how \nclose the mode of transport is, which would help if they are someone who \nuses the metro a lot.",
+      "matched_pattern": "target\\s+outcome"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " are there? \n414 \n \n2. How many input variables are there? \n6 \n \n3. Which column is the output variable (target outcome)? \nY house price of unit area \n \n \n4. What does each of the input columns mean ? \nX1 transaction date: Date of purchase of the real estate. \nX2 house age: how old the house is, to assume the life span of the house. \nX3 distance to the nearest MRT station: How close the nearest metro is, how \nclose the mode of transport is, which would help if they are someone who \nuses the metro a lot.",
+      "matched_pattern": "input\\s+columns?\\s+mean"
+    },
+    {
+      "label": "section_a",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " screenshot of the code \nand its output. You could use the sample google colab file that is provided with \nthis assignment. \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable ?",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " the sample google colab file that is provided with \nthis assignment. \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable ?",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 3,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "r \nthan x3, we can also use x2 house age and x4 number of convenience stores in \nthe neighborhood since they significant and slight decrease in price. \n \n2. Write code to find out how many samples are there in total in this dataset? [1 \nmark]",
+      "matched_pattern": "how\\s+many\\s+samples"
+    },
+    {
+      "label": "section_a",
+      "page": 5,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 5/5 \n5. What are the 3 new things that you learned after you completed this \nassignment ? \n- Finding the best fit from a set of multiple input variables, where anything could \nbe considered as input variable.  \n- Selecting 70:30 train test split ratio, this implies the use of 70% of the data for \ntraining and 30% for testing. The choice of the split ratio depends on the size of \nthe dataset. For relatively small datasets, a 70:30 split is considered suitable. \n- Calculate the mean absolute percent error. \n \nGrading Scheme (Total 10 Marks) \nTime - 4 hours max. \nSubmission \non \nTeams \nby \n11.30 \nPM, \n20 \nFeb \n2024. \nLate \nsubmissions \nare \nNOT \na",
+      "matched_pattern": "input\\s+variables"
+    }
+  ],
+  "scatter_analysis": [
+    {
+      "label": "scatter_analysis",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "ssignment. \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable ?",
+      "matched_pattern": "scatter\\s*plot"
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable ?",
+      "matched_pattern": "better\\s+(?:in\\s+)?predicting"
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 3,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "t area as \nthe output/target variable. \nHere, X3 distance to the nearest metro station has better fit compared to the \nrest because of the clustering we can observe from the given scatter plot. Other \nthan x3, we can also use x2 house age and x4 number of convenience stores in \nthe neighborhood since they significant and slight decrease in price. \n \n2. Write code to find out how many samples are there in total in this dataset? [1 \nmark]",
+      "matched_pattern": "scatter\\s*plot"
+    }
+  ],
+  "sample_count": [],
+  "train_test_split": [
+    {
+      "label": "train_test_split",
+      "page": 4,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 4/5 \n \n3. What is the train test split ratio that you have chosen ? [1 Mark] \n70:30 \n \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+      "value": "4/5",
+      "uncertain": true
+    },
+    {
+      "label": "train_test_split",
+      "page": 4,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 4/5 \n \n3. What is the train test split ratio that you have chosen ? [1 Mark] \n70:30 \n \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+      "value": "70:30",
+      "uncertain": true
+    },
+    {
+      "label": "train_test_split",
+      "page": 5,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "learned after you completed this \nassignment ? \n- Finding the best fit from a set of multiple input variables, where anything could \nbe considered as input variable.  \n- Selecting 70:30 train test split ratio, this implies the use of 70% of the data for \ntraining and 30% for testing. The choice of the split ratio depends on the size of \nthe dataset. For relatively small datasets, a 70:30 split is considered suitable. \n- Calculate the mean absolute percent error. \n \nGrading Scheme (Total 10 Marks) \nTime - 4 hours max. \nSubmission \non \nTeams \nby \n11.30 \nPM, \n20 \nFeb \n2024. \nLate \nsubmissions \nare \nNOT \nallowed. \n \nPlagiarism Policy \nYou are NOT allowed to discuss. You cannot cop",
+      "value": "70:30",
+      "uncertain": false
+    },
+    {
+      "label": "train_test_split",
+      "page": 5,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "tio, this implies the use of 70% of the data for \ntraining and 30% for testing. The choice of the split ratio depends on the size of \nthe dataset. For relatively small datasets, a 70:30 split is considered suitable. \n- Calculate the mean absolute percent error. \n \nGrading Scheme (Total 10 Marks) \nTime - 4 hours max. \nSubmission \non \nTeams \nby \n11.30 \nPM, \n20 \nFeb \n2024. \nLate \nsubmissions \nare \nNOT \nallowed. \n \nPlagiarism Policy \nYou are NOT allowed to discuss. You cannot copy paste text/image from the internet or other \nsources. All assignments are put through TurnitIn, and any similarity score of more than 40% \nwill be flagged as plagiarism. The penalties are as follows. \n● ",
+      "value": "70:30",
+      "uncertain": false
+    }
+  ],
+  "reflection": [
+    {
+      "label": "reflection",
+      "page": 5,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 5/5 \n5. What are the 3 new things that you learned after you completed this \nassignment ? \n- Finding the best fit from a set of multiple input variables, where anything could \nbe considered as input variable.  \n- Selecting 70:30 train test split ratio, this implies the use of 70% of the data for \ntraining and 30% for testing. The choice of the split ratio depends on the size of \nthe dataset. For relatively small datasets, a 70:30 split is considered suitable. \n- Calculate the mean absolute percent error. \n \nGrading Scheme (Total 10 Marks) \nTime",
+      "matched_pattern": "what.*learned"
+    },
+    {
+      "label": "reflection",
+      "page": 5,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 5/5 \n5. What are the 3 new things that you learned after you completed this \nassignment ? \n- Finding the best fit from a set of multiple input variables, where anything could \nbe considered as input variable.  \n- Selecting 70:30 train test split ratio, this implies the use of 70% of the data for \ntraining and 30% for testing. The choice of the split ratio depends on the size of \nthe dataset. For relatively small datasets, a 70:30 split is considered suitable. \n- Calculate the mean absolute percent error. \n \nGrading Scheme (Total 10 Marks) \nTime",
+      "matched_pattern": "\\blearned\\b"
+    }
+  ],
+  "metrics": {
+    "MAE": [
+      {
+        "label": "MAE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "hat you have chosen ? [1 Mark] \n70:30 \n \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean ",
+        "value": null,
+        "needs_review": true
+      }
+    ],
+    "MSE": [
+      {
+        "label": "MSE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "ou have chosen ? [1 Mark] \n70:30 \n \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean ",
+        "value": null,
+        "needs_review": true
+      }
+    ],
+    "MAPE": [
+      {
+        "label": "MAPE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "chosen ? [1 Mark] \n70:30 \n \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+        "line_or_table_context": "Absolute Percentage Error (MAPE) . ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "student_response_or_context",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "inear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+        "line_or_table_context": "(for MAPE - pls refer to the sample here - https://scikit-",
+        "value": null,
+        "needs_review": true
+      }
+    ]
+  },
+  "evidence_gaps": [
+    "No captured text matched sample_count. This does not show that the student omitted it; it may be in an image or screenshot.",
+    "No explicit MAE value was confidently linked to captured text. It may be in an image or require visual OCR review.",
+    "No explicit MSE value was confidently linked to captured text. It may be in an image or require visual OCR review.",
+    "No explicit MAPE value was confidently linked to captured text. It may be in an image or require visual OCR review."
+  ],
+  "uncertain_ocr_evidence": []
+}

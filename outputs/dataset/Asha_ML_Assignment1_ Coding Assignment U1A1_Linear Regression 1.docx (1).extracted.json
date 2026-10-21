@@ -1,0 +1,37 @@
+{
+  "filename": "Asha_ML_Assignment1_ Coding Assignment U1A1_Linear Regression 1.docx (1).pdf",
+  "page_count": 6,
+  "pages": [
+    {
+      "page": 1,
+      "text": "Machine Learning (BMI/GEO/WNA) \nCode Assignment U1A1  \nLinear Regression​\n​\n​\n​\n​\n​\n​\n​\n​\n​\n​\n        10 marks \nName:  Asha A S \n   AM.EN.R4WNA23002-FT \n   PhD Scholar, WNA​\n \nSection A \nAnswer the following questions [1 mark if you answer all the below \nquestions] : \n1.​ How many samples are there? \n414 \n2.​ How many input variables are there?​\n​\n6 \n3.​ Which column is the output variable (target outcome)?​\n​\nColumn 8 (Y house price of unit area) \n4.​ What does each of the input columns mean ?​\n​\nX1 - Transaction date \nX2 - House age (unit: year) \nX3 - Distance to the nearest MRT station (unit: meter) \nX4 - Number of convenience stores in the living circle on foot  \nX5 - The geographic coordinate, latitude. (unit: degree) \nX6 -The geographic coordinate, longitude. (unit: degree) \n \n \nPage 1/6",
+      "image_count": 0
+    },
+    {
+      "page": 2,
+      "text": "Section B \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting \nthe output / target variable ? \n \n \n \nAns: The input variable “X3 - Distance to the nearest MRT Station” is \nbetter in predicting the target variable. As X3 - Distance to the nearest \nPage 2/6",
+      "image_count": 1
+    },
+    {
+      "page": 3,
+      "text": "MRT Station increases , the Y-house price tends to decrease (negatively \ncorrelated scatter plot) \n \n2. Write code to find out how many samples are there in total in this \ndataset? [1 mark] \n \n \n3. What is the train test split ratio that you have chosen ? [1 Mark] \n \n●​ Here the train-test ratio is 80:20. \n●​ 80% of the data is used for training and remaining 20% is used for \ntesting \n \n​\n​\n​\n​\n​\n​\n​\n​\n \n \n \nPage 3/6",
+      "image_count": 2
+    },
+    {
+      "page": 4,
+      "text": "4. Evaluate the linear regression model by computing the MAE, MSE and \nMean Absolute Percentage Error (MAPE).​ ​\n​\n​\n[3 marks] \n \n●​ Model using X1-X6 input variables \n \n \n \n \nPage 4/6",
+      "image_count": 2
+    },
+    {
+      "page": 5,
+      "text": "Comparison table : Performance Metrics \n \n \n●​ Model 3 gives the lowest errors \n \n \n \n \n \n \nPage 5/6 \nModel No: \nInput \nVariables \nMAE \nMSE \nMAPE \nModel 1 \nX3 only \n6.92 \n \n77.34 \n0.24 \nModel 2 \nX1-X4 \n5.52 \n56.11 \n \n 0.18 \nModel 3 \nX1-X6 \n 5.31 \n \n53.5 \n0.17 \nModel 4 \nX2-X4 \n5.63 \n \n 58.89 \n0.19 \nModel 5 \nX1-X3 \n 6.06 \n66.54 \n \n0.21 \nModel 6 \nX5-X6 \n7.02 \n \n82.08 \n \n0.22",
+      "image_count": 0
+    },
+    {
+      "page": 6,
+      "text": "5. What are the 3 new things that you learned after you completed this \nassignment ? \n●​ Learned how to evaluate the performance of the model by using \ndifferent  metrics like MAE, MSE and MAPE. \n●​ Learned the significance of MAPE which gives the absolute \npercentage difference between the model’s predicted and actual \nvalue (relative error). MAPE supports multi-output (where the \nmodel predicts multiple output variables). \n●​ Learned how the train-test split ratio affects the model \nperformance. \n \n \n \n \nSubmitted by:   \nAsha A S \n     AM.EN.R4WNA23002-FT \n     PhD Scholar, WNA \nPage 6/6",
+      "image_count": 0
+    }
+  ],
+  "text": "Machine Learning (BMI/GEO/WNA) \nCode Assignment U1A1  \nLinear Regression​\n​\n​\n​\n​\n​\n​\n​\n​\n​\n​\n        10 marks \nName:  Asha A S \n   AM.EN.R4WNA23002-FT \n   PhD Scholar, WNA​\n \nSection A \nAnswer the following questions [1 mark if you answer all the below \nquestions] : \n1.​ How many samples are there? \n414 \n2.​ How many input variables are there?​\n​\n6 \n3.​ Which column is the output variable (target outcome)?​\n​\nColumn 8 (Y house price of unit area) \n4.​ What does each of the input columns mean ?​\n​\nX1 - Transaction date \nX2 - House age (unit: year) \nX3 - Distance to the nearest MRT station (unit: meter) \nX4 - Number of convenience stores in the living circle on foot  \nX5 - The geographic coordinate, latitude. (unit: degree) \nX6 -The geographic coordinate, longitude. (unit: degree) \n \n \nPage 1/6\n\nSection B \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting \nthe output / target variable ? \n \n \n \nAns: The input variable “X3 - Distance to the nearest MRT Station” is \nbetter in predicting the target variable. As X3 - Distance to the nearest \nPage 2/6\n\nMRT Station increases , the Y-house price tends to decrease (negatively \ncorrelated scatter plot) \n \n2. Write code to find out how many samples are there in total in this \ndataset? [1 mark] \n \n \n3. What is the train test split ratio that you have chosen ? [1 Mark] \n \n●​ Here the train-test ratio is 80:20. \n●​ 80% of the data is used for training and remaining 20% is used for \ntesting \n \n​\n​\n​\n​\n​\n​\n​\n​\n \n \n \nPage 3/6\n\n4. Evaluate the linear regression model by computing the MAE, MSE and \nMean Absolute Percentage Error (MAPE).​ ​\n​\n​\n[3 marks] \n \n●​ Model using X1-X6 input variables \n \n \n \n \nPage 4/6\n\nComparison table : Performance Metrics \n \n \n●​ Model 3 gives the lowest errors \n \n \n \n \n \n \nPage 5/6 \nModel No: \nInput \nVariables \nMAE \nMSE \nMAPE \nModel 1 \nX3 only \n6.92 \n \n77.34 \n0.24 \nModel 2 \nX1-X4 \n5.52 \n56.11 \n \n 0.18 \nModel 3 \nX1-X6 \n 5.31 \n \n53.5 \n0.17 \nModel 4 \nX2-X4 \n5.63 \n \n 58.89 \n0.19 \nModel 5 \nX1-X3 \n 6.06 \n66.54 \n \n0.21 \nModel 6 \nX5-X6 \n7.02 \n \n82.08 \n \n0.22\n\n5. What are the 3 new things that you learned after you completed this \nassignment ? \n●​ Learned how to evaluate the performance of the model by using \ndifferent  metrics like MAE, MSE and MAPE. \n●​ Learned the significance of MAPE which gives the absolute \npercentage difference between the model’s predicted and actual \nvalue (relative error). MAPE supports multi-output (where the \nmodel predicts multiple output variables). \n●​ Learned how the train-test split ratio affects the model \nperformance. \n \n \n \n \nSubmitted by:   \nAsha A S \n     AM.EN.R4WNA23002-FT \n     PhD Scholar, WNA \nPage 6/6"
+}

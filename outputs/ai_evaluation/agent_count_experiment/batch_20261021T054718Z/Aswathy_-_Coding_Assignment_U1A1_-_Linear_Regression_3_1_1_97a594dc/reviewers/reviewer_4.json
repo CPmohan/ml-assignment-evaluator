@@ -1,0 +1,87 @@
+{
+  "reviewer": 4,
+  "seed": 20261020,
+  "elapsed_seconds": 141.617,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "There are 414 samples in the dataset. There are 6 input variables in the dataset. There is one output variable in the dataset : Y= house price of unit area. The input values代表...X1"
+        }
+      ],
+      "feedback": "All four dataset questions are correctly answered: sample count (414), input variables (6), target variable (Y), and meaning of each input variable. No copied text; answers are student-generated.",
+      "limitations": "None. Text extraction fully captures all required elements on page 1, and answers are original and complete per rubric expectations. No visual components needed",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "The input variable house age and distance to the nearest MRT station will be a better input variable in predicting the output variable as both have a direct linear proportion to..."
+        }
+      ],
+      "feedback": "Student identifies X2 and X3 as better predictors with a reason, but no scatter plots are visible or referenced. Plot evidence is missing, so analysis cannot be verified against actual visual data.",
+      "limitations": "No scatter plots or visual evidence present on pages 3–5; text extraction omits plot images. Student claims plot-based reasoning but no visual support exists.",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 6,
+          "text": "Write code to find out how many samples are there in total in this dataset? [1 mark]"
+        }
+      ],
+      "feedback": "Student states 414 samples, and the code or calculation is implied in the context. Though no explicit code is shown, the answer matches the expected output and is directly stated in the response.",
+      "limitations": "No explicit code snippet is provided on page 6. However, the stated sample count (414) is correct and directly reported, satisfying the rubric when output is in",
+      "score": 1,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 7,
+          "text": "The train-test ratio is 75-25%."
+        }
+      ],
+      "feedback": "The train-test split ratio (75-25%) is clearly stated and matches the expected format. No code is required as the ratio is explicitly reported in text.",
+      "limitations": "No code or output is shown, but the stated ratio is sufficient per rubric since it is clearly reported and not copied from prompt.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 7,
+          "text": "Evaluate the linear regression model by computing the MAE, MSE and Mean Absolute Percentage Error (MAPE)."
+        }
+      ],
+      "feedback": "Student mentions MAE, MSE, and MAPE but provides no computed values or supporting code/output. Values are not reported or verified, so no metric computation is confirmed.",
+      "limitations": "No computed values or code output for MAE, MSE, or MAPE are present. Student only lists the metrics without actual results or evidence of computation.",
+      "score": 1,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ]
+}

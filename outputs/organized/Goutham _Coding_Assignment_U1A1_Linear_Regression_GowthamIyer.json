@@ -1,0 +1,460 @@
+{
+  "filename": "Goutham _Coding_Assignment_U1A1_Linear_Regression_GowthamIyer.pdf",
+  "section_a": [
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "v file, and open it in your computer and analyze the data. \nTry to understand what the data is about. Read through the data description \ngiven \nin \nthe \nUCI \nwebsite \nas \nwell. \n \nSection A \nAnswer the following questions [1 mark if you answer all the below questions]: \n \n1. How many samples are there? \nResponse: There are 414 samples. \n \n2. How many input variables are there? \nResponse: There are 6 input variables. \n \n3. Which column is the output variable (target outcome)? \nResponse: The output variable is “Y house price of unit area”, column \n“H” in the dataset.",
+      "matched_pattern": "\\bsection\\s*a\\b"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "bout. Read through the data description \ngiven \nin \nthe \nUCI \nwebsite \nas \nwell. \n \nSection A \nAnswer the following questions [1 mark if you answer all the below questions]: \n \n1. How many samples are there? \nResponse: There are 414 samples. \n \n2. How many input variables are there? \nResponse: There are 6 input variables. \n \n3. Which column is the output variable (target outcome)? \nResponse: The output variable is “Y house price of unit area”, column \n“H” in the dataset.",
+      "matched_pattern": "how\\s+many\\s+samples"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "ll. \n \nSection A \nAnswer the following questions [1 mark if you answer all the below questions]: \n \n1. How many samples are there? \nResponse: There are 414 samples. \n \n2. How many input variables are there? \nResponse: There are 6 input variables. \n \n3. Which column is the output variable (target outcome)? \nResponse: The output variable is “Y house price of unit area”, column \n“H” in the dataset.",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "1 mark if you answer all the below questions]: \n \n1. How many samples are there? \nResponse: There are 414 samples. \n \n2. How many input variables are there? \nResponse: There are 6 input variables. \n \n3. Which column is the output variable (target outcome)? \nResponse: The output variable is “Y house price of unit area”, column \n“H” in the dataset.",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "y samples are there? \nResponse: There are 414 samples. \n \n2. How many input variables are there? \nResponse: There are 6 input variables. \n \n3. Which column is the output variable (target outcome)? \nResponse: The output variable is “Y house price of unit area”, column \n“H” in the dataset.",
+      "matched_pattern": "target\\s+outcome"
+    },
+    {
+      "label": "section_a",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " screenshot of the code \nand its output. You could use the sample google colab file that is provided with \nthis assignment. \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable? \n \nScatter plots:",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " the sample google colab file that is provided with \nthis assignment. \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable? \n \nScatter plots:",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 2/8 \n4. What does each of the input columns mean? \nResponse: Meaning of input columns in the dataset is described in \nbelow table: \nInput Column \nType \nDescription \nX1 transaction date \nContinuous Transaction date. The digits before the decimal \nrepresent the year of transaction. The month is \nrepresented by the digits immediately after the \ndecimal in a scale of 0 to 11 (Jan to Dec). \nX2 house age \nContinuous Age of the house (in years). \nX3 distance to the \nnearest MRT station \nContinuous Distance to the nearest MRT station (in meters). \nX4",
+      "matched_pattern": "input\\s+columns?\\s+mean"
+    },
+    {
+      "label": "section_a",
+      "page": 4,
+      "source": "ocr",
+      "is_ocr": true,
+      "needs_visual_verification": true,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "aset['X2 house age’]\nX3 = dataset['X3 distance to the nearest MRT station’]\nX4 = dataset['X4 number of convenience stores’]\ny = dataset['Y house price of unit area']\n¥ Convert all input variables and the output variable to 1-D arrays from dataframes\nx\n[55]\nX1 = np.reshape(X1.to_numpy(),\n(-1, 1))\n-\nX2 = np.reshape(X2.to_numpy(),\n(-1,\n1)\nX3 = np.reshape(X3.to_numpy(),\n(-1,\n1))\nX4 = np.reshape(X4.to_numpy(),\n(-1,\n1)\ny = np.reshape(y.to_numpy(),\n(-1,\n1))\nv\nFeature-wise Scatter Plots against the output variable\nPage 4/8",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 5,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 5/8 \n \n \n2. Write code to find out how many samples are there in total in this dataset? [1 \nmark] \n \nScreenshot of code snippet, and its output, to find total number of samples in \nthe dataset:",
+      "matched_pattern": "how\\s+many\\s+samples"
+    }
+  ],
+  "scatter_analysis": [
+    {
+      "label": "scatter_analysis",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "ssignment. \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable? \n \nScatter plots:",
+      "matched_pattern": "scatter\\s*plot"
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "ing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable? \n \nScatter plots:",
+      "matched_pattern": "scatter\\s*plot"
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 2,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable? \n \nScatter plots:",
+      "matched_pattern": "better\\s+(?:in\\s+)?predicting"
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 3,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 3/8 \n \n \n \n \n \nResponse: The X3 input variable (Distance to nearest MRT station) is better in \npredicting the output variable (House Price per unit area) since the scatter plot \nbetween this input variable and the output variable shows a clear Negative \nCorrelation (price reduces with increasing distance). The prediction line also \nsupports this. \nNumber of convenience stores comes next in terms of prediction efficiency. \nIn case of other inputs there is no clear correlation. For example, in case of \n“Transaction Date” input, all output values are mapped to only a few input \nvalues. Since there are multiple output values per input value, predictability \nreduces.",
+      "matched_pattern": "scatter\\s*plot"
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 3,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 3/8 \n \n \n \n \n \nResponse: The X3 input variable (Distance to nearest MRT station) is better in \npredicting the output variable (House Price per unit area) since the scatter plot \nbetween this input variable and the output variable shows a clear Negative \nCorrelation (price reduces with increasing distance). The prediction line also \nsupports this. \nNumber of convenience stores comes next in terms of prediction efficiency. \nIn case of other inputs there is no clear correlation. For example, in case of \n“Transaction Date” input, all output values are mapped to only a few input \nvalues. Since there are",
+      "matched_pattern": "better\\s+(?:in\\s+)?predicting"
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 4,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 4/8 \nScreenshot of code snippet to generate feature-wise scatter plots against the \noutput variable:\n\n",
+      "matched_pattern": "scatter\\s*plot"
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 4,
+      "source": "ocr",
+      "is_ocr": true,
+      "needs_visual_verification": true,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "\nScreenshot of code snippet to generate feature-wise scatter plots against the\noutput variable:\nMachine Learning: Code Assignment U1A1\nLinear Regression\nAuthor: Gowtham lyer\nv\nImport Required Libraries\nx\n[53]\nimport pandas as pd\n-\nimport numpy as np\nimport matplotlib.pyplot\nas plt\nv Load dataset (Real Estate Valuation Dataset) and print X1 to X4 andy variables.\nx\n[54]\ndataset = pd.read_csv('/content/Real estate valuation data set.csv')\n-\nX1 = dataset['X1 transaction date’]\nX2 = dataset['X2 house age’]\nX3 = dataset['X3 distance to the nearest MRT station’]\nX4 ",
+      "matched_pattern": "scatter\\s*plot"
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 4,
+      "source": "ocr",
+      "is_ocr": true,
+      "needs_visual_verification": true,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "1, 1))\n-\nX2 = np.reshape(X2.to_numpy(),\n(-1,\n1)\nX3 = np.reshape(X3.to_numpy(),\n(-1,\n1))\nX4 = np.reshape(X4.to_numpy(),\n(-1,\n1)\ny = np.reshape(y.to_numpy(),\n(-1,\n1))\nv\nFeature-wise Scatter Plots against the output variable\nPage 4/8",
+      "matched_pattern": "scatter\\s*plot"
+    }
+  ],
+  "sample_count": [
+    {
+      "label": "sample_count",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "n \nthe \nUCI \nwebsite \nas \nwell. \n \nSection A \nAnswer the following questions [1 mark if you answer all the below questions]: \n \n1. How many samples are there? \nResponse: There are 414 samples. \n \n2. How many input variables are there? \nResponse: There are 6 input variables. \n \n3. Which column is the output variable (target outcome)? \nResponse: The output variable is “Y house price of unit area”, column \n“H” in the dataset.",
+      "value": "414",
+      "uncertain": true
+    }
+  ],
+  "train_test_split": [
+    {
+      "label": "train_test_split",
+      "page": 6,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 6/8 \n3. What is the train test split ratio that you have chosen? [1 Mark] \n \nScreenshot of code snippet for train-test split ratio: \n \nResponse: I have chosen train set of ratio 2/3 and test set of ratio 1/3 (this is \nalso advised in the “Real Estate Valuation” - dataset information section). \n \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generate",
+      "value": "6/8",
+      "uncertain": true
+    },
+    {
+      "label": "train_test_split",
+      "page": 6,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "e 6/8 \n3. What is the train test split ratio that you have chosen? [1 Mark] \n \nScreenshot of code snippet for train-test split ratio: \n \nResponse: I have chosen train set of ratio 2/3 and test set of ratio 1/3 (this is \nalso advised in the “Real Estate Valuation” - dataset information section). \n \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+      "value": "2/3",
+      "uncertain": true
+    },
+    {
+      "label": "train_test_split",
+      "page": 6,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "n test split ratio that you have chosen? [1 Mark] \n \nScreenshot of code snippet for train-test split ratio: \n \nResponse: I have chosen train set of ratio 2/3 and test set of ratio 1/3 (this is \nalso advised in the “Real Estate Valuation” - dataset information section). \n \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+      "value": "1/3",
+      "uncertain": true
+    }
+  ],
+  "reflection": [
+    {
+      "label": "reflection",
+      "page": 7,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "evaluating the model using MAE, MSE and \nMAPE and its corresponding output: \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment? \n \nResponse: Three new things that I learnt after completing this assignment: \n• Using packages related to Machine Learning in Python (Scikit). \n• Practical usage of Linear Regression model on a real-world dataset. \n• Meaning, definition and computing (using Python) of Mean Absolute \nPercentage Error.",
+      "matched_pattern": "three\\s+new\\s+things"
+    },
+    {
+      "label": "reflection",
+      "page": 7,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 7/8 \nScreenshot of code snippet for evaluating the model using MAE, MSE and \nMAPE and its corresponding output: \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment? \n \nResponse: Three new things that I learnt after completing this assignment: \n• Using packages related to Machine Learning in Python (Scikit). \n• Practical usage of Linear Regression model on a real-world dataset. \n• Meaning, definition and computing (using Python) of Mean Absolute \nPercentage Error.",
+      "matched_pattern": "what.*learned"
+    },
+    {
+      "label": "reflection",
+      "page": 7,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 7/8 \nScreenshot of code snippet for evaluating the model using MAE, MSE and \nMAPE and its corresponding output: \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment? \n \nResponse: Three new things that I learnt after completing this assignment: \n• Using packages related to Machine Learning in Python (Scikit). \n• Practical usage of Linear Regression model on a real-world dataset. \n• Meaning, definition and computing (using Python) of Mean Absolute \nPercentage Error.",
+      "matched_pattern": "\\blearned\\b"
+    }
+  ],
+  "metrics": {
+    "MAE": [
+      {
+        "label": "MAE",
+        "page": 6,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "tion” - dataset information section). \n \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAE",
+        "page": 7,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "Page 7/8 \nScreenshot of code snippet for evaluating the model using MAE, MSE and \nMAPE and its corresponding output: \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment? \n \nResponse: Three new things that I learnt after completing this assignment: \n• Using packages related to Machine Learning in Python (Scikit). \n• Practical usage of Linear Regression model on a real-world dataset",
+        "line_or_table_context": "Screenshot of code snippet for evaluating the model using MAE, MSE and ",
+        "value": null,
+        "needs_review": true
+      }
+    ],
+    "MSE": [
+      {
+        "label": "MSE",
+        "page": 6,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": " - dataset information section). \n \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MSE",
+        "page": 7,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "Page 7/8 \nScreenshot of code snippet for evaluating the model using MAE, MSE and \nMAPE and its corresponding output: \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment? \n \nResponse: Three new things that I learnt after completing this assignment: \n• Using packages related to Machine Learning in Python (Scikit). \n• Practical usage of Linear Regression model on a real-world dataset. \n• ",
+        "line_or_table_context": "Screenshot of code snippet for evaluating the model using MAE, MSE and ",
+        "value": null,
+        "needs_review": true
+      }
+    ],
+    "MAPE": [
+      {
+        "label": "MAPE",
+        "page": 6,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "et information section). \n \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 6,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+        "line_or_table_context": "Absolute Percentage Error (MAPE) . ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 6,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "student_response_or_context",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "inear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+        "line_or_table_context": "(for MAPE - pls refer to the sample here - https://scikit-",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 7,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "Page 7/8 \nScreenshot of code snippet for evaluating the model using MAE, MSE and \nMAPE and its corresponding output: \n \n \n \n5. What are the 3 new things that you learned after you completed this \nassignment? \n \nResponse: Three new things that I learnt after completing this assignment: \n• Using packages related to Machine Learning in Python (Scikit). \n• Practical usage of Linear Regression model on a real-world dataset. \n• Meaning, d",
+        "line_or_table_context": "MAPE and its corresponding output: ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 7,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "student_response_or_context",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "ar Regression model on a real-world dataset. \n• Meaning, definition and computing (using Python) of Mean Absolute \nPercentage Error.",
+        "line_or_table_context": "• Meaning, definition and computing (using Python) of Mean Absolute \nPercentage Error.",
+        "value": null,
+        "needs_review": true
+      }
+    ]
+  },
+  "evidence_gaps": [
+    "No explicit MAE value was confidently linked to captured text. It may be in an image or require visual OCR review.",
+    "No explicit MSE value was confidently linked to captured text. It may be in an image or require visual OCR review.",
+    "No explicit MAPE value was confidently linked to captured text. It may be in an image or require visual OCR review."
+  ],
+  "uncertain_ocr_evidence": [
+    {
+      "label": "section_a",
+      "page": 4,
+      "source": "ocr",
+      "is_ocr": true,
+      "needs_visual_verification": true,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "aset['X2 house age’]\nX3 = dataset['X3 distance to the nearest MRT station’]\nX4 = dataset['X4 number of convenience stores’]\ny = dataset['Y house price of unit area']\n¥ Convert all input variables and the output variable to 1-D arrays from dataframes\nx\n[55]\nX1 = np.reshape(X1.to_numpy(),\n(-1, 1))\n-\nX2 = np.reshape(X2.to_numpy(),\n(-1,\n1)\nX3 = np.reshape(X3.to_numpy(),\n(-1,\n1))\nX4 = np.reshape(X4.to_numpy(),\n(-1,\n1)\ny = np.reshape(y.to_numpy(),\n(-1,\n1))\nv\nFeature-wise Scatter Plots against the output variable\nPage 4/8",
+      "matched_pattern": "input\\s+variables",
+      "reason": "OCR-derived evidence requires visual verification."
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 4,
+      "source": "ocr",
+      "is_ocr": true,
+      "needs_visual_verification": true,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "\nScreenshot of code snippet to generate feature-wise scatter plots against the\noutput variable:\nMachine Learning: Code Assignment U1A1\nLinear Regression\nAuthor: Gowtham lyer\nv\nImport Required Libraries\nx\n[53]\nimport pandas as pd\n-\nimport numpy as np\nimport matplotlib.pyplot\nas plt\nv Load dataset (Real Estate Valuation Dataset) and print X1 to X4 andy variables.\nx\n[54]\ndataset = pd.read_csv('/content/Real estate valuation data set.csv')\n-\nX1 = dataset['X1 transaction date’]\nX2 = dataset['X2 house age’]\nX3 = dataset['X3 distance to the nearest MRT station’]\nX4 ",
+      "matched_pattern": "scatter\\s*plot",
+      "reason": "OCR-derived evidence requires visual verification."
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 4,
+      "source": "ocr",
+      "is_ocr": true,
+      "needs_visual_verification": true,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "1, 1))\n-\nX2 = np.reshape(X2.to_numpy(),\n(-1,\n1)\nX3 = np.reshape(X3.to_numpy(),\n(-1,\n1))\nX4 = np.reshape(X4.to_numpy(),\n(-1,\n1)\ny = np.reshape(y.to_numpy(),\n(-1,\n1))\nv\nFeature-wise Scatter Plots against the output variable\nPage 4/8",
+      "matched_pattern": "scatter\\s*plot",
+      "reason": "OCR-derived evidence requires visual verification."
+    }
+  ]
+}

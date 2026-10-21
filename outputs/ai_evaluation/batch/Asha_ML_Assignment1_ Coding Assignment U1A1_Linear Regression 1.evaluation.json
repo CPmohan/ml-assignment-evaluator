@@ -1,0 +1,97 @@
+{
+  "status": "AI rubric suggestions generated — human review required",
+  "assignment": "Asha_ML_Assignment1_ Coding Assignment U1A1_Linear Regression 1.pdf",
+  "rubric_version": "1.0-assignment-criteria",
+  "evaluated_at": "2026-10-11T09:24:35.393796+00:00",
+  "total_possible": 10,
+  "score_coverage": 5,
+  "ai_provisional_total": 8,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "1. How many samples are there? 414 2. How many input variables are there? 6 3. Which column is the output variable (target outcome)? Column 8 (Y house price of unit area) 4. What d"
+        }
+      ],
+      "feedback": "All four dataset questions are answered correctly with clear, student-generated responses.",
+      "limitations": "None.",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "The input variable \"X3 - Distance to the nearest MRT Station\" is better in predicting the target variable. As X3 - Distance to the nearest MRT Station increases , the Y-house price"
+        }
+      ],
+      "feedback": "Selected predictor and explanation provided, but no scatter plot evidence visible in text; plot evidence required for full credit.",
+      "limitations": "No scatter plots or visual evidence present in extracted text; must visually confirm plot evidence on page 2 or elsewhere.",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "Write code to find out how many samples are there in total in this dataset?"
+        }
+      ],
+      "feedback": "The student states 414 samples and includes a code placeholder, though code is not shown; the output is implied and matches expected value.",
+      "limitations": "No actual code or output shown; assumes placeholder is sufficient per prompt.",
+      "score": 1,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "Here the train-test ratio is 80:20. 80% of the data is used for training and remaining 20% is used for testing"
+        }
+      ],
+      "feedback": "Train/test split ratio clearly stated and supported by text; no code required as ratio is explicitly reported.",
+      "limitations": "None.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 5,
+          "text": "Model 3 gives the lowest errors MAE: 5.31, MSE: 53.5, MAPE: 0.17"
+        }
+      ],
+      "feedback": "MAE, MSE, and MAPE are computed and reported with supporting values in a comparison table; values are model-specific and not copied from prompt.",
+      "limitations": "None.",
+      "score": 3,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ],
+  "visual_review_required_pages": [],
+  "safeguards": [
+    "These are AI suggestions, not final grades.",
+    "A reviewer must check cited evidence in the original PDF.",
+    "Plots, screenshots, and image-only pages require visual verification."
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "reviewer": 4,
+  "seed": 20261020,
+  "elapsed_seconds": 154.564,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "414, 6, Y house price of unit area, Column 1- X1 transaction date, Column 2- X2 house age, Column 3- X3 distance to the nearest MRT station, Column 4- X4 number of convenience stor"
+        }
+      ],
+      "feedback": "All four dataset questions are answered correctly: sample count (414), input variables (6), target (Y), and meaning of each input variable. Text is student-generated, not copied.",
+      "limitations": "None. All required elements are present and clearly stated in text on page 2. No visual evidence needed for this criterion. 1 mark awarded as all expected items",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "Using the scatter plots between each of the input features (X1-X4) and the output (Y), which input variable, do you think, is better in predicting the output / target variable ?"
+        }
+      ],
+      "feedback": "The student identifies X2 as better predictor but provides no scatter plot evidence. Plot analysis is missing; explanation is stated without visual support. 2 marks for predictor selection and explanation, 0 for plot evidence. Cannot verify",
+      "limitations": "No scatter plots or visual evidence present. Text extraction omits embedded images. Student claims analysis but no plot evidence. Cannot verify scatter-plot or ",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 6,
+          "text": "2. Write code to find out how many samples are there in total in this dataset?  "
+        }
+      ],
+      "feedback": "The student writes code to find sample count, though the actual code is missing. However, the answer '414' is stated and matches expected output. The prompt does not require code output, only student's own code or calculation. 1 mark earned",
+      "limitations": "No actual code or output shown. But student states 414 and writes code prompt. This satisfies the requirement of identifying 414 samples via student code orcalc",
+      "score": 1,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 6,
+          "text": "Train test split ratio : Train- 70% Test -30%"
+        }
+      ],
+      "feedback": "The student clearly states a train/test split ratio (70:30) and includes it in the response. This meets the rubric requirement for a reported ratio supported by code or output. 1 mark awarded",
+      "limitations": "No code shown, but the ratio is stated and consistent with the assignment. The absence of code does not invalidate the response as per rubric.",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 9,
+          "text": "MAE, MSE and MAPE for X1"
+        }
+      ],
+      "feedback": "The student lists MAE, MSE, and MAPE for each X1-X4, but no actual computed values or supporting code/output are provided. Values are not computed from model predictions. Only placeholders. 1 mark for MAE, 1 for MSE, 0 for MAPE. Total 2/3. ",
+      "limitations": "No actual computed values or code output shown. MAPE reference is given but no value computed. Cannot verify values or model predictions.",
+      "score": 2,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ]
+}

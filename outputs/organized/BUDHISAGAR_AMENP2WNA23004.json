@@ -1,0 +1,388 @@
+{
+  "filename": "BUDHISAGAR_AMENP2WNA23004.pdf",
+  "section_a": [
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 1/5 \nMachine Learning (BMI/GEO/WNA) \nCode Assignment U1A1  \nLinear Regression \nNAME- R BUDHI SAGAR  \n \n \n \n \nAMENP2WNA23004 \n \n \nSection A \nAnswer the following questions [1 mark if you answer all the below questions]  \n1. How many samples are there? \nSol: 414 samples \n2. How many input variables are there? \nSol: 6 input variables \n3. Which column is the output variable (target outcome)? \n Sol: Y is the output variables (house price of unit area) \n4. What does each of the input columns mean? \nSol: Here the input columns mean they are independent. \n \nSection B \nFor each of the questions below, you need to put in the screenshot of t",
+      "matched_pattern": "\\bsection\\s*a\\b"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "ssignment U1A1  \nLinear Regression \nNAME- R BUDHI SAGAR  \n \n \n \n \nAMENP2WNA23004 \n \n \nSection A \nAnswer the following questions [1 mark if you answer all the below questions]  \n1. How many samples are there? \nSol: 414 samples \n2. How many input variables are there? \nSol: 6 input variables \n3. Which column is the output variable (target outcome)? \n Sol: Y is the output variables (house price of unit area) \n4. What does each of the input columns mean? \nSol: Here the input columns mean they are independent. \n \nSection B \nFor each of the questions below, you need to put in the screenshot of the code \nand its output. You could use the sample google colab file that is provided with \nthis assig",
+      "matched_pattern": "how\\s+many\\s+samples"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "\n \n \n \nAMENP2WNA23004 \n \n \nSection A \nAnswer the following questions [1 mark if you answer all the below questions]  \n1. How many samples are there? \nSol: 414 samples \n2. How many input variables are there? \nSol: 6 input variables \n3. Which column is the output variable (target outcome)? \n Sol: Y is the output variables (house price of unit area) \n4. What does each of the input columns mean? \nSol: Here the input columns mean they are independent. \n \nSection B \nFor each of the questions below, you need to put in the screenshot of the code \nand its output. You could use the sample google colab file that is provided with \nthis assignment. \n \n1. Understanding the dataset [4 marks] \nThere ar",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "A \nAnswer the following questions [1 mark if you answer all the below questions]  \n1. How many samples are there? \nSol: 414 samples \n2. How many input variables are there? \nSol: 6 input variables \n3. Which column is the output variable (target outcome)? \n Sol: Y is the output variables (house price of unit area) \n4. What does each of the input columns mean? \nSol: Here the input columns mean they are independent. \n \nSection B \nFor each of the questions below, you need to put in the screenshot of the code \nand its output. You could use the sample google colab file that is provided with \nthis assignment. \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this data",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "creenshot of the code \nand its output. You could use the sample google colab file that is provided with \nthis assignment. \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable?",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "he sample google colab file that is provided with \nthis assignment. \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable?",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "ll the below questions]  \n1. How many samples are there? \nSol: 414 samples \n2. How many input variables are there? \nSol: 6 input variables \n3. Which column is the output variable (target outcome)? \n Sol: Y is the output variables (house price of unit area) \n4. What does each of the input columns mean? \nSol: Here the input columns mean they are independent. \n \nSection B \nFor each of the questions below, you need to put in the screenshot of the code \nand its output. You could use the sample google colab file that is provided with \nthis assignment. \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the",
+      "matched_pattern": "target\\s+outcome"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " are there? \nSol: 6 input variables \n3. Which column is the output variable (target outcome)? \n Sol: Y is the output variables (house price of unit area) \n4. What does each of the input columns mean? \nSol: Here the input columns mean they are independent. \n \nSection B \nFor each of the questions below, you need to put in the screenshot of the code \nand its output. You could use the sample google colab file that is provided with \nthis assignment. \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), ",
+      "matched_pattern": "input\\s+columns?\\s+mean"
+    },
+    {
+      "label": "section_a",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " \n3. Which column is the output variable (target outcome)? \n Sol: Y is the output variables (house price of unit area) \n4. What does each of the input columns mean? \nSol: Here the input columns mean they are independent. \n \nSection B \nFor each of the questions below, you need to put in the screenshot of the code \nand its output. You could use the sample google colab file that is provided with \nthis assignment. \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think,",
+      "matched_pattern": "input\\s+columns?\\s+mean"
+    },
+    {
+      "label": "section_a",
+      "page": 3,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 3/5 \n \n \n \nFor X3 and Y \n \n \n \n \nFor X4 and Y \n \n \nAccording to me House age, distance to the nearest MRT station and no of convenience stores \nare some input variables is better in predicting the target variable.",
+      "matched_pattern": "input\\s+variables"
+    },
+    {
+      "label": "section_a",
+      "page": 4,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 4/5 \n \n2. Write code to find out how many samples are there in total in this dataset? [1 \nmark] \n \n \n3. What is the train test split ratio that you have chosen? [1 Mark] \n \n \n \nHere I have choosen 70-30 train test split ratio. \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+      "matched_pattern": "how\\s+many\\s+samples"
+    }
+  ],
+  "scatter_analysis": [
+    {
+      "label": "scatter_analysis",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "ignment. \n \n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to X4 as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable?",
+      "matched_pattern": "scatter\\s*plot"
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " as input \nvariables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-X4) and the \noutput (Y), which input variable, do you think, is better in predicting the output \n/ target variable?",
+      "matched_pattern": "better\\s+(?:in\\s+)?predicting"
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 2,
+      "source": "ocr",
+      "is_ocr": true,
+      "needs_visual_verification": true,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "\nFor X1 and Y\nScatter Plot\n120\n@\ntransaction vs price\ne\n100\n80\nfor\noO\n°\n°\ng\nso\n=z 60\n:\ne\ng\n3\n0 f,\ni\ne\n0\nis)\n8\n5\n8\n$e\n°\n8\n63\n°\n°\n2012.8\n2013.0\n2013.2\n2013.4\n2013.6\ntransaction\nFor X2 and Y\nScatter Plot\n120\ne\n@\nHouse age vs price\n100\n80\nee\n2\nool\n°\n°\ne\n°° ’\n&\ne%e\n®\ns\n8\n+ Oe hn D\n“2\ne\n©\n40\ne o*ee\ne ¥\ne°\nfo\nis)\ne\nee\n-\n2\naf\nGee . %,%\nbd Be |\nce)\n0\n10\n20\n30\n40\nHouse age\nPage 2/5",
+      "matched_pattern": "scatter\\s*plot"
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 2,
+      "source": "ocr",
+      "is_ocr": true,
+      "needs_visual_verification": true,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "and Y\nScatter Plot\n120\n@\ntransaction vs price\ne\n100\n80\nfor\noO\n°\n°\ng\nso\n=z 60\n:\ne\ng\n3\n0 f,\ni\ne\n0\nis)\n8\n5\n8\n$e\n°\n8\n63\n°\n°\n2012.8\n2013.0\n2013.2\n2013.4\n2013.6\ntransaction\nFor X2 and Y\nScatter Plot\n120\ne\n@\nHouse age vs price\n100\n80\nee\n2\nool\n°\n°\ne\n°° ’\n&\ne%e\n®\ns\n8\n+ Oe hn D\n“2\ne\n©\n40\ne o*ee\ne ¥\ne°\nfo\nis)\ne\nee\n-\n2\naf\nGee . %,%\nbd Be |\nce)\n0\n10\n20\n30\n40\nHouse age\nPage 2/5",
+      "matched_pattern": "scatter\\s*plot"
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 3,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 3/5 \n \n \n \nFor X3 and Y \n \n \n \n \nFor X4 and Y \n \n \nAccording to me House age, distance to the nearest MRT station and no of convenience stores \nare some input variables is better in predicting the target variable.",
+      "matched_pattern": "better\\s+(?:in\\s+)?predicting"
+    }
+  ],
+  "sample_count": [
+    {
+      "label": "sample_count",
+      "page": 1,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": " \nNAME- R BUDHI SAGAR  \n \n \n \n \nAMENP2WNA23004 \n \n \nSection A \nAnswer the following questions [1 mark if you answer all the below questions]  \n1. How many samples are there? \nSol: 414 samples \n2. How many input variables are there? \nSol: 6 input variables \n3. Which column is the output variable (target outcome)? \n Sol: Y is the output variables (house price of unit area) \n4. What does each of the input columns mean? \nSol: Here the input columns mean they are independent. \n \nSection B \nFor each of the questions below, you need to put in the screenshot of the code \nand its output. You could use the sample google colab file that is provided with \nthis assignment. \n \n1. Understanding th",
+      "value": "414",
+      "uncertain": true
+    }
+  ],
+  "train_test_split": [
+    {
+      "label": "train_test_split",
+      "page": 4,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 4/5 \n \n2. Write code to find out how many samples are there in total in this dataset? [1 \nmark] \n \n \n3. What is the train test split ratio that you have chosen? [1 Mark] \n \n \n \nHere I have choosen 70-30 train test split ratio. \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+      "value": "4/5",
+      "uncertain": true
+    },
+    {
+      "label": "train_test_split",
+      "page": 4,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "ode to find out how many samples are there in total in this dataset? [1 \nmark] \n \n \n3. What is the train test split ratio that you have chosen? [1 Mark] \n \n \n \nHere I have choosen 70-30 train test split ratio. \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+      "value": "70-30",
+      "uncertain": true
+    }
+  ],
+  "reflection": [
+    {
+      "label": "reflection",
+      "page": 5,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 5/5 \n5. What are the 3 new things that you learned after you completed this \nassignment? \n \n• Here we have used regression function for fit the dataset. \n• Here learned that MAPE varies with difference train split ratio. \n• Here outliers affect the MSE values.",
+      "matched_pattern": "what.*learned"
+    },
+    {
+      "label": "reflection",
+      "page": 5,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 5/5 \n5. What are the 3 new things that you learned after you completed this \nassignment? \n \n• Here we have used regression function for fit the dataset. \n• Here learned that MAPE varies with difference train split ratio. \n• Here outliers affect the MSE values.",
+      "matched_pattern": "\\blearned\\b"
+    },
+    {
+      "label": "reflection",
+      "page": 5,
+      "source": "text_layer",
+      "is_ocr": false,
+      "needs_visual_verification": false,
+      "evidence_role": "possibly_instruction",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "Page 5/5 \n5. What are the 3 new things that you learned after you completed this \nassignment? \n \n• Here we have used regression function for fit the dataset. \n• Here learned that MAPE varies with difference train split ratio. \n• Here outliers affect the MSE values.",
+      "matched_pattern": "\\blearned\\b"
+    }
+  ],
+  "metrics": {
+    "MAE": [
+      {
+        "label": "MAE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "e choosen 70-30 train test split ratio. \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean ",
+        "value": null,
+        "needs_review": true
+      }
+    ],
+    "MSE": [
+      {
+        "label": "MSE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "osen 70-30 train test split ratio. \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MSE",
+        "page": 5,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "student_response_or_context",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "et. \n• Here learned that MAPE varies with difference train split ratio. \n• Here outliers affect the MSE values.",
+        "line_or_table_context": "• Here outliers affect the MSE values.",
+        "value": null,
+        "needs_review": true
+      }
+    ],
+    "MAPE": [
+      {
+        "label": "MAPE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "30 train test split ratio. \n \n4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+        "line_or_table_context": "4. Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "possibly_instruction",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "Evaluate the linear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+        "line_or_table_context": "Absolute Percentage Error (MAPE) . ",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 4,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "student_response_or_context",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "inear regression model by computing the MAE, MSE and Mean \nAbsolute Percentage Error (MAPE) . \n(for MAPE - pls refer to the sample here - https://scikit-\nlearn.org/stable/modules/generated/sklearn.metrics.mean_absolute_percent\nage_error.html)  \n[3 marks]",
+        "line_or_table_context": "(for MAPE - pls refer to the sample here - https://scikit-",
+        "value": null,
+        "needs_review": true
+      },
+      {
+        "label": "MAPE",
+        "page": 5,
+        "source": "text_layer",
+        "is_ocr": false,
+        "needs_visual_verification": false,
+        "evidence_role": "student_response_or_context",
+        "answer_confirmation": "not_confirmed",
+        "snippet": "s \nassignment? \n \n• Here we have used regression function for fit the dataset. \n• Here learned that MAPE varies with difference train split ratio. \n• Here outliers affect the MSE values.",
+        "line_or_table_context": "• Here learned that MAPE varies with difference train split ratio. ",
+        "value": null,
+        "needs_review": true
+      }
+    ]
+  },
+  "evidence_gaps": [
+    "No explicit MAE value was confidently linked to captured text. It may be in an image or require visual OCR review.",
+    "No explicit MSE value was confidently linked to captured text. It may be in an image or require visual OCR review.",
+    "No explicit MAPE value was confidently linked to captured text. It may be in an image or require visual OCR review."
+  ],
+  "uncertain_ocr_evidence": [
+    {
+      "label": "scatter_analysis",
+      "page": 2,
+      "source": "ocr",
+      "is_ocr": true,
+      "needs_visual_verification": true,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "\nFor X1 and Y\nScatter Plot\n120\n@\ntransaction vs price\ne\n100\n80\nfor\noO\n°\n°\ng\nso\n=z 60\n:\ne\ng\n3\n0 f,\ni\ne\n0\nis)\n8\n5\n8\n$e\n°\n8\n63\n°\n°\n2012.8\n2013.0\n2013.2\n2013.4\n2013.6\ntransaction\nFor X2 and Y\nScatter Plot\n120\ne\n@\nHouse age vs price\n100\n80\nee\n2\nool\n°\n°\ne\n°° ’\n&\ne%e\n®\ns\n8\n+ Oe hn D\n“2\ne\n©\n40\ne o*ee\ne ¥\ne°\nfo\nis)\ne\nee\n-\n2\naf\nGee . %,%\nbd Be |\nce)\n0\n10\n20\n30\n40\nHouse age\nPage 2/5",
+      "matched_pattern": "scatter\\s*plot",
+      "reason": "OCR-derived evidence requires visual verification."
+    },
+    {
+      "label": "scatter_analysis",
+      "page": 2,
+      "source": "ocr",
+      "is_ocr": true,
+      "needs_visual_verification": true,
+      "evidence_role": "student_response_or_context",
+      "answer_confirmation": "not_confirmed",
+      "snippet": "and Y\nScatter Plot\n120\n@\ntransaction vs price\ne\n100\n80\nfor\noO\n°\n°\ng\nso\n=z 60\n:\ne\ng\n3\n0 f,\ni\ne\n0\nis)\n8\n5\n8\n$e\n°\n8\n63\n°\n°\n2012.8\n2013.0\n2013.2\n2013.4\n2013.6\ntransaction\nFor X2 and Y\nScatter Plot\n120\ne\n@\nHouse age vs price\n100\n80\nee\n2\nool\n°\n°\ne\n°° ’\n&\ne%e\n®\ns\n8\n+ Oe hn D\n“2\ne\n©\n40\ne o*ee\ne ¥\ne°\nfo\nis)\ne\nee\n-\n2\naf\nGee . %,%\nbd Be |\nce)\n0\n10\n20\n30\n40\nHouse age\nPage 2/5",
+      "matched_pattern": "scatter\\s*plot",
+      "reason": "OCR-derived evidence requires visual verification."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "filename": "Panikar_AM.EN.P2WNA23003_AssignmentU1A1.pdf",
+  "page_count": 5,
+  "pages": [
+    {
+      "page": 1,
+      "text": "Code Assignment U1A1  \n \n     Name : Abhilash Panicker \nRoll No: AM.EN.P2WNA23003 \n \nSection A \n \n1. How many samples are there? \nIn the given dataset there are 414 samples. \n \n2. How many input variables are there? \n In the given dataset there are 6 input variables \n \n3. Which column is the output variable (target outcome)? \nThe 8 th column the  house price of the unit area is the output \nvariable. \n \n4. What does each of the input columns mean ? \nThe inputs are as follows: \nX1=the transaction date (for example, 2013.250=2013 March, \n2013.500=2013 June, etc.) \nX2=the house age (unit: year) \nX3=the distance to the nearest MRT station (unit: metre) \nX4=the number of convenience stores in the living circle on foot \n(integer) \nX5=the geographic coordinate, latitude. (unit: degree) \nX6=the geographic coordinate, longitude. (unit: degree) \nThe output is as follow: \nY= house price of unit area (1 Ping = 3.3 metre squared) \n \nSection B",
+      "image_count": 0
+    },
+    {
+      "page": 2,
+      "text": "1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to \nX4 as input variables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-\nX4) and the output (Y), which input variable, do you think, is \nbetter in predicting the output / target variable ?",
+      "image_count": 1
+    },
+    {
+      "page": 3,
+      "text": "",
+      "image_count": 2
+    },
+    {
+      "page": 4,
+      "text": "The input variable ‘X2 house age’ can be used for predicting \nthe output / target variable. \n \n2. Write code to find out how many samples are there in total in \nthis dataset? \n \n \n3. What is the train test split ratio that you have chosen ? \n \nThe train test split ratio that has been chosen as 1/3  of total \nsample size.",
+      "image_count": 2
+    },
+    {
+      "page": 5,
+      "text": "4. Evaluate the linear regression model by computing the MAE, \nMSE and Mean Absolute Percentage Error (MAPE). \n \n \n5. What are the 3 new things that you learned after you \ncompleted this assignment ? \n \n1. Method to plot  the different input value with the output \ntarget value. \n2. Understanding the different plot of y test and y prediction. \n3. Method to create a test dataset for comparison with the \ngiven dataset.",
+      "image_count": 2
+    }
+  ],
+  "text": "Code Assignment U1A1  \n \n     Name : Abhilash Panicker \nRoll No: AM.EN.P2WNA23003 \n \nSection A \n \n1. How many samples are there? \nIn the given dataset there are 414 samples. \n \n2. How many input variables are there? \n In the given dataset there are 6 input variables \n \n3. Which column is the output variable (target outcome)? \nThe 8 th column the  house price of the unit area is the output \nvariable. \n \n4. What does each of the input columns mean ? \nThe inputs are as follows: \nX1=the transaction date (for example, 2013.250=2013 March, \n2013.500=2013 June, etc.) \nX2=the house age (unit: year) \nX3=the distance to the nearest MRT station (unit: metre) \nX4=the number of convenience stores in the living circle on foot \n(integer) \nX5=the geographic coordinate, latitude. (unit: degree) \nX6=the geographic coordinate, longitude. (unit: degree) \nThe output is as follow: \nY= house price of unit area (1 Ping = 3.3 metre squared) \n \nSection B\n\n1. Understanding the dataset [4 marks] \nThere are many input variables in this dataset. Use only X1 to \nX4 as input variables, and y as the output variable. \nUsing the scatter plots between each of the input features (X1-\nX4) and the output (Y), which input variable, do you think, is \nbetter in predicting the output / target variable ?\n\n\n\nThe input variable ‘X2 house age’ can be used for predicting \nthe output / target variable. \n \n2. Write code to find out how many samples are there in total in \nthis dataset? \n \n \n3. What is the train test split ratio that you have chosen ? \n \nThe train test split ratio that has been chosen as 1/3  of total \nsample size.\n\n4. Evaluate the linear regression model by computing the MAE, \nMSE and Mean Absolute Percentage Error (MAPE). \n \n \n5. What are the 3 new things that you learned after you \ncompleted this assignment ? \n \n1. Method to plot  the different input value with the output \ntarget value. \n2. Understanding the different plot of y test and y prediction. \n3. Method to create a test dataset for comparison with the \ngiven dataset."
+}

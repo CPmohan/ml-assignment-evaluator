@@ -1,0 +1,97 @@
+{
+  "status": "AI rubric suggestions generated — human review required",
+  "assignment": "Bincy - Coding Assignment U1A1 - Linear Regression Bincy Babu.pdf",
+  "rubric_version": "1.0-assignment-criteria",
+  "evaluated_at": "2026-10-11T09:27:45.389304+00:00",
+  "total_possible": 10,
+  "score_coverage": 5,
+  "ai_provisional_total": 5,
+  "criteria": [
+    {
+      "criterion_id": "Q1",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "Column 2 (X1): Transaction Date, Column 3 (X2): House Age, Column 4 (X3): Distance to the nearest MRT Station, Column 5 (X4): Number of convenience stores, Column 6 (X5): Latitude,"
+        }
+      ],
+      "feedback": "All four dataset questions are answered correctly with clear meanings for each input variable.",
+      "limitations": "None",
+      "score": 1,
+      "criterion_name": "Dataset understanding",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q2",
+      "decision": "Partially Satisfied",
+      "evidence": [
+        {
+          "page": 1,
+          "text": "X3(distance to the nearest MRT station) has a clear trend with the output variable (house price of unit area), so X3 is better in predicting the output variable."
+        }
+      ],
+      "feedback": "Selected predictor is justified, but scatter plots are missing; visual evidence required to confirm plot-based analysis.",
+      "limitations": "No scatter plots visible in text; image pages not provided for verification.",
+      "score": 2,
+      "criterion_name": "Scatter-plot analysis and predictor selection",
+      "max_score": 4,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q3",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "Write code to find out how many samples are there in total in this dataset?"
+        }
+      ],
+      "feedback": "Code is referenced, and sample count of 414 is stated in Section A, matching expected output.",
+      "limitations": "No actual code or output shown; cannot verify computation from text alone.",
+      "score": 1,
+      "criterion_name": "Number of samples",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q4",
+      "decision": "Satisfied",
+      "evidence": [
+        {
+          "page": 2,
+          "text": "Train test split ratio is 80-20. (Test size=0.2)"
+        }
+      ],
+      "feedback": "Split ratio is clearly stated and matches expected format; supported by text.",
+      "limitations": "None",
+      "score": 1,
+      "criterion_name": "Train/test split",
+      "max_score": 1,
+      "score_status": "AI suggestion — reviewer approval required"
+    },
+    {
+      "criterion_id": "Q5",
+      "decision": "Not Satisfied",
+      "evidence": [
+        {
+          "page": 3,
+          "text": "Performance measures for different input combinations"
+        }
+      ],
+      "feedback": "No MAE, MSE, or MAPE values or code output reported; metrics are not computed or presented.",
+      "limitations": "No computed metrics or supporting output visible in text; image pages missing.",
+      "score": 0,
+      "criterion_name": "Regression model evaluation",
+      "max_score": 3,
+      "score_status": "AI suggestion — reviewer approval required"
+    }
+  ],
+  "visual_review_required_pages": [],
+  "safeguards": [
+    "These are AI suggestions, not final grades.",
+    "A reviewer must check cited evidence in the original PDF.",
+    "Plots, screenshots, and image-only pages require visual verification."
+  ]
+}

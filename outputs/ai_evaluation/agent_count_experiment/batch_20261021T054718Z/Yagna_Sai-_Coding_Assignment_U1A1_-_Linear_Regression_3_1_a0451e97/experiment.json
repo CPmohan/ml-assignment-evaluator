@@ -1,0 +1,25 @@
+{
+  "experiment_id": "20261021T094226Z",
+  "assignment": "Yagna Sai- Coding Assignment U1A1 - Linear Regression (3) (1).pdf",
+  "assignment_sha256": "a0451e97ba4607cdd508a906904b8f457f1c554d68d264b44900bfe379e54b6b",
+  "rubric_path": "C:\\Users\\kisho\\ml_assignment_evaluator\\rubric.json",
+  "rubric_version": "1.0-assignment-criteria",
+  "model": "qwen3:4b-instruct",
+  "temperature": 0.2,
+  "first_seed": 20261017,
+  "max_agents": 4,
+  "status": "completed",
+  "visual_review_required_pages": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "started_at": "2026-10-21T09:42:26.784724+00:00",
+  "reviewers_completed": 4,
+  "finished_at": "2026-10-21T09:51:35.855137+00:00",
+  "total_elapsed_seconds": 549.053,
+  "comparison_csv": "agent_count_comparison.csv",
+  "comparison_markdown": "agent_count_comparison.md"
+}

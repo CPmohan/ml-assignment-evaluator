@@ -1,0 +1,26 @@
+{
+  "experiment_id": "20261021T073122Z",
+  "assignment": "Goutham _Coding_Assignment_U1A1_Linear_Regression_GowthamIyer.pdf",
+  "assignment_sha256": "86b14dfd134418dea8298277a803d74c5e2085625dd913abff50649c07b15390",
+  "rubric_path": "C:\\Users\\kisho\\ml_assignment_evaluator\\rubric.json",
+  "rubric_version": "1.0-assignment-criteria",
+  "model": "qwen3:4b-instruct",
+  "temperature": 0.2,
+  "first_seed": 20261017,
+  "max_agents": 4,
+  "status": "completed",
+  "visual_review_required_pages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "started_at": "2026-10-21T07:31:22.179241+00:00",
+  "reviewers_completed": 4,
+  "finished_at": "2026-10-21T07:37:57.805888+00:00",
+  "total_elapsed_seconds": 395.595,
+  "comparison_csv": "agent_count_comparison.csv",
+  "comparison_markdown": "agent_count_comparison.md"
+}
